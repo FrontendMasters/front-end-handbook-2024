@@ -1187,12 +1187,12 @@
         </div>
 
         <div class="chapter" id="chapter4">
-          <h2>4. Fundamental Aspects Overview</h2>
+          <h2>4. Foundational Aspects Overview</h2>
 
           <section class="sub">
             <p>
-              This section identifies and defines the fundamental aspects of web
-              development that practitioners should roughly grok.
+              This section identifies and defines the fundamental aspects of
+              front-end web development that practitioners should roughly grok.
             </p>
           </section>
           <h3>4.1 &mdash; World Wide Web (aka, WWW or Web)</h3>
@@ -1679,7 +1679,7 @@
         </div>
 
         <div class="chapter" id="chapter5">
-          <h2>5. Domain Competencies Overview</h2>
+          <h2>5. Core Competencies Overview</h2>
 
           <section class="sub">
             <p>
@@ -2432,15 +2432,123 @@
         </div>
 
         <div class="chapter" id="chapter6">
-          <h2>6. Potential Domain Competencies / Paradigms Overview</h2>
+          <h2>6. Specialized/Advanced Competencies Overview</h2>
           <section class="sub">
-            <p>
-              This section identifies and defines the potential core
-              competencies that practitioners may be deeply knowledgeable about.
-            </p>
+            <p>[add]</p>
           </section>
           <h3>6.1 &mdash; Algorithms</h3>
+
+          <p>
+            An algorithm is a step-by-step procedure or formula for solving a
+            problem. In the context of web development and programming, it
+            refers to a set of instructions that are designed to perform a
+            specific task or to solve a specific problem. Algorithms are
+            fundamental to all aspects of computer science and software
+            engineering, including web development.
+          </p>
+
+          <p>
+            When developing websites or web applications, algorithms can be used
+            for various purposes such as:
+          </p>
+          <ul>
+            <li>
+              <strong>Data Sorting and Searching</strong>: Algorithms can sort
+              or search data efficiently. For instance, sorting algorithms like
+              QuickSort or MergeSort can be used to organize data, and search
+              algorithms like binary search can quickly find data in sorted
+              lists.
+            </li>
+            <li>
+              <strong>Optimizing Performance</strong>: Algorithms help in
+              optimizing the performance of websites. For example, algorithms
+              that efficiently handle data requests and responses can
+              significantly improve the speed and responsiveness of a web
+              application.
+            </li>
+            <li>
+              <strong>Solving Complex Problems</strong>: Complex problems like
+              route planning in maps, recommendation systems in e-commerce
+              sites, or even rendering complex graphics, rely on sophisticated
+              algorithms.
+            </li>
+            <li>
+              <strong>Data Structures</strong>: Algorithms often go hand-in-hand
+              with data structures, which are ways of organizing data. Choosing
+              the right algorithm often depends on which data structure is used.
+            </li>
+          </ul>
+
+          <p>
+            In web development, a deep understanding of algorithms is essential
+            for creating efficient and effective web applications. This
+            understanding helps in writing code that not only solves the problem
+            at hand but does so in the most efficient way possible, considering
+            factors like execution time and memory usage.
+          </p>
+
+          <p>
+            A commonly used algorithm is Binary search. It is an efficient
+            algorithm for finding an item from a sorted list of items. It works
+            by repeatedly dividing in half the portion of the list that could
+            contain the item, until you've narrowed down the possible locations
+            to just one.
+          </p>
+
+          <pre><code class="language-js">function binarySearch(array, target) {
+let start = 0;
+let end = array.length - 1;
+
+while (start <= end) {
+  let middle = Math.floor((start + end) / 2);
+
+  if (array[middle] === target) {
+      // Found the target
+      return middle;
+  } else if (array[middle] < target) {
+      // Continue search in the right half
+      start = middle + 1;
+  } else {
+      // Continue search in the left half
+      end = middle - 1;
+  }
+}
+
+// Target not found in the array
+return -1;
+}
+
+// Example usage:
+let numbers = [1, 3, 5, 7, 9, 11, 13, 15, 17];
+let target = 9;
+let index = binarySearch(numbers, target);
+
+if (index !== -1) {
+  console.log(`Target found at index: ${index}`);
+} else {
+  console.log("Target not found in the array");
+}</code></pre>
+
+          <p>
+            In this example, the binarySearch function takes a sorted array and
+            a target value. It repeatedly narrows down the search by dividing
+            the array in half, checking whether the middle element is equal to,
+            less than, or greater than the target value. This process is much
+            faster than searching through each element in the array one by one
+            (linear search), especially for large arrays.
+          </p>
+
+          <p>
+            Binary search is a practical example of an algorithm that web
+            developers might use in scenarios where quick searches in sorted
+            lists or arrays are required, such as in search features, data
+            processing, or handling large datasets efficiently.
+          </p>
+
+          <p><strong>Learn More</strong></p>
+
           <h3>6.2 &mdash; Asynchronous Programming</h3>
+          <h3>6.3 &mdash; Big'O Notation</h3>
           <h3>6.3 &mdash; Browser Performance</h3>
           <h3>6.4 &mdash; Browser Testing</h3>
           <h3>6.5 &mdash; Building / Builds</h3>
@@ -2448,6 +2556,7 @@
           <h3>6.7 &mdash; CSS Resets</h3>
           <h3>6.8 &mdash; Data APIs - REST</h3>
           <h3>6.9 &mdash; Data APIs - GraphQL</h3>
+          <h3>6.9 &mdash; Data Structures</h3>
           <h3>6.10 &mdash; Design Systems / Style Guides</h3>
           <h3>6.11 &mdash; Devices</h3>
           <h3>6.12 &mdash; Functional Programming</h3>
@@ -2551,7 +2660,7 @@
           <section class="sub">
             <p>[add]</p>
           </section>
-          <h3>9.1 &mdash; Build an on Presents</h3>
+          <h3>9.1 &mdash; Build an online Presents</h3>
           <h3>9.2 &mdash; Do Development Work</h3>
           <h3>9.3 &mdash; Create a Resume</h3>
           <h3>9.4 &mdash; Finding Jobs</h3>
