@@ -2547,12 +2547,461 @@ if (index !== -1) {
 
           <p><strong>Learn More</strong></p>
 
+          <ul>
+            <li>
+              <a
+                href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP"
+              >
+                JavaScript Algorithms and Data Structures
+              </a>
+            </li>
+            <li>
+              <a href="https://frontendmasters.com/courses/computer-science/">
+                Frontend Masters's - Courses on Algorithms
+              </a>
+              $
+            </li>
+            <li>
+              <a
+                href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/"
+              >
+                JavaScript Algorithms and Data Structures Masterclass
+              </a>
+              $
+            </li>
+          </ul>
+
           <h3>6.2 &mdash; Asynchronous Programming</h3>
+
+          <p>
+            Asynchronous programming in JavaScript is a powerful concept that
+            allows for the execution of code in a non-blocking manner. This is
+            particularly important in the context of web development, where you
+            often deal with operations like fetching data from a server, reading
+            files, or executing time-consuming computations. These operations
+            can take an unpredictable amount of time to complete, and if
+            executed synchronously, they can freeze or slow down the user
+            interface, leading to a poor user experience.
+          </p>
+
+          <p>
+            In asynchronous programming, you can initiate an operation and then
+            move on to other tasks before the operation completes. Once the
+            operation finishes, a callback function is typically executed to
+            handle the result. This approach allows the web page to remain
+            responsive and interactive while waiting for these time-consuming
+            operations to complete.
+          </p>
+
+          <p>
+            Key concepts and features of asynchronous programming in JavaScript
+            include:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Callbacks</strong>: Functions passed as arguments to
+              another function, to be invoked later. Traditional way of handling
+              asynchronous operations, but can lead to "callback hell".
+            </li>
+            <li>
+              <strong>Promises</strong>: Objects representing the eventual
+              completion or failure of an asynchronous operation. They allow for
+              more readable and maintainable code.
+            </li>
+            <li>
+              <strong>Async/Await</strong>: A syntactical feature that makes it
+              easier to work with Promises in a more synchronous-looking manner.
+              Functions declared with 'async' return a Promise, and 'await' can
+              be used within these functions.
+            </li>
+            <li>
+              <strong>Event Loop</strong>: The mechanism that allows
+              JavaScript's single-threaded runtime to handle concurrency. It
+              checks the call stack and processes messages from the message
+              queue.
+            </li>
+            <li>
+              <strong>Non-blocking I/O</strong>: In Node.js, this refers to
+              performing I/O operations without blocking the main thread.
+            </li>
+          </ul>
+
+          <p>
+            Understanding these concepts is crucial for effective web
+            development, as it allows you to build applications that are
+            efficient, responsive, and provide a seamless user experience. As a
+            front-end engineer focusing on web development, mastering
+            asynchronous programming in JavaScript is essential for handling
+            tasks such as API calls, user interactions, and other operations
+            that require waiting for external processes or resources.
+          </p>
+
+          <p><strong>Learn More</strong></p>
+
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"
+              >
+                MDN's guide to Asynchronous JavaScript
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20&%20performance/README.md#you-dont-know-js-async--performance"
+              >
+                You Don't Know JS: Async &amp; Performance - 1st Edition
+              </a>
+            </li>
+            <li>
+              <a href="https://frontendmasters.com/topics/asynchronous/">
+                Frontend Masters's - Asynchronous Programming in JavaScript
+              </a>
+              $
+            </li>
+          </ul>
+
           <h3>6.3 &mdash; Big'O Notation</h3>
-          <h3>6.3 &mdash; Browser Performance</h3>
-          <h3>6.4 &mdash; Browser Testing</h3>
+
+          <p>
+            Big O notation is a mathematical notation used in computer science
+            to describe the performance or complexity of an algorithm.
+            Specifically, it characterizes the time complexity or space
+            complexity of an algorithm in terms of how quickly it grows relative
+            to the size of the input, known as "n." The term "Big O" essentially
+            refers to the upper bound of the complexity, giving an idea of the
+            worst-case scenario in terms of how much time or memory an algorithm
+            requires.
+          </p>
+
+          <p>Here's a breakdown of what Big O notation means:</p>
+
+          <ul>
+            <li>
+              <strong>Upper Bound</strong>: Big O provides an upper limit on the
+              time (or space) required by an algorithm in the worst-case
+              scenario. It's important to note that it doesn't describe the
+              exact performance but rather the order of growth of the time or
+              space requirements.
+            </li>
+            <li>
+              <strong>Asymptotic Analysis</strong>: Big O is part of asymptotic
+              analysis, which is about the behavior of algorithms as the input
+              size approaches infinity. It helps in understanding the efficiency
+              of algorithms in the long run, without getting bogged down by
+              hardware or implementation-specific details.
+            </li>
+            <li>
+              <strong>Rate of Growth</strong>: Different algorithms may have
+              different rates of growth in terms of their time or space
+              requirements.
+              <ul>
+                <li>
+                  O(1): Constant time. The algorithm's performance is unaffected
+                  by the size of the input data.
+                </li>
+                <li>
+                  O(log n): Logarithmic time. The algorithm's performance grows
+                  logarithmically with the input size. An example is binary
+                  search.
+                </li>
+                <li>
+                  O(n): Linear time. The performance grows linearly and in
+                  direct proportion to the size of the input data.
+                </li>
+                <li>
+                  O(n log n): A combination of linear and logarithmic growth,
+                  common in efficient sorting algorithms like mergesort.
+                </li>
+                <li>
+                  O(n^2): Quadratic time. The performance is proportional to the
+                  square of the input size. Often seen in algorithms with nested
+                  iterations over the data set.
+                </li>
+                <li>
+                  O(2^n) and O(n!): Exponential and factorial time,
+                  respectively. These represent algorithms with very rapid
+                  growth rates and are generally impractical for large inputs.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Not an Exact Measurement</strong>: Big O doesn't give a
+              specific number of operations; it's more about the trend of
+              complexity as the input size increases. It helps in comparing the
+              efficiency of different algorithms and understanding their
+              behavior in a scalable manner.
+            </li>
+          </ul>
+
+          <p>
+            In summary, Big O notation is a fundamental concept in computer
+            science for analyzing and communicating the efficiency of
+            algorithms. It's crucial for understanding how algorithms will
+            perform, especially with large inputs, and is a key part of
+            algorithm design and optimization.
+          </p>
+
+          <h3>6.3 &mdash; Web Performance</h3>
+          <p>
+            In the context of testing and web development, web performance
+            refers to evaluating how efficiently and effectively a website or
+            web application runs in different web browsers. This is a critical
+            aspect of web development, as performance impacts user experience,
+            engagement, and satisfaction. Here's an overview of browser
+            performance in relation to testing:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Performance Testing</strong>: This involves assessing
+              various performance aspects of a website or application in
+              different browsers. Key metrics include page load time, response
+              time, and rendering speed. Tools like Google Lighthouse,
+              WebPageTest, and browser-specific performance tools (like Chrome
+              DevTools) are used for this purpose.
+            </li>
+            <li>
+              <strong>Cross-Browser Testing</strong>: Since web applications can
+              behave differently across browsers due to variations in rendering
+              engines and support for web standards, it's important to test the
+              performance across multiple browsers (like Chrome, Firefox,
+              Safari, and Edge) to ensure consistent user experience.
+            </li>
+            <li>
+              <strong>Responsive and Mobile Performance</strong>: Testing how a
+              website performs on different devices, especially mobile devices,
+              is crucial. This includes assessing loading times, interface
+              responsiveness, and touch interactions in various screen sizes and
+              orientations.
+            </li>
+            <li>
+              <strong>JavaScript and CSS Performance</strong>: JavaScript and
+              CSS can significantly affect web performance. Testing involves
+              ensuring that scripts and styles are optimized, do not block
+              rendering, and do not cause excessive reflows and repaints.
+            </li>
+            <li>
+              <strong>Network Conditions and Load Testing</strong>: Simulating
+              various network conditions (like slow 3G, 4G) helps understand how
+              network speed impacts performance. Load testing, which involves
+              simulating high traffic to test how the site performs under
+              stress, is also crucial.
+            </li>
+            <li>
+              <strong>Resource Optimization</strong>: This includes testing for
+              efficient use of resources like images, fonts, and third-party
+              scripts. Techniques like image optimization, minification of CSS
+              and JavaScript, and efficient use of CDNs are evaluated.
+            </li>
+            <li>
+              <strong>User Experience Metrics</strong>: Beyond technical
+              metrics, testing also focuses on user-centric metrics like First
+              Contentful Paint (FCP), Time to Interactive (TTI), and Cumulative
+              Layout Shift (CLS), which are critical for understanding the
+              perceived performance by the end-user.
+            </li>
+            <li>
+              <strong>Memory Usage and Leaks</strong>: Testing for memory
+              efficiency, particularly in single-page applications (SPAs), to
+              ensure there are no memory leaks that degrade performance over
+              time.
+            </li>
+            <li>
+              <strong>Accessibility and SEO</strong>: Ensuring that performance
+              optimizations do not negatively impact accessibility and search
+              engine rankings is also a part of performance testing.
+            </li>
+          </ul>
+
+          <p>
+            In web development, testing for web performance is essential for
+            delivering a fast, reliable, and consistent user experience across
+            all platforms and devices. It involves a combination of automated
+            and manual testing strategies, leveraging various tools and metrics
+            to gauge and improve the performance of web applications.
+          </p>
+
+          <p><strong>Learn More</strong></p>
+
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/Performance"
+              >
+                Web performance
+              </a>
+            </li>
+          </ul>
+
           <h3>6.5 &mdash; Building / Builds</h3>
+
+          <p>
+            In the context of software development and web development, the term
+            "building" or "builds" refers to the process of converting source
+            code files into standalone software artifacts that can be run on a
+            computer or server. This is a crucial step in the development
+            lifecycle, especially for a front-end engineer. Let's break down the
+            concept:
+          </p>
+
+          <p><strong>Definition of Building / Builds:</strong></p>
+          <ul>
+            <li>
+              <strong>Building (Verb)</strong>: The process of compiling,
+              linking, and packaging source code into a usable or executable
+              form. This includes compiling code, bundling resources, and
+              performing tasks like minification and transpilation.
+            </li>
+            <li>
+              <strong>Builds (Noun)</strong>: The output or artifacts generated
+              from the building process. These could be executable programs,
+              libraries, web application bundles, etc.
+            </li>
+          </ul>
+
+          <p><strong>Key Aspects of Building in Web Development:</strong></p>
+          <ul>
+            <li>
+              <strong>Compilation</strong>: Translating source code written in a
+              high-level language (like JavaScript) into a form that can be
+              executed by a browser or server. In web development, this might
+              not be traditional compilation but could involve transpilation
+              (converting source code from one language to another, like
+              TypeScript to JavaScript).
+            </li>
+            <li>
+              <strong>Bundling</strong>: Combining multiple files and assets
+              (like JavaScript files, CSS files, and images) into a smaller
+              number of files to reduce the number of HTTP requests required to
+              load a web page.
+            </li>
+            <li>
+              <strong>Minification and Optimization</strong>: Shrinking file
+              size by removing unnecessary characters (like whitespace,
+              comments) and optimizing code, which helps in reducing load times
+              and improving performance.
+            </li>
+            <li>
+              <strong>Transpiling</strong>: Converting modern JavaScript
+              (ES6/ESNext) to a version compatible with older browsers. Tools
+              like Babel are used for this purpose.
+            </li>
+            <li>
+              <strong>Asset Processing</strong>: This can include processing CSS
+              with tools like PostCSS, compiling SCSS or LESS to CSS, and
+              optimizing images.
+            </li>
+            <li>
+              <strong>Versioning and Caching</strong>: Assigning unique version
+              numbers to build artifacts to manage caching on client browsers.
+            </li>
+          </ul>
+
+          <p><strong>Importance in Web Development:</strong></p>
+          <p>
+            Building is essential in web development for optimizing the
+            performance and compatibility of web applications. It ensures that
+            the applications are efficient, scalable, and accessible across
+            different browsers and devices. For front-end engineers,
+            understanding and efficiently managing the build process is crucial
+            for creating robust and high-performing web applications.
+          </p>
+
+          <p>
+            The building process would involve a series of steps to ensure that
+            the final product delivered to the browser is optimized, efficient,
+            and error-free.
+          </p>
+
           <h3>6.6 &mdash; CSS in JS</h3>
+
+          <p>
+            "CSS in JS" is a contemporary approach to styling in web
+            development, where CSS (Cascading Style Sheets) is written and
+            managed within JavaScript files rather than in separate CSS files.
+            This methodology integrates the styling of components directly
+            within the JavaScript code, typically in the context of modern
+            JavaScript libraries and frameworks like React.
+          </p>
+
+          <p><strong>Key Concepts and Features:</strong></p>
+          <ul>
+            <li>
+              <strong>Component-Based Styling</strong>: In CSS in JS, styles are
+              often tied directly to components. This means that each component
+              has its own scoped styles, which helps in avoiding conflicts and
+              makes components more reusable and maintainable.
+            </li>
+            <li>
+              <strong>Dynamic Styling</strong>: Since the styles are written in
+              JavaScript, it becomes easier to make them dynamic. You can use
+              JavaScript logic to change styles based on the state, props, or
+              any other dynamic data.
+            </li>
+            <li>
+              <strong>Elimination of Class Name Bugs</strong>: CSS in JS
+              eliminates the worry about name collisions or specificity wars
+              that are common in traditional CSS because most libraries
+              automatically generate unique class names.
+            </li>
+            <li>
+              <strong>Theming and Shared Styles</strong>: It simplifies theming
+              and sharing styles across components. You can have a central theme
+              file with common styles and variables that can be easily accessed
+              and modified within your JavaScript code.
+            </li>
+            <li>
+              <strong>Server-Side Rendering</strong>: CSS in JS libraries often
+              support server-side rendering, ensuring that the styled components
+              render correctly even when JavaScript is disabled on the client
+              side.
+            </li>
+          </ul>
+
+          <p><strong>Pros and Cons:</strong></p>
+          <ul>
+            <li>
+              <strong>Pros</strong>:
+              <ul>
+                <li>Localized and dynamic styling.</li>
+                <li>
+                  Easier maintenance and scalability in large applications.
+                </li>
+                <li>Reduces the need for managing multiple style files.</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Cons</strong>:
+              <ul>
+                <li>
+                  Learning curve for developers familiar with traditional CSS.
+                </li>
+                <li>Potentially increased JavaScript bundle size.</li>
+                <li>
+                  Sometimes, performance considerations, as the styles are
+                  injected at runtime.
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <p><strong>Use Cases:</strong></p>
+          <p>
+            CSS in JS is particularly useful in large, scalable applications
+            where component reusability, maintainability, and theme consistency
+            are crucial. It's also beneficial in projects where dynamic styling
+            based on application state is needed.
+          </p>
+
+          <p>
+            In summary, CSS in JS blends the power of JavaScript with the
+            styling capabilities of CSS, offering a modern approach to styling
+            web applications. It's especially relevant in the context of
+            component-based architectures like those used in React.
+          </p>
+
           <h3>6.7 &mdash; CSS Resets</h3>
           <h3>6.8 &mdash; Data APIs - REST</h3>
           <h3>6.9 &mdash; Data APIs - GraphQL</h3>
@@ -2629,6 +3078,35 @@ if (index !== -1) {
           <h3>7.20 &mdash; Headless CMS</h3>
           <h3>7.21 &mdash; HTML</h3>
           <h3>7.22 &mdash; JavaScript</h3>
+
+          <p>Algorithms</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://github.com/trekhleb/javascript-algorithms#algorithms"
+              >
+                JavaScript Algorithms and Data Structures
+              </a>
+            </li>
+            <li>
+              <a href="https://the-algorithms.com/language/javascript"
+                >The Algorithms - JavaScript</a
+              >
+            </li>
+          </ul>
+
+          <p>Asynchronous</p>
+
+          <ul>
+            <li>
+              <a href="https://www.npmjs.com/package/async">async</a>
+            </li>
+            <li>
+              <a href="https://www.npmjs.com/package/axios">Axios</a>
+            </li>
+          </ul>
+
           <h3>7.23 &mdash; JS Frameworks / Libraries</h3>
           <h3>7.24 &mdash; Monitoring</h3>
           <h3>7.25 &mdash; Monorepo Tooling</h3>
@@ -2643,6 +3121,7 @@ if (index !== -1) {
           <h3>7.34 &mdash; Unit Testing</h3>
           <h3>7.35 &mdash; Usage Analytics</h3>
           <h3>7.36 &mdash; Web Browsers</h3>
+          <h3>7.36 &mdash; Web Browser Testing</h3>
           <h3>7.37 &mdash; Web/Browser Developer Tools</h3>
         </div>
 
@@ -2658,19 +3137,287 @@ if (index !== -1) {
         <div class="chapter" id="chapter9">
           <h2>9. Professional Career Preparations</h2>
           <section class="sub">
-            <p>[add]</p>
+            <p>
+              In the journey to become a successful front-end developer,
+              equipping yourself with technical skills is just part of the
+              process. Building a professional career involves several key steps
+              that help you transition from learning to earning.
+            </p>
           </section>
-          <h3>9.1 &mdash; Build an online Presents</h3>
-          <h3>9.2 &mdash; Do Development Work</h3>
+          <h3>9.1 &mdash; Build an Online Presents</h3>
+
+          <p>
+            Establishing a strong online presence is essential in the tech
+            world. It not only showcases your skills and projects but also
+            facilitates networking and increases your visibility to potential
+            employers. Here’s how to build and maintain an effective online
+            presence:
+          </p>
+          <ul>
+            <li>
+              <strong>Be Authentic and Honest:</strong> Accuracy in presenting
+              your skills is crucial. Avoid exaggerating your abilities or
+              mistaking basic knowledge for expertise. Being genuine about your
+              skill level and experiences will build trust and credibility with
+              your audience and potential employers.
+            </li>
+            <li>
+              <strong>Create a Personal Website:</strong> Develop a personal
+              website to display your portfolio. This site should highlight your
+              best work, reflect your unique style, and be both user-friendly
+              and device agnostic. Ensure it effectively showcases your
+              proficiency in front-end development, including any projects
+              you've completed or contributed to.
+            </li>
+            <li>
+              <strong
+                >Maintain an Active Profile on GitHub, GitLab, Bitbucket, or
+                Azure DevOps:</strong
+              >
+              Regularly update your profile. Actively contributing to
+              open-source projects and showcasing your own work demonstrates not
+              only your coding skills but also your ability to collaborate on
+              community projects. Your profile often serves as a practical
+              portfolio of your coding journey.
+            </li>
+            <li>
+              <strong
+                >Engage on Social Media and Professional Platforms:</strong
+              >
+              Leverage platforms like LinkedIn, Twitter, YouTube, and developer
+              forums for networking. Share insights about your projects,
+              document your learning journey, and engage in discussions with
+              other developers and potential employers. Active participation in
+              these communities can lead to meaningful connections and job
+              opportunities.
+            </li>
+            <li>
+              <strong>Teach and Author:</strong> Consider sharing your knowledge
+              by writing guides, books, or blog posts, or by teaching courses.
+              Conducting workshops or webinars is another effective way to
+              establish your reputation as a knowledgeable professional.
+              Teaching not only reinforces your own understanding but also
+              positions you as an industry thought leader.
+            </li>
+            <li>
+              <strong>Develop and Share Open Source Solutions:</strong> Creating
+              libraries, frameworks, or tools that address common challenges in
+              front-end development and sharing them on platforms like GitHub
+              can significantly enhance your profile. It demonstrates your
+              initiative, problem-solving skills, and commitment to contributing
+              to the developer community.
+            </li>
+          </ul>
+          <h3>9.2 &mdash; Do Real Development Work</h3>
+
+          <p>
+            Gaining practical, real-world experience is crucial in the
+            development field. Begin with smaller projects and progressively
+            take on more complex work::
+          </p>
+          <ul>
+            <li>
+              <strong>Freelance Projects:</strong> Platforms like Upwork and
+              Freelancer offer a wealth of freelance opportunities. These sites
+              can be a great starting point to work on diverse projects, helping
+              you build a robust portfolio. Through these projects, you can
+              demonstrate your ability to deliver solutions, manage client
+              relationships, and adapt to different requirements and
+              technologies.
+            </li>
+            <li>
+              <strong>Contribute to Open Source:</strong> Engaging in
+              open-source projects is an excellent way to enhance your coding
+              skills, collaborate with other developers, and contribute to
+              meaningful projects. Platforms like GitHub or GitLab host a
+              variety of open-source projects. Contributing to these projects
+              can help you get hands-on experience with real-world codebases,
+              understand collaborative development workflows, and increase your
+              visibility within the developer community.
+            </li>
+            <li>
+              <strong>Internships:</strong> Consider applying for internships,
+              even if they are unpaid. Internships provide a structured learning
+              environment, offering you the chance to work on live projects and
+              understand the day-to-day operations of a development team. They
+              are invaluable for gaining practical experience, networking with
+              professionals in the field, and often, paving the way for
+              full-time employment opportunities.
+            </li>
+          </ul>
           <h3>9.3 &mdash; Create a Resume</h3>
-          <h3>9.4 &mdash; Finding Jobs</h3>
-          <h3>9.5 &mdash; Preparing for an Interview</h3>
+
+          <p>
+            Create a resume that is online and downloadable as a PDF. Here are
+            some tips:
+          </p>
+          <ul>
+            <li>
+              <strong>Highlight Relevant Skills:</strong> Enumerate your
+              front-end skills with clarity, emphasizing your level of
+              proficiency in each. This could range from foundational knowledge
+              in HTML, CSS, and JavaScript to advanced capabilities in
+              frameworks like React or Vue.js. Tailoring your skills to match
+              the requirements of the job you're applying for can make your
+              resume more appealing.
+            </li>
+            <li>
+              <strong>Showcase Projects:</strong> Provide a concise yet
+              compelling overview of the projects you've worked on. Focus on
+              those that had a significant impact or best illustrate your
+              problem-solving skills and technical expertise. For each project,
+              mention the technologies used and the value it added to the
+              end-users or the business.
+            </li>
+            <li>
+              <strong>Education and Certifications:</strong> Detail your formal
+              education, including degrees and institutions, along with any
+              relevant online courses or certifications you've acquired.
+              Highlighting continuous learning through certifications or online
+              courses can demonstrate your commitment to staying updated in the
+              field.
+            </li>
+            <li>
+              <strong>Recommendations:</strong> Incorporate endorsements or
+              recommendations from educators, colleagues, and managers. These
+              testimonials can provide a personal touch and add credibility to
+              your skills and experiences. If possible, tailor these
+              recommendations to reflect the skills most relevant to the
+              positions you're targeting.
+            </li>
+            <li>
+              <strong>Keep It Concise:</strong> Aim for a one-page resume,
+              focusing on the most pertinent and impressive information. Clear,
+              concise, and well-structured content makes it easier for potential
+              employers to quickly grasp your qualifications and achievements.
+              Use bullet points for easy readability, and ensure that the layout
+              is professional and uncluttered.
+            </li>
+          </ul>
+
+          <h3>9.4 &mdash; Preparing for an Interview</h3>
+
+          <p>Interviews can be daunting, but preparation is key.</p>
+          <ul>
+            <li>
+              <strong>Review your Skill Knowledge:</strong> Ensure your
+              proficiency aligns with the skill level you've presented. For
+              instance, if you claim advanced expertise in React, be ready to
+              discuss intricate aspects of React. This includes not only
+              theoretical knowledge but also practical applications and
+              problem-solving skills.
+            </li>
+            <li>
+              <strong>Practice for Technical Interviews:</strong> Prepare a list
+              of likely technical questions and practice answering them. Utilize
+              online resources like LeetCode and HackerRank for a wide array of
+              coding challenges and problem-solving exercises. These platforms
+              simulate real interview scenarios, helping you develop critical
+              thinking and coding efficiency under pressure.
+            </li>
+            <li>
+              <strong>Understand the Company:</strong> Invest time in
+              researching the company’s history, culture, and recent projects or
+              achievements. Understanding their values, product line, and market
+              position can provide valuable context for your interview responses
+              and demonstrate your genuine interest in the company.
+            </li>
+            <li>
+              <strong>Mock Interviews:</strong> Simulate the interview
+              environment by practicing with friends, mentors, or through online
+              platforms. This practice helps in building confidence and
+              improving your communication skills. Mock interviews are
+              particularly helpful for refining your approach to behavioral
+              questions and technical explanations.
+            </li>
+            <li>
+              <strong>Prepare Questions:</strong> Craft thoughtful questions
+              about the role, team dynamics, and company's future plans. Asking
+              insightful questions not only clarifies your understanding of the
+              position but also demonstrates your proactive approach and
+              engagement.
+            </li>
+            <li>
+              <strong>Follow Up:</strong> Sending a thank-you email after the
+              interview reflects your professionalism and eagerness for the
+              role. It’s a courteous gesture that can positively reinforce your
+              candidacy.
+            </li>
+          </ul>
+
+          <h3>9.5 &mdash; Apply for Jobs</h3>
+
+          <p>
+            Navigating the interview process can be a blend of both luck and
+            tenacity. It's common to encounter rejections and demanding
+            interviews. Interestingly, there's a general consensus that the
+            interview process in this industry is flawed and highly subjective.
+            However, it's important to not take these setbacks personally.
+            Persistence is key. Despite any discouraging outcomes, continue to
+            apply and attend interviews with resilience and determination.
+          </p>
+          <ul>
+            <li>
+              <strong>Job Boards and Websites:</strong> Regularly visit websites
+              that list front-end developer job opportunities. These platforms
+              are valuable resources in your job search::
+              <ul>
+                <li>
+                  Jobs on
+                  <a
+                    href="https://www.glassdoor.com/Job/frontend-developer-jobs-SRCH_KO0,18.htm"
+                    target="_blank"
+                    >glassdoor.com</a
+                  >
+                </li>
+                <li>
+                  Jobs on
+                  <a
+                    href="https://www.linkedin.com/jobs/search/?keywords=frontend%20developer"
+                    target="_blank"
+                    >linkedin.com</a
+                  >
+                </li>
+                <li>
+                  Jobs on
+                  <a href="https://www.indeed.com/" target="_blank"
+                    >wellfound.com</a
+                  >
+                </li>
+                <li>
+                  Jobs on
+                  <a href="https://wellfound.com/jobs" target="_blank"
+                    >indeed.com</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Networking:</strong> Remember, many jobs are not publicly
+              advertised. Maintain an active network by attending industry
+              meetups, participating in online forums, and informing your
+              contacts that you’re on the job hunt. Networking can often lead to
+              opportunities that aren't available through traditional job search
+              methods.
+            </li>
+            <li>
+              <strong>Company Websites:</strong> Identify companies that you
+              admire and regularly visit their career pages. Many organizations
+              list their open positions directly on their websites. This
+              approach allows you to apply directly and sometimes discover
+              opportunities before they're widely advertised.
+            </li>
+          </ul>
         </div>
 
         <div class="chapter" id="chapter10">
           <h2>10. Communities, Podcasts, &amp; Email Newsletter</h2>
           <section class="sub">
-            <p>[add]</p>
+            <p>
+              Resource for front-end developers looking to engage with the wider
+              community, stay updated with the latest trends, and continuously
+              learn from industry experts.
+            </p>
           </section>
           <h3>10.1 &mdash; Online Communities</h3>
           <ul>
@@ -2703,15 +3450,20 @@ if (index !== -1) {
               >
             </li>
             <li>
-              <a href="https://topenddevs.com/podcasts/javascript-jabber"
-                >JavaScript Jabber</a
+              <a href="https://topenddevs.com/podcasts"
+                >https://topenddevs.com/podcasts</a
               >
             </li>
-            <li><a href="https://modernweb.podbean.com/">Modern Web</a></li>
+            <li>
+              <a href="https://modernweb.podbean.com/"
+                >https://modernweb.podbean.com/</a
+              >
+            </li>
             <li>
               <a href="https://open.spotify.com/show/0MFC3eW0j1U9HC5U1dUZ0Y"
                 >Front-end Fire Podcast</a
               >
+              on Spotify
             </li>
           </ul>
           <h3>10.4 &mdash; Email Newsletters</h3>
