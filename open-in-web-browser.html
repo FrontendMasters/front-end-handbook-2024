@@ -65,7 +65,7 @@
             that runs in a web browser, producing a web page.
           </p>
 
-          <h4>Additional Outputs:</h4>
+          <h4>Common Outputs:</h4>
 
           <ul>
             <li>
@@ -991,7 +991,7 @@
             </li>
           </ul>
 
-          <h3>3.2 &mdash; Professional On Demand Courses</h3>
+          <h3>3.2 &mdash; On Demand Courses</h3>
           <p>
             On-demand courses are ideal for those who prefer to learn at their
             own pace and on their own schedule. They are also a great way to
@@ -1167,12 +1167,12 @@
         </div>
 
         <div class="chapter" id="chapter4">
-          <h2>4. Foundational Technologies</h2>
+          <h2>4. Foundational Aspects</h2>
 
           <section class="sub">
             <p>
-              This section identifies and defines the fundamental aspects of
-              front-end web development that practitioners should roughly grok.
+              This section identifies and defines the foundational aspects of
+              the environment in which front-end web development takes place.
             </p>
           </section>
           <h3>4.1 &mdash; World Wide Web (aka, WWW or Web)</h3>
@@ -1224,7 +1224,7 @@
             </li>
             <li>
               <a
-                href="https://www.khanacademy.org/partner-content/code-org/internet-works"
+                href="https://www.khanacademy.org/computing/code-org/computers-and-the-internet/internet-works/v/what-is-the-internet"
                 >How the Internet Works</a
               >
               - From Khan Academy
@@ -1576,73 +1576,29 @@
             </li>
           </ul>
 
-          <h3>4.10 &mdash; Web Sockets</h3>
-          <p>
-            WebSockets represent a significant advancement in web technologies,
-            enabling real-time, bi-directional communication between a user's
-            browser and a server. This technology allows for an interactive
-            communication session where both the client (user's browser) and the
-            server can send data directly to each other, creating opportunities
-            for more dynamic and responsive web applications.
-          </p>
-
-          <p>Key Features of WebSockets:</p>
+          <p>Specifications:</p>
           <ul>
             <li>
-              <strong>Persistent Connection:</strong> Unlike traditional HTTP
-              connections, which are stateless and closed after a data transfer
-              is complete, a WebSocket connection remains open, facilitating
-              ongoing data exchange. This persistent connection allows for
-              faster interactions since the overhead of re-establishing a
-              connection for each data transfer is eliminated.
+              <a href="https://httpwg.org/specs/rfc7230.html"
+                >Hypertext Transfer Protocol (HTTP/1.1)</a
+              >
             </li>
             <li>
-              <strong>Full Duplex Communication:</strong> WebSockets provide a
-              full duplex channel, meaning data can be sent and received
-              simultaneously. This is a significant improvement over HTTP, where
-              communication is typically uni-directional with each
-              request-response cycle.
-            </li>
-            <li>
-              <strong>Reduced Overhead:</strong> After the initial handshake
-              over HTTP, data is transferred over a single socket, reducing the
-              overhead associated with HTTP headers and allowing for more
-              efficient communication, especially beneficial for applications
-              that require frequent small messages, like chat systems or live
-              sports updates.
-            </li>
-            <li>
-              <strong>Compatibility with Existing Infrastructure:</strong>
-              WebSockets operate over the standard port 80 for HTTP and port 443
-              for HTTPS, making them compatible with existing internet
-              infrastructure, including firewalls and proxies.
-            </li>
-            <li>
-              <strong>Real-Time Applications:</strong> This technology is
-              particularly well-suited for applications that require real-time
-              updates, such as online gaming, chat applications, and financial
-              trading platforms.
+              <a href="https://http2.github.io/">HTTP/2</a>
             </li>
           </ul>
 
-          <p>
-            By leveraging WebSockets, developers can create more interactive and
-            responsive web experiences, significantly enhancing the capabilities
-            of web applications beyond what is possible with traditional HTTP
-            communication.
-          </p>
+          <p>References:</p>
 
-          <p>Learn more:</p>
           <ul>
             <li>
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
-                >MDN's guide to WebSockets</a
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+                >HTTP response status codes</a
               >
             </li>
           </ul>
 
-          <h3>4.11 &mdash; Web Browsers</h3>
+          <h3>4.10 &mdash; Web Browsers</h3>
           <p>
             Web browsers are sophisticated software applications that play a
             crucial role in accessing and interacting with the World Wide Web.
@@ -1730,7 +1686,23 @@
             </li>
           </ul>
 
-          <h3>4.12 &mdash; JavaScript Engines</h3>
+          <p>Tools:</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.microsoft.com/en-us/edge?ep=250&form=MA13LM&es=40"
+                >Edge</a
+              >
+            </li>
+            <li>
+              <a href="https://www.google.com/chrome/">Chrome</a>
+            </li>
+            <li>
+              <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>
+            </li>
+          </ul>
+
+          <h3>4.11 &mdash; JavaScript Engines</h3>
           <p>
             JavaScript engines are specialized software components designed to
             process, compile, and execute JavaScript code. JavaScript, being a
@@ -1793,6 +1765,16 @@
               emphasizes efficient execution.
             </li>
           </ul>
+
+          <p>Learn more:</p>
+
+          <ul>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/JavaScript_engine"
+                >JavaScript engine</a
+              >
+            </li>
+          </ul>
         </div>
 
         <div class="chapter" id="chapter5">
@@ -1805,7 +1787,79 @@
             </p>
           </section>
 
-          <h3>5.1 &mdash; HyperText Markup Language (HTML)</h3>
+          <h3>5.1 &mdash; Code Editors</h3>
+
+          <p>
+            Code editors are software tools used by developers to write and edit
+            code. They are an essential part of a programmer's toolkit, designed
+            to facilitate the process of coding by providing a convenient and
+            efficient environment. Code editors can range from simple,
+            lightweight programs to complex Integrated Development Environments
+            (IDEs) with a wide array of features.
+          </p>
+
+          <p><strong>Key Characteristics of Code Editors:</strong></p>
+          <ul>
+            <li>
+              Syntax Highlighting: They highlight different parts of source code
+              in various colors and fonts, improving readability and
+              distinguishing code elements.
+            </li>
+            <li>
+              Code Completion: Also known as IntelliSense or auto-completion,
+              this feature suggests completions for partially typed strings.
+            </li>
+            <li>
+              Error Detection: Many editors detect syntax errors in real-time,
+              aiding in quick debugging.
+            </li>
+            <li>
+              File and Project Management: Features for managing files and
+              projects are often included, easing navigation in complex
+              projects.
+            </li>
+            <li>
+              Customization and Extensions: Most editors offer customization and
+              support for extensions to add additional functionalities.
+            </li>
+            <li>
+              Integrated Development Environment (IDE): Combines the features of
+              a code editor with additional tools like debuggers and version
+              control.
+            </li>
+          </ul>
+
+          <p>
+            The choice of a code editor depends on factors such as programming
+            language, project complexity, user interface preference, and
+            required functionalities. Some developers prefer simple editors for
+            quick edits, while others opt for robust IDEs for full-scale
+            development. Code editors are indispensable in the software
+            development process.
+          </p>
+
+          <p>Learn more:</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://www.codecademy.com/article/visual-studio-code-setup"
+                >Getting Started with Visual Studio Code</a
+              >
+            </li>
+          </ul>
+
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://code.visualstudio.com/"
+                >Visual Studio Code (aka VScode)</a
+              >
+            </li>
+          </ul>
+
+          <h3>5.2 &mdash; HyperText Markup Language (HTML)</h3>
 
           <p>
             HTML, which stands for HyperText Markup Language, is the standard
@@ -1882,9 +1936,36 @@
                 >Frontend Masters's Introduction to HTML</a
               >
             </li>
+            <li>
+              <a href="https://web.dev/learn/html">Learn HTML</a>
+            </li>
           </ul>
 
-          <h3>5.2 &mdash; Cascading Style Sheets (CSS)</h3>
+          <p>Specifications:</p>
+
+          <ul>
+            <li>
+              <a href="https://html.spec.whatwg.org/multipage/"
+                >HTML Living Standard</a
+              >
+            </li>
+          </ul>
+
+          <p>References:</p>
+
+          <ul>
+            <li>
+              <a href="https://htmlreference.io">htmlreference.io</a>
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+                >HTML elements reference</a
+              >
+            </li>
+          </ul>
+
+          <h3>5.3 &mdash; Cascading Style Sheets (CSS)</h3>
 
           <p>
             CSS, or Cascading Style Sheets, is a cornerstone style sheet
@@ -1967,9 +2048,56 @@
                 >Frontend Masters Introduction to CSS</a
               >
             </li>
+            <li>
+              <a href="https://web.dev/learn/css">Learn CSS</a>
+            </li>
           </ul>
 
-          <h3>5.3 &mdash; JavaScript Programming Language (ECMAScript 262)</h3>
+          <p>Specifications:</p>
+
+          <ul>
+            <li>
+              <a href="https://www.w3.org/Style/CSS/current-work"
+                >CSS specifications</a
+              >
+            </li>
+          </ul>
+
+          <p>References:</p>
+
+          <ul>
+            <li>
+              <a href="http://cssreference.io/" target="_blank"
+                >cssreference.io</a
+              >
+            </li>
+            <li>
+              <a href="http://css4-selectors.com/" target="_blank"
+                >css4-selectors.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+                target="_blank"
+                >MDN CSS Reference</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"
+                target="_blank"
+                >MDN CSS Selectors Reference</a
+              >
+            </li>
+            <li>
+              <a href="https://cssdb.org/" target="_blank"
+                >What's next for CSS?</a
+              >
+            </li>
+          </ul>
+
+          <h3>5.4 &mdash; JavaScript Programming Language (ECMAScript 262)</h3>
 
           <p>
             <strong>JavaScript</strong>, also known as ECMAScript, is a dynamic
@@ -2063,7 +2191,26 @@
             </li>
           </ul>
 
-          <h3>5.4 &mdash; Document Object Model (DOM)</h3>
+          <p>Specification:</p>
+
+          <ul>
+            <li>
+              <a href="https://tc39.es/ecma262/">ECMAScript 262</a>
+            </li>
+          </ul>
+
+          <p>Reference:</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+                >MDN JavaScript Reference</a
+              >
+            </li>
+          </ul>
+
+          <h3>5.5 &mdash; Document Object Model (DOM)</h3>
 
           <p>
             The Document Object Model (DOM) is a fundamental programming
@@ -2119,7 +2266,7 @@
             <li>
               <a
                 href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
-                >MDN's guide to the DOM</a
+                >MDN's Introduction to the DOM</a
               >
             </li>
             <li>
@@ -2127,7 +2274,26 @@
             </li>
           </ul>
 
-          <h3>5.5 &mdash; TypeScript</h3>
+          <p>Specification:</p>
+
+          <ul>
+            <li>
+              <a href="https://dom.spec.whatwg.org/">DOM Living Standard</a>
+            </li>
+          </ul>
+
+          <p>Reference:</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+                >MDN DOM interfaces</a
+              >
+            </li>
+          </ul>
+
+          <h3>5.6 &mdash; TypeScript</h3>
 
           <p>
             TypeScript is an open-source programming language developed and
@@ -2256,7 +2422,7 @@
             </li>
           </ul>
 
-          <h3>5.6 &mdash; JavaScript Web APIs (aka Web Browser APIs)</h3>
+          <h3>5.7 &mdash; JavaScript Web APIs (aka Web Browser APIs)</h3>
           <p>
             JavaScript Web Platform APIs are a collection of application
             programming interfaces (APIs) that are built into web browsers. They
@@ -2334,9 +2500,14 @@
                 Interfaces)</a
               >
             </li>
+            <li>
+              <a href="https://html-now.github.io"
+                >The Web Platform: Browser technologies</a
+              >
+            </li>
           </ul>
 
-          <h3>5.7 &mdash; JavaScript Object Notation (JSON)</h3>
+          <h3>5.8 &mdash; JavaScript Object Notation (JSON)</h3>
           <p>
             JSON (JavaScript Object Notation) is a lightweight data-interchange
             format that is easy for humans to read and write and easy for
@@ -2385,7 +2556,7 @@
               >
             </li>
           </ul>
-          <h3>5.8 &mdash; ES Modules</h3>
+          <h3>5.9 &mdash; ES Modules</h3>
           <p>
             ES Modules (ECMAScript Modules) are the official standard for
             modular JavaScript code. They provide a way to structure and
@@ -2461,7 +2632,7 @@
             </li>
           </ul>
 
-          <h3>5.9 &mdash; Command Line</h3>
+          <h3>5.10 &mdash; Command Line</h3>
 
           <p>
             The command line is a vital tool for front-end developers, offering
@@ -2503,7 +2674,7 @@
             </li>
           </ul>
 
-          <h3>5.10 &mdash; Node.js</h3>
+          <h3>5.11 &mdash; Node.js</h3>
           <p>
             Node.js is an open-source, cross-platform JavaScript runtime
             environment that enables JavaScript to run on the server side,
@@ -2572,7 +2743,7 @@
             </li>
           </ul>
 
-          <h3>5.11 &mdash; JavaScript Package Managers</h3>
+          <h3>5.12 &mdash; JavaScript Package Managers</h3>
 
           <p>
             JavaScript package managers are essential tools in modern web
@@ -2601,7 +2772,20 @@
             catering to both public and private project requirements.
           </p>
 
-          <h3>5.12 &mdash; NPM Registry</h3>
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager"
+                >npm</a
+              >
+            </li>
+            <li><a href="https://yarnpkg.com/">yarn</a></li>
+            <li><a href="https://pnpm.io/">pnpm</a></li>
+          </ul>
+
+          <h3>5.13 &mdash; NPM Registry</h3>
 
           <p>
             The npm registry is a pivotal resource in the JavaScript development
@@ -2635,7 +2819,7 @@
             development.
           </p>
 
-          <h3>5.13 &mdash; Git</h3>
+          <h3>5.14 &mdash; Git</h3>
 
           <p>
             Git is a distributed version control system, widely used for
@@ -2678,7 +2862,7 @@
           </ul>
 
           <h3>
-            5.14 &mdash; Web Content Accessibility Guidelines (WCAG) &amp;
+            5.15 &mdash; Web Content Accessibility Guidelines (WCAG) &amp;
             Accessible Rich Internet Applications (ARIA)
           </h3>
           <p>
@@ -2758,9 +2942,14 @@
                 >MDN's guide to Web Accessibility</a
               >
             </li>
+            <li>
+              <a href="https://web.dev/learn/accessibility"
+                >Learn Accessibility</a
+              >
+            </li>
           </ul>
 
-          <h3>5.15 &mdash; Web Images, Files Types, &amp; Data URLS</h3>
+          <h3>5.16 &mdash; Web Images, Files Types, &amp; Data URLS</h3>
 
           <p>
             In the realm of web development, images play a pivotal role in
@@ -2796,10 +2985,50 @@
             enhances the visual storytelling of a website but also contributes
             to its performance and user experience.
           </p>
+
+          <p>Learn more:</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML"
+                >MDN's guide to Images in HTML</a
+              >
+            </li>
+            <li>
+              <a href="https://web.dev/learn/images">Learn Images</a>
+            </li>
+          </ul>
+
+          <h3>5.17 &mdash; Browser Developer Tools</h3>
+
+          <p>
+            Browser Developer Tools, commonly known as DevTools, are an
+            indispensable suite integrated within major web browsers such as
+            Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. These
+            tools are tailored for developers, offering comprehensive insights
+            and powerful functionalities to understand, test, and optimize web
+            pages and web applications. DevTools bridge the gap between coding
+            and user experience, allowing developers to peek under the hood of
+            the browser's rendering and processing of their web pages. From
+            debugging JavaScript to analyzing performance bottlenecks and
+            network issues, DevTools are essential for modern web development.
+          </p>
+
+          <p>Learn more:</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools"
+                >What are browser developer tools?</a
+              >
+            </li>
+          </ul>
         </div>
 
         <div class="chapter" id="chapter6">
-          <h2>6. Potential Competencies</h2>
+          <h2>6. Specialized Competencies</h2>
           <section class="sub">
             <p>[add]</p>
           </section>
@@ -3200,6 +3429,9 @@ if (index !== -1) {
                 Web performance
               </a>
             </li>
+            <li>
+              <a href="https://web.dev/learn/performance/">Learn Performance</a>
+            </li>
           </ul>
 
           <h3>6.5 &mdash; Building / Builds</h3>
@@ -3446,6 +3678,78 @@ const Button = styled.button`
           <h3>6.47 &mdash; Web Fonts</h3>
           <h3>6.48 &mdash; Web Images</h3>
           <h3>6.49 &mdash; Web Security</h3>
+          <h3>6.49 &mdash; Web Sockets</h3>
+          <p>
+            WebSockets represent a significant advancement in web technologies,
+            enabling real-time, bi-directional communication between a user's
+            browser and a server. This technology allows for an interactive
+            communication session where both the client (user's browser) and the
+            server can send data directly to each other, creating opportunities
+            for more dynamic and responsive web applications.
+          </p>
+
+          <p>Key Features of WebSockets:</p>
+          <ul>
+            <li>
+              <strong>Persistent Connection:</strong> Unlike traditional HTTP
+              connections, which are stateless and closed after a data transfer
+              is complete, a WebSocket connection remains open, facilitating
+              ongoing data exchange. This persistent connection allows for
+              faster interactions since the overhead of re-establishing a
+              connection for each data transfer is eliminated.
+            </li>
+            <li>
+              <strong>Full Duplex Communication:</strong> WebSockets provide a
+              full duplex channel, meaning data can be sent and received
+              simultaneously. This is a significant improvement over HTTP, where
+              communication is typically uni-directional with each
+              request-response cycle.
+            </li>
+            <li>
+              <strong>Reduced Overhead:</strong> After the initial handshake
+              over HTTP, data is transferred over a single socket, reducing the
+              overhead associated with HTTP headers and allowing for more
+              efficient communication, especially beneficial for applications
+              that require frequent small messages, like chat systems or live
+              sports updates.
+            </li>
+            <li>
+              <strong>Compatibility with Existing Infrastructure:</strong>
+              WebSockets operate over the standard port 80 for HTTP and port 443
+              for HTTPS, making them compatible with existing internet
+              infrastructure, including firewalls and proxies.
+            </li>
+            <li>
+              <strong>Real-Time Applications:</strong> This technology is
+              particularly well-suited for applications that require real-time
+              updates, such as online gaming, chat applications, and financial
+              trading platforms.
+            </li>
+          </ul>
+
+          <p>
+            By leveraging WebSockets, developers can create more interactive and
+            responsive web experiences, significantly enhancing the capabilities
+            of web applications beyond what is possible with traditional HTTP
+            communication.
+          </p>
+
+          <p>Learn more:</p>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+                >MDN's guide to WebSockets</a
+              >
+            </li>
+          </ul>
+
+          <p>Specifications:</p>
+          <ul>
+            <li>
+              <a href="https://websockets.spec.whatwg.org/">WebSockets</a>
+            </li>
+          </ul>
           <h3>6.50 &mdash; Web Workers</h3>
           <h3>6.51 &mdash; Wireframing</h3>
           <h3>6.52 &mdash; Traditional Client Server Architecture</h3>
@@ -3459,10 +3763,6 @@ const Button = styled.button`
           <h3>7.1 &mdash; AI Tools</h3>
           <h3>7.2 &mdash; CI / CD</h3>
           <h3>7.3 &mdash; CMS</h3>
-          <h3>7.4 &mdash; CLI</h3>
-          <h3>7.5 &mdash; CDN's / Digital Asset Management</h3>
-          <h3>7.6 &mdash; CSS</h3>
-          <h3>7.7 &mdash; CSS Frameworks / Libraries</h3>
           <h3>7.8 &mdash; Code Complexity</h3>
           <h3>7.9 &mdash; Code Coverage</h3>
           <h3>7.10 &mdash; Code Editors</h3>
@@ -3476,7 +3776,6 @@ const Button = styled.button`
           <h3>7.18 &mdash; Git GUI's</h3>
           <h3>7.19 &mdash; Git Hosting</h3>
           <h3>7.20 &mdash; Headless CMS</h3>
-          <h3>7.21 &mdash; HTML</h3>
           <h3>7.22 &mdash; JavaScript</h3>
 
           <p>Algorithms</p>
@@ -3507,20 +3806,14 @@ const Button = styled.button`
             </li>
           </ul>
 
-          <h3>7.23 &mdash; JS Frameworks / Libraries</h3>
           <h3>7.24 &mdash; Monitoring</h3>
           <h3>7.25 &mdash; Monorepo Tooling</h3>
-          <h3>7.26 &mdash; Node</h3>
-          <h3>7.27 &mdash; NPM CLI / Yarn / PNPM</h3>
-          <h3>7.28 &mdash; NPM Repository</h3>
           <h3>7.29 &mdash; Search</h3>
           <h3>7.30 &mdash; Security</h3>
           <h3>7.31 &mdash; Site / Application Hosting</h3>
-          <h3>7.32 &mdash; TypeScript</h3>
           <h3>7.33 &mdash; UI Toolkits</h3>
           <h3>7.34 &mdash; Unit Testing</h3>
           <h3>7.35 &mdash; Usage Analytics</h3>
-          <h3>7.36 &mdash; Web Browsers</h3>
           <h3>7.36 &mdash; Web Browser Testing</h3>
           <h3>7.37 &mdash; Web/Browser Developer Tools</h3>
         </div>
