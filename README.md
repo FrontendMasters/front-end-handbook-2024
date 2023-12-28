@@ -8,9 +8,7 @@ This handbook is an essential resource for both seasoned professionals and newco
 
 In addition to career insights, the handbook serves as an educational roadmap, guiding readers through the initial steps of learning, various professional course offerings, certification programs, and the role of traditional university education in this domain. It thoroughly examines the core competencies required in the profession, including foundational knowledge of the World Wide Web, internet protocols, servers, and more.
 
-The handbook also covers domain-specific competencies such as HTML, CSS, JavaScript, and modern web APIs, along with potential competencies and paradigms that are shaping the future of web development.
-
-To complete the picture, it provides an extensive overview of the tools of the trade, from AI tools and CI/CD processes to the latest in JavaScript frameworks and developer tools. With an eye on both current and future trends, this handbook equips readers with a forward-looking and backward-compatible toolbox, preparing them for a successful career in front-end web development.
+The handbook also covers core competencies such as HTML, CSS, JavaScript, and modern web APIs, along with potential competencies and paradigms that are shaping the future of web development.
 
 Moreover, it offers practical insights on professional career preparations, including building an online presence, resume crafting, job searching, and interview preparation.
 
