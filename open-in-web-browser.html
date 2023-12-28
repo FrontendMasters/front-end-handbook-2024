@@ -25,12 +25,6 @@
         <h3 style="margin-top: 0px">
           Written by
           <a href="http://codylindley.com/">Cody Lindley</a>
-          <p>
-            Download:
-            <a href="">PDF</a>
-            |
-            <a href="">epub</a>
-          </p>
         </h3>
         <section>
           <p>
@@ -47,15 +41,17 @@
           <section class="sub">
             <p>
               This section provides an overview of the field of front-end
-              development / engineering.
+              development/engineering.
             </p>
           </section>
           <h3>1.1 &mdash; What is a (Frontend||UI||UX) Developer/Engineer?</h3>
           <p>
-            A front-end developer/engineer uses Web Platform
-            Technologies&mdash;namely HTML, CSS, and JavaScript&mdash; to
-            produce a front-end (i.e., a user interface with which the user
-            interacts) for websites, web applications, and native applications.
+            A front-end developer/engineer uses
+            <a href="https://developer.mozilla.org/en-US/docs/web">
+              Web Platform Technologies </a
+            >&mdash;namely HTML, CSS, and JavaScript&mdash; to produce a
+            front-end (i.e., a user interface with which the user interacts) for
+            websites, web applications, and native applications.
           </p>
 
           <p>
@@ -70,19 +66,21 @@
           <ul>
             <li>
               <p>
-                <strong>Websites</strong> - A website is a collection of
-                interlinked web pages and associated multimedia content
-                accessible over the Internet. Typically identified by a unique
-                domain name, a website is hosted on web servers and can be
-                accessed by users through a web browser. Websites serve various
-                functions ranging from simple static web pages to complex
-                dynamic web pages.
+                <strong>Websites</strong> e.g.,
+                <a href="https://www.wikipedia.org/">wikipedia.org</a> - A
+                website is a collection of interlinked web pages and associated
+                multimedia content accessible over the Internet. Typically
+                identified by a unique domain name, a website is hosted on web
+                servers and can be accessed by users through a web browser.
+                Websites serve various functions ranging from simple static web
+                pages to complex dynamic web pages.
               </p>
             </li>
             <li>
               <p>
-                <strong>The front-end of a Web Application</strong> - Unlike
-                native applications installed on a device, web applications are
+                <strong>Web Applications</strong> e.g.,
+                <a href="https://www.gmail.com/">gmail.com</a> - Unlike native
+                applications installed on a device, web applications are
                 delivered to users through a web browser. They often interact
                 with databases to store, retrieve, and manipulate data. Because
                 web applications run in a browser, they are generally
@@ -93,17 +91,23 @@
             <li>
               <p>
                 <strong
-                  >The front-end of a Native Application (from Web Platform
-                  Technologies)</strong
-                >
-                - These applications are built from web technologies and
-                typically use native APIs and device features like those made
-                with traditional native development frameworks (e.g., file
-                system API). This type of development can be accomplished using
-                an embedded webview (e.g., Tauri), browser engine (e.g.,
-                Electron), or be as complex as compiling web technologies
-                directly into native application code (e.g., React Native,
-                NativeScript, Flutter, etc.).
+                  >Cross-Platform Native Applications from HTML, CSS, and
+                  JavaScript
+                </strong>
+                e.g., <a href="https://discord.com/download">Discord</a> - A
+                cross-platform native application built from web technologies is
+                a type of software application that can run on multiple
+                operating systems (like Windows, macOS, Linux, iOS, and Android)
+                while being developed primarily using web technologies such as
+                HTML, CSS, and JavaScript. This approach combines the ease of
+                web development with the performance and capabilities of native
+                applications. Common development frameworks in this space
+                include <a href="https://www.electronjs.org/">Electron</a> for
+                desktop apps and
+                <a href="https://reactnative.dev/">React Native</a> for mobile
+                apps and even newer solutions like
+                <a href="https://socketsupply.co/">Socket</a> that supports both
+                mobile and desktop operating systems.
               </p>
             </li>
           </ul>
@@ -185,8 +189,7 @@
               <td>
                 <ul>
                   <li>Front-end Game Developer</li>
-                  <li>WebGL Developer</li>
-                  <li>HTML5 Game Developer</li>
+                  <li>HTML Game Developer</li>
                 </ul>
               </td>
             </tr>
@@ -300,27 +303,30 @@
 
           <ul>
             <li>
-              <strong>The Front-end Divide:</strong> The
+              <strong
+                >The Front-end Divide (i.e. tension between UI engineer v.s.
+                software engineer):</strong
+              >
+              The
               <a href="https://css-tricks.com/the-great-divide/"
                 >"The Great Divide"</a
               >
               in front-end web development describes a growing split between two
-              main groups: JavaScript-centric programmers, who focus on
-              frameworks and complex programming for web applications, and
-              HTML/CSS-centric developers, who specialize in UI interactions,
-              accessibility, and the structural aspects of web pages and
-              websites. The reality is that this divide exists between computer
-              science-focused software engineers, who prioritize web programming
-              skills required to build web software applications and engage in
-              front-end development, and those who come to front-end development
-              from the design side, typically as self-taught programmers. The
-              fact is, to be a front-end developer, you need to be a mix of
-              both, with the degree of mixing being subjective. However, in
-              2024, it's clear that the job market heavily favors the
-              JavaScript-centric programmer, skilled in areas like JavaScript,
-              Terminal/CLI, Node.js, Databases, Web Data APIs, TypeScript, GIT,
-              Testing, CI/CD, Software Principles, Programming Principles, etc.
-              (Follow up post:
+              main groups: JavaScript-centric programmers, who focus on software
+              frameworks and programming for web applications, and
+              HTML/CSS-centric developers, who specialize in UI patterns, user
+              experiences, interactions, accessibility, SEO, and the visual and
+              structural aspects of web pages. The reality is that this divide
+              exists between computer science trained software engineers, who
+              prioritize programming skills required to build the front-end of
+              web applications, and those who come to front-end development from
+              the UI side, typically as self-taught programmers. The fact is, to
+              be a front-end developer, you need to be a mix of both, with the
+              degree of mixing being subjective. However, in 2024, it's clear
+              that the job market heavily favors the JavaScript-centric
+              programmer, skilled in areas like JavaScript/TypeScript,
+              Terminal/CLI, Node.js, Data APIs, GIT, Testing, CI/CD, Software
+              Principles, Programming Principles, etc. (Follow up post:
               <a href="https://pow.rs/blog/3-pillars-of-front-end-knowledge/"
                 >"The great(er) divide in front-end"</a
               >
@@ -331,48 +337,463 @@
               >).
             </li>
             <li>
-              <strong>Keeping Up with Technologies:</strong> Frontend
-              development is a rapidly evolving field. Developers must
-              continuously learn and adapt to new technologies, frameworks, and
-              best practices. Staying updated requires constant effort.
+              <strong>Technology Churn:</strong>
+
+              Technology churn, the rapid evolution and turnover of
+              technologies, frameworks, and tools, is a significant challenge in
+              the field of front-end development. This phenomenon can make the
+              role both exciting but at the same time daunting and exhausting.
+              Here are some key aspects of how technology churn impacts
+              front-end developers:
+
+              <ul>
+                <li>
+                  <strong>Constant Learning</strong>: Front-end technologies
+                  evolve rapidly. What's trendy and widely used today (like
+                  React, Angular, or Vue.js) might become outdated in just a few
+                  years. Developers need to continuously learn new languages,
+                  frameworks, and tools to stay relevant. This constant need to
+                  learn can be overwhelming, especially for those who are also
+                  managing other professional and personal responsibilities.
+                </li>
+
+                <li>
+                  <strong>Decision Fatigue</strong>: With a plethora of
+                  libraries, frameworks, and tools available, choosing the right
+                  stack for a project can be challenging. Developers must assess
+                  the pros and cons of each option, considering factors like
+                  performance, scalability, community support, and long-term
+                  viability. This choice becomes more complex with the
+                  introduction of new technologies.
+                </li>
+
+                <li>
+                  <strong>Project Maintenance and Upgrades</strong>: As
+                  technologies evolve, older projects may need to be updated or
+                  rewritten to stay compatible with new standards and practices.
+                  This can be a time-consuming and costly process, especially
+                  for large, complex applications.
+                </li>
+
+                <li>
+                  <strong>Fragmentation of Skills</strong>: The diverse range of
+                  technologies means that front-end developers often specialize
+                  in certain frameworks or tools. This specialization can lead
+                  to a fragmentation of skills within teams, where different
+                  team members are proficient in different technologies,
+                  potentially complicating collaboration and knowledge sharing.
+                </li>
+
+                <li>
+                  <strong>Job Market Pressures</strong>: The job market often
+                  demands expertise in the latest technologies. This can put
+                  pressure on developers to learn new skills quickly to remain
+                  employable, often on their own time and dime.
+                </li>
+
+                <li>
+                  <strong>Impact on Quality and Productivity</strong>: The need
+                  to constantly switch contexts between different technologies
+                  can impact the quality of work and overall productivity.
+                  Developers might spend more time learning new technologies and
+                  less time honing their skills in a particular area.
+                </li>
+
+                <li>
+                  <strong>Tool Fatigue</strong>: The constant introduction of
+                  new tools and the hype around them can lead to tool fatigue.
+                  Developers might find themselves spending more time learning
+                  and setting up new tools than actually developing.
+                </li>
+
+                <li>
+                  <strong>Balancing Innovation and Stability</strong>: Companies
+                  often struggle to balance the adoption of cutting-edge
+                  technologies with the need for stability and reliability. This
+                  can create tension between the desire to innovate and the
+                  practical needs of a project.
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Web Runtime Support:</strong> Ensuring that web
+              <strong>Browser Compatibility:</strong> Ensuring that web
               technologies work consistently across various web platform run
-              times (e.g., web browsers and webviews) while not as complicated
-              and challenging as it once was, can still require significant
-              effort and skill.
+              times (e.g., web browsers, webviews, Electron etc...) while not as
+              complicated and challenging as it once was, can still require
+              significant effort and skill. Here are some of the key
+              difficulties associated with browser compatibility:
+
+              <ul>
+                <li>
+                  <strong>Diverse Rendering Engines</strong>: Each major browser
+                  uses a different rendering engine, leading to variations in
+                  how web pages are displayed. What works in one browser might
+                  not work in another, or it might work differently.
+                </li>
+
+                <li>
+                  <strong>CSS Compatibility Issues</strong>: CSS properties and
+                  layouts can behave differently across browsers. Developers
+                  often need to use fallbacks or alternative solutions.
+                </li>
+
+                <li>
+                  <strong>JavaScript Variations</strong>: JavaScript
+                  implementation can vary, with some browsers not supporting
+                  newer ES6 features or handling JavaScript differently. This
+                  can lead to functionality issues or errors in some browsers.
+                </li>
+
+                <li>
+                  <strong>Vendor Prefixes</strong>: Managing CSS vendor prefixes
+                  can be cumbersome, requiring multiple versions of a CSS rule
+                  to ensure compatibility across all browsers.
+                </li>
+
+                <li>
+                  <strong>Feature Detection and Polyfills</strong>: Developers
+                  frequently need to use feature detection to check if a browser
+                  supports a particular feature and implement polyfills to add
+                  missing functionality.
+                </li>
+
+                <li>
+                  <strong>Testing Overhead</strong>: Testing web applications
+                  across multiple browsers is time-consuming and
+                  resource-intensive, often requiring the use of browser testing
+                  tools or services.
+                </li>
+
+                <li>
+                  <strong>Legacy Browser Support</strong>: Supporting older
+                  browser versions can severely restrict the use of newer
+                  technologies and techniques.
+                </li>
+
+                <li>
+                  <strong>Rapid Browser Updates</strong>: Browsers are updated
+                  frequently, and each new version might introduce changes that
+                  affect how a web application works, requiring continuous
+                  testing.
+                </li>
+
+                <li>
+                  <strong>Security Considerations</strong>: Different browsers
+                  have different security models and capabilities, impacting how
+                  certain features are implemented.
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Responsive Design &amp; Adaptive Design:</strong> Frontend
-              developers must create UI's that work on a wide range of devices,
-              from desktop computers to smartphones. This requires a deep
-              understanding of responsive design and adaptive design principles.
+              <strong>Cross-platform Development:</strong> Building a single
+              codebase to run on multiple devices presents several challenges,
+              especially in the context of front-end development. This approach,
+              often referred to as cross-platform development, aims to create
+              software that works seamlessly on various devices, such as
+              smartphones, tablets, and desktops, with different operating
+              systems like iOS, Android, and Windows. Here are some of the key
+              difficulties associated with this approach:
+
+              <ul>
+                <li>
+                  <strong>Diverse Screen Sizes and Resolutions</strong>:
+                  Ensuring that an application looks good and functions properly
+                  across a wide range of screen sizes and resolutions is
+                  challenging.
+                </li>
+
+                <li>
+                  <strong>Different User Interaction Models</strong>: Devices
+                  have different modes of user interaction. Balancing these
+                  varying interaction models in a single codebase can be
+                  complex.
+                </li>
+
+                <li>
+                  <strong>Platform-Specific Features and Guidelines</strong>:
+                  Each platform has its own set of features, design guidelines,
+                  and user expectations. Creating a unified experience that
+                  respects platform-specific conventions can be tricky.
+                </li>
+
+                <li>
+                  <strong>Performance Optimization</strong>: Ensuring that the
+                  application performs well on all devices requires careful
+                  optimization and testing.
+                </li>
+
+                <li>
+                  <strong>Hardware Capabilities and Access</strong>: Developing
+                  a single codebase that effectively utilizes and integrates
+                  with diverse hardware features is challenging.
+                </li>
+
+                <li>
+                  <strong
+                    >Cross-Platform Development Frameworks Limitations</strong
+                  >: While frameworks facilitate cross-platform development,
+                  they have their limitations and may not support all native
+                  features.
+                </li>
+
+                <li>
+                  <strong>Testing Complexity</strong>: Testing the application
+                  across all intended devices and platforms is more complex and
+                  time-consuming.
+                </li>
+
+                <li>
+                  <strong>Updating and Maintenance</strong>: Keeping the
+                  application up-to-date with the latest platform changes,
+                  security updates, and new features requires ongoing
+                  maintenance.
+                </li>
+
+                <li>
+                  <strong>Code Complexity and Size</strong>: A single codebase
+                  for multiple platforms can become complex and large, making it
+                  harder to manage and understand.
+                </li>
+
+                <li>
+                  <strong>Balancing Innovation and Stability</strong>:
+                  Innovating while maintaining stability across platforms can be
+                  challenging.
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Performance Optimization:</strong> Developers need to
-              ensure that websites are not only functional but also fast and
-              efficient. This involves optimizing images, minifying CSS and
-              JavaScript, and understanding how to leverage browser caching.
+              <strong>Responsive Design &amp; Adaptive Design:</strong> Adaptive
+              and responsive design are critical approaches in front-end
+              development for creating websites and applications that provide an
+              optimal viewing experience across a wide range of devices, from
+              desktop monitors to mobile phones. However, implementing these
+              designs comes with its own set of challenges:
+
+              <ul>
+                <li>
+                  <strong>Complex Layout Management:</strong> Responsive design
+                  requires a flexible layout that adjusts to various screen
+                  sizes. This often involves using fluid grids, flexible images,
+                  and CSS media queries.
+                </li>
+                <li>
+                  <strong>Performance Optimization:</strong> High-resolution
+                  images and complex scripts that work well on desktops can
+                  cause performance issues on mobile devices. Optimizing these
+                  elements for different devices without compromising quality is
+                  challenging.
+                </li>
+                <li>
+                  <strong>Cross-Browser Compatibility:</strong> Different
+                  browsers interpret responsive design differently. Ensuring
+                  that the website looks and functions consistently across all
+                  major browsers adds an additional layer of complexity.
+                </li>
+                <li>
+                  <strong>Testing and Debugging:</strong> Responsive and
+                  adaptive designs require extensive testing to ensure they work
+                  across various devices and screen sizes. This can be
+                  time-consuming, requiring the use of tools and emulators to
+                  simulate different environments.
+                </li>
+                <li>
+                  <strong>Content Strategy:</strong> Deciding how content should
+                  reflow and resize on different devices is crucial. In some
+                  cases, certain content or features might need to be adjusted
+                  or omitted on smaller screens.
+                </li>
+                <li>
+                  <strong>User Experience Consistency:</strong> Maintaining a
+                  consistent user experience across devices, while accommodating
+                  the strengths and limitations of each, is challenging. For
+                  example, a hover effect that works on desktop may need a
+                  different interaction approach on mobile.
+                </li>
+                <li>
+                  <strong>Touchscreen Compatibility:</strong> Designing for
+                  touchscreens involves different considerations compared to
+                  traditional mouse and keyboard interaction. Elements such as
+                  buttons and links need to be sized and spaced appropriately
+                  for touch.
+                </li>
+                <li>
+                  <strong>Load Time and Bandwidth Considerations:</strong>
+                  Mobile devices often have slower internet connections.
+                  Responsive designs must be optimized to load quickly and
+                  efficiently on lower bandwidths.
+                </li>
+                <li>
+                  <strong>Keeping Up with Device Evolution:</strong> The
+                  constant release of new devices with varying screen sizes and
+                  resolutions means that responsive and adaptive designs need to
+                  be continuously updated and tested.
+                </li>
+                <li>
+                  <strong>Increased Development Time and Costs:</strong>
+                  Developing a site that is both responsive and adaptive can
+                  take more time and resources than a site designed for a single
+                  screen size or device.
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Understanding UX Principles &amp; UI Patterns:</strong> A
-              strong understanding of UI interaction's is crucial. Developers
-              must often collaborate with designers who lack interaction design
-              skills, and it is up to the developer to create user centered
-              UI's.
+              <strong>Network Performance:</strong> Network performance plays a
+              crucial role in the overall user experience of any web
+              application, and managing it effectively is a significant
+              challenge in front-end development. Here are some key difficulties
+              associated with network performance:
+
+              <ul>
+                <li>
+                  <strong>Latency Issues:</strong> High latency can
+                  significantly slow down application responsiveness,
+                  particularly for users who are geographically distant from the
+                  server.
+                </li>
+                <li>
+                  <strong>Bandwidth Variability:</strong> Users access web
+                  applications on a variety of network conditions, ranging from
+                  high-speed broadband to slow mobile connections.
+                </li>
+                <li>
+                  <strong>Resource-Heavy Content:</strong> Large files, such as
+                  high-resolution images and videos, can severely impact load
+                  times.
+                </li>
+                <li>
+                  <strong>Dependency on External Resources:</strong> Many modern
+                  web applications rely on external APIs, fonts, scripts, and
+                  other resources.
+                </li>
+                <li>
+                  <strong>Optimizing API Calls:</strong> Efficiently managing
+                  API calls and handling them asynchronously are crucial for
+                  maintaining good network performance.
+                </li>
+                <li>
+                  <strong>Caching Strategies:</strong> Implementing effective
+                  caching to reduce the number of requests a client makes to the
+                  server is essential but can be complex.
+                </li>
+                <li>
+                  <strong>Handling Offline Scenarios:</strong> Developing
+                  strategies for offline access or poor network conditions adds
+                  another layer of complexity.
+                </li>
+                <li>
+                  <strong>Data Serialization and Parsing:</strong> The process
+                  of serializing and parsing data can be resource-intensive,
+                  impacting performance.
+                </li>
+                <li>
+                  <strong>Real-time Data and WebSockets:</strong> Managing open
+                  connections for real-time data, especially at scale, can be
+                  challenging.
+                </li>
+                <li>
+                  <strong>Third-Party Tracking Scripts and Ads:</strong>
+                  Incorporating third-party tracking scripts and advertisements
+                  can degrade network performance.
+                </li>
+                <li>
+                  <strong>Testing Across Different Networks:</strong> Testing
+                  how an application performs across different network
+                  conditions is vital but can be challenging.
+                </li>
+                <li>
+                  <strong>Security Overhead:</strong> Implementing necessary
+                  security measures, like HTTPS, adds additional overhead to
+                  requests.
+                </li>
+                <li>
+                  <strong>Mobile Network Challenges:</strong> Mobile networks
+                  often have higher latency and less stability compared to wired
+                  networks.
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Accessibility:</strong> Building web sites and
-              applications that are accessible to all users, including those
-              with disabilities, is both a legal and ethical requirement. This
-              means understanding and implementing web accessibility standards.
-            </li>
-            <li>
-              <strong>Code Maintenance and Scalability:</strong> Writing clean,
-              maintainable, and scalable code is essential for long-term project
-              success. This often involves adhering to coding standards and best
-              practices.
+              <strong>Load and Runtime Performance:</strong>
+              In front-end development, managing load and runtime performance is
+              crucial for delivering a smooth and responsive user experience.
+              Here are some of the key difficulties associated with load and
+              runtime performance:
+              <ul>
+                <li>
+                  <strong>Initial Load Time:</strong> The time it takes for a
+                  website or application to become fully interactive from the
+                  moment a user requests it is critical. Large bundles of
+                  JavaScript, CSS, and media files can significantly increase
+                  load times.
+                </li>
+                <li>
+                  <strong>JavaScript Execution:</strong> Heavy JavaScript
+                  frameworks and libraries can slow down the execution time,
+                  affecting the interactivity and responsiveness of the
+                  application.
+                </li>
+                <li>
+                  <strong>Rendering Performance:</strong> Complex CSS or
+                  JavaScript-driven animations and effects can lead to jank and
+                  stuttering, impacting the smoothness of the user interface.
+                </li>
+                <li>
+                  <strong>Resource Optimization:</strong> Optimizing images,
+                  fonts, and other assets to reduce their size without
+                  compromising quality requires careful balance and can be
+                  challenging.
+                </li>
+                <li>
+                  <strong>Asynchronous Loading:</strong> Implementing
+                  asynchronous loading (like lazy loading of images and scripts)
+                  to improve initial load time can be complex, especially in
+                  ensuring that the user experience remains seamless.
+                </li>
+                <li>
+                  <strong>Caching Strategies:</strong> Effective caching
+                  strategies are crucial to reduce load times for repeat visits,
+                  but implementing them correctly across different browsers and
+                  environments can be tricky.
+                </li>
+                <li>
+                  <strong>Memory Management:</strong> Single Page Applications
+                  (SPAs) can suffer from memory leaks over time, leading to
+                  decreased performance and increased load times.
+                </li>
+                <li>
+                  <strong>Third-Party Scripts:</strong> External scripts such as
+                  analytics, ads, or widgets can significantly affect
+                  performance, yet developers often have limited control over
+                  these scripts.
+                </li>
+                <li>
+                  <strong
+                    >Server-Side Rendering (SSR) vs Client-Side Rendering
+                    (CSR):</strong
+                  >
+                  Balancing SSR and CSR for optimal performance is challenging.
+                  SSR can improve initial load time but might add complexity to
+                  the architecture.
+                </li>
+                <li>
+                  <strong>Network Conditions:</strong> Users on slower or
+                  unstable network connections can experience significantly
+                  longer load times, necessitating optimizations for different
+                  network conditions.
+                </li>
+                <li>
+                  <strong>Browser Specific Optimization:</strong> Different
+                  browsers have different performance characteristics, and
+                  optimizing for all of them can be a time-consuming task.
+                </li>
+                <li>
+                  <strong>Progressive Web App (PWA) Considerations:</strong> For
+                  PWAs, managing service workers and cache for offline
+                  functionality and fast loading adds another layer of
+                  complexity.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -661,15 +1082,11 @@
           <ul>
             <li>
               Testing Frameworks and Tools: Familiarity with tools like
-              Selenium, Jest, Mocha, or Cypress.
+              Selenium, Jest, PlayWright, and Cypress.
             </li>
             <li>
               Bug Tracking Tools: Using tools like JIRA, Bugzilla, or Trello for
               bug tracking.
-            </li>
-            <li>
-              Performance Testing Tools: Utilizing tools like JMeter or
-              LoadRunner for performance assessments.
             </li>
           </ul>
 
@@ -743,10 +1160,7 @@
               Performance Testing Tools: Using tools like Google Lighthouse and
               WebPageTest.
             </li>
-            <li>
-              Development Tools: Proficiency in HTML, CSS, JavaScript, and
-              frameworks.
-            </li>
+
             <li>
               Monitoring Tools: Utilizing tools for ongoing performance
               tracking.
@@ -1222,20 +1636,6 @@
               </a>
               - from MDN web docs
             </li>
-            <li>
-              <a
-                href="https://www.khanacademy.org/computing/code-org/computers-and-the-internet/internet-works/v/what-is-the-internet"
-                >How the Internet Works</a
-              >
-              - From Khan Academy
-            </li>
-            <li>
-              <a
-                href="http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"
-              >
-                How Does the Internet Work?</a
-              >
-            </li>
           </ul>
 
           <h3>4.3 &mdash; IP Addresses</h3>
@@ -1278,26 +1678,7 @@
             internet-connected devices.
           </p>
 
-          <h3>4.4 &mdash; DNS (Domain Name System)</h3>
-          <p>
-            The Domain Name System (DNS) is the internet's equivalent of a phone
-            book. It translates user-friendly domain names (like
-            www.example.com) into IP addresses that computers use. DNS is
-            crucial for the user-friendly navigation of the internet, allowing
-            users to access websites without needing to memorize complex
-            numerical IP addresses.
-          </p>
-
-          <p>Learn more:</p>
-          <ul>
-            <li>
-              <a href="https://howdns.works/"
-                >How DNS works - a fun and informative animation</a
-              >
-            </li>
-          </ul>
-
-          <h3>4.5 &mdash; Domain Names</h3>
+          <h3>4.4 &mdash; Domain Names</h3>
           <p>
             Domain names serve as the intuitive, human-friendly identifiers for
             websites on the internet, translating the technical Internet
@@ -1338,6 +1719,25 @@
               <a
                 href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name"
                 >What is a domain name?</a
+              >
+            </li>
+          </ul>
+
+          <h3>4.5 &mdash; DNS (Domain Name System)</h3>
+          <p>
+            The Domain Name System (DNS) is the internet's equivalent of a phone
+            book. It translates user-friendly domain names (like
+            www.example.com) into IP addresses that computers use. DNS is
+            crucial for the user-friendly navigation of the internet, allowing
+            users to access websites without needing to memorize complex
+            numerical IP addresses.
+          </p>
+
+          <p>Learn more:</p>
+          <ul>
+            <li>
+              <a href="https://howdns.works/"
+                >How DNS works - a fun and informative animation</a
               >
             </li>
           </ul>
@@ -1782,8 +2182,8 @@
 
           <section class="sub">
             <p>
-              This section identifies and defines the core competencies that
-              practitioners will be deeply knowledgeable about.
+              This section identifies and defines the core competencies
+              associated with being a front-end developer.
             </p>
           </section>
 
@@ -1837,17 +2237,6 @@
             development. Code editors are indispensable in the software
             development process.
           </p>
-
-          <p>Learn more:</p>
-
-          <ul>
-            <li>
-              <a
-                href="https://www.codecademy.com/article/visual-studio-code-setup"
-                >Getting Started with Visual Studio Code</a
-              >
-            </li>
-          </ul>
 
           <p>Tools:</p>
 
@@ -2861,6 +3250,18 @@
             </li>
           </ul>
 
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://www.syntevo.com/smartgit/">SmartGit</a>
+            </li>
+            $
+            <li>
+              <a href="https://desktop.github.com/">GitHub Desktop</a>
+            </li>
+          </ul>
+
           <h3>
             5.15 &mdash; Web Content Accessibility Guidelines (WCAG) &amp;
             Accessible Rich Internet Applications (ARIA)
@@ -3028,10 +3429,14 @@
         </div>
 
         <div class="chapter" id="chapter6">
-          <h2>6. Specialized Competencies</h2>
+          <h2>6. Other Competencies</h2>
           <section class="sub">
-            <p>[add]</p>
+            <p>
+              This section identifies and defines other potential competencies
+              associated with being a front-end developer.
+            </p>
           </section>
+
           <h3>6.1 &mdash; Algorithms</h3>
 
           <p>
@@ -3165,7 +3570,21 @@ if (index !== -1) {
               </a>
               $
             </li>
+            <li>
+              <a
+                href="https://github.com/trekhleb/javascript-algorithms#algorithms"
+              >
+                JavaScript Algorithms and Data Structures
+              </a>
+            </li>
+            <li>
+              <a href="https://the-algorithms.com/language/javascript"
+                >The Algorithms - JavaScript</a
+              >
+            </li>
           </ul>
+
+          <h3>6.4 &mdash; Analytics</h3>
 
           <h3>6.2 &mdash; Asynchronous Programming</h3>
 
@@ -3255,6 +3674,17 @@ if (index !== -1) {
                 Frontend Masters's - Asynchronous Programming in JavaScript
               </a>
               $
+            </li>
+          </ul>
+
+          <p><strong>Tools:</strong></p>
+
+          <ul>
+            <li>
+              <a href="https://www.npmjs.com/package/async">async</a>
+            </li>
+            <li>
+              <a href="https://www.npmjs.com/package/axios">Axios</a>
             </li>
           </ul>
 
@@ -3514,6 +3944,35 @@ if (index !== -1) {
             and error-free.
           </p>
 
+          <h3>6.6 &mdash; Content Management System (CMS)</h3>
+          <h3>6.6 &mdash; Headless Content Management System (Headless CMS)</h3>
+          <h3>6.6 &mdash; Code Complexity</h3>
+          <h3>6.6 &mdash; Code Coverage</h3>
+          <h3>6.6 &mdash; Code Quality</h3>
+          <h3>6.6 &mdash; Continuous Integration (CI)</h3>
+
+          Continuous Integration (CI) is a software development practice where
+          developers frequently merge their code changes into a central
+          repository, often multiple times a day. Each integration is then
+          automatically tested to detect and fix conflicts early, ensuring that
+          the codebase remains stable and reducing the complexity of integrating
+          changes. This approach leads to improved software quality and reduced
+          development time.
+
+          <h3>6.6 &mdash; Continuous Deployment/Delivery (CD)</h3>
+
+          <p>
+            Continuous Deployment (CD) is a software development practice where
+            code changes are automatically built, tested, and deployed to
+            production environments. It expands on Continuous Integration (CI),
+            which focuses on merging code changes into a central repository.
+            Continuous Deployment extends this process one step further by
+            automatically deploying the changes to a production environment
+            after the build stage. This approach leads to faster and more
+            frequent releases, reducing the time between code changes and
+            production deployment.
+          </p>
+
           <h3>6.6 &mdash; CSS in JS</h3>
 
           <p>
@@ -3635,26 +4094,32 @@ const Button = styled.button`
             </li>
           </ul>
 
+          <h3>6.8 &mdash; Backend as a Service (BAAS)</h3>
           <h3>6.8 &mdash; Data APIs - REST</h3>
           <h3>6.9 &mdash; Data APIs - GraphQL</h3>
           <h3>6.9 &mdash; Data Structures</h3>
           <h3>6.10 &mdash; Design Systems / Style Guides</h3>
           <h3>6.11 &mdash; Devices</h3>
+          <h3>6.8 &mdash; Email Hosts</h3>
           <h3>6.12 &mdash; Functional Programming</h3>
           <h3>6.13 &mdash; HTML Emails</h3>
+          <h3>6.20 &mdash; Hosting Services</h3>
           <h3>6.14 &mdash; JAM stack</h3>
           <h3>6.15 &mdash; JavaScript / Benchmark Performance</h3>
           <h3>6.16 &mdash; JavaScript Formatting (i.e., prettier)</h3>
           <h3>6.17 &mdash; JavaScript Linting/Hinting</h3>
           <h3>6.18 &mdash; Micro Frontends</h3>
+          <h3>6.18 &mdash; Micro Services</h3>
           <h3>6.19 &mdash; Module Formats</h3>
           <h3>6.20 &mdash; Monorepos</h3>
+          <h3>6.20 &mdash; Monitoring</h3>
           <h3>6.21 &mdash; Network Performance</h3>
           <h3>6.22 &mdash; Object Oriented Programming</h3>
           <h3>6.23 &mdash; Progressive Web Apps</h3>
           <h3>6.24 &mdash; Regular Expressions</h3>
           <h3>6.25 &mdash; Responsive / Adaptive Development</h3>
           <h3>6.26 &mdash; SEO</h3>
+          <h3>6.20 &mdash; Security</h3>
           <h3>6.27 &mdash; Semantic Versioning</h3>
           <h3>6.28 &mdash; Semantical HTML</h3>
           <h3>6.29 &mdash; Separation of Concerns</h3>
@@ -3668,12 +4133,14 @@ const Button = styled.button`
           <h3>6.37 &mdash; Testing - A/B</h3>
           <h3>6.38 &mdash; Tree and Graph Data Structures</h3>
           <h3>6.39 &mdash; Type Checking</h3>
-          <h3>6.40 &mdash; UI Component Systems</h3>
+          <h3>6.40 &mdash; UI Component</h3>
+          <h3>6.40 &mdash; UI Toolkit</h3>
           <h3>6.41 &mdash; Version Control Systems</h3>
           <h3>6.42 &mdash; Web 1.0</h3>
           <h3>6.43 &mdash; Web 2.0</h3>
           <h3>6.44 &mdash; Web 3.0</h3>
           <h3>6.45 &mdash; Web Assembly</h3>
+          <h3>6.40 &mdash; Web Browser Testing</h3>
           <h3>6.46 &mdash; Web Components</h3>
           <h3>6.47 &mdash; Web Fonts</h3>
           <h3>6.48 &mdash; Web Images</h3>
@@ -3752,82 +4219,18 @@ const Button = styled.button`
           </ul>
           <h3>6.50 &mdash; Web Workers</h3>
           <h3>6.51 &mdash; Wireframing</h3>
-          <h3>6.52 &mdash; Traditional Client Server Architecture</h3>
         </div>
 
         <div class="chapter" id="chapter7">
-          <h2>7. Tools of the Trade</h2>
-          <section class="sub">
-            <p>[add]</p>
-          </section>
-          <h3>7.1 &mdash; AI Tools</h3>
-          <h3>7.2 &mdash; CI / CD</h3>
-          <h3>7.3 &mdash; CMS</h3>
-          <h3>7.8 &mdash; Code Complexity</h3>
-          <h3>7.9 &mdash; Code Coverage</h3>
-          <h3>7.10 &mdash; Code Editors</h3>
-          <h3>7.11 &mdash; Code Quality</h3>
-          <h3>7.12 &mdash; Database &amp; Backend Services</h3>
-          <h3>7.13 &mdash; Development Environments / Servers (i.e. Vite)</h3>
-          <h3>7.14 &mdash; Domain Hosts</h3>
-          <h3>7.15 &mdash; E-commerce</h3>
-          <h3>7.16 &mdash; Email Hosts</h3>
-          <h3>7.17 &mdash; Functional / End to End Testing</h3>
-          <h3>7.18 &mdash; Git GUI's</h3>
-          <h3>7.19 &mdash; Git Hosting</h3>
-          <h3>7.20 &mdash; Headless CMS</h3>
-          <h3>7.22 &mdash; JavaScript</h3>
-
-          <p>Algorithms</p>
-
-          <ul>
-            <li>
-              <a
-                href="https://github.com/trekhleb/javascript-algorithms#algorithms"
-              >
-                JavaScript Algorithms and Data Structures
-              </a>
-            </li>
-            <li>
-              <a href="https://the-algorithms.com/language/javascript"
-                >The Algorithms - JavaScript</a
-              >
-            </li>
-          </ul>
-
-          <p>Asynchronous</p>
-
-          <ul>
-            <li>
-              <a href="https://www.npmjs.com/package/async">async</a>
-            </li>
-            <li>
-              <a href="https://www.npmjs.com/package/axios">Axios</a>
-            </li>
-          </ul>
-
-          <h3>7.24 &mdash; Monitoring</h3>
-          <h3>7.25 &mdash; Monorepo Tooling</h3>
-          <h3>7.29 &mdash; Search</h3>
-          <h3>7.30 &mdash; Security</h3>
-          <h3>7.31 &mdash; Site / Application Hosting</h3>
-          <h3>7.33 &mdash; UI Toolkits</h3>
-          <h3>7.34 &mdash; Unit Testing</h3>
-          <h3>7.35 &mdash; Usage Analytics</h3>
-          <h3>7.36 &mdash; Web Browser Testing</h3>
-          <h3>7.37 &mdash; Web/Browser Developer Tools</h3>
-        </div>
-
-        <div class="chapter" id="chapter8">
-          <h2>8. Front-end Development Toolbox</h2>
+          <h2>7. Front-end Development Toolbox</h2>
           <section class="sub">
             <p>
-              This section highlights a modern toolkit for front-end
-              development, ideal for those who are not constrained by the past.
+              This section highlights a contemporary and modern toolkit for
+              front-end development.
             </p>
           </section>
 
-          <h3>8.1 — A Modern Development Toolbox</h3>
+          <h3>7.1 — A Modern Development Toolbox</h3>
           <p>
             While every developer eventually curates a set of tools aligned with
             their preferences, beginners would be wise to start with the
@@ -3869,9 +4272,9 @@ const Button = styled.button`
               <strong>Development Environment</strong>:
               <ul>
                 <li>
-                  <strong>Node.js &amp; npm/PnPM</strong>: Node.js provides a
-                  JavaScript runtime and CLI tools, while npm and PnPM are
-                  powerful package managers for handling JavaScript
+                  <strong>Node.js &amp; pnpm</strong>: Node.js provides a
+                  JavaScript runtime and CLI tools, while pnpm is a modern
+                  powerful javascript package managers for handling
                   dependencies.
                 </li>
               </ul>
@@ -3968,10 +4371,16 @@ const Button = styled.button`
               </ul>
             </li>
           </ul>
+
+          <h3>7.2 — A Contemporary Toolkit</h3>
+
+          If you simply replace the "Frontend Development Libraries" section
+          above with the React ecosystem, you'll have a contemporary toolkit for
+          front-end development.
         </div>
 
-        <div class="chapter" id="chapter9">
-          <h2>9. Professional Career Preparations</h2>
+        <div class="chapter" id="chapter8">
+          <h2>8. Professional Career Preparations</h2>
           <section class="sub">
             <p>
               In the journey to become a successful front-end developer,
@@ -3980,7 +4389,7 @@ const Button = styled.button`
               that help you transition from learning to earning.
             </p>
           </section>
-          <h3>9.1 &mdash; Build an Online Presents</h3>
+          <h3>8.1 &mdash; Build an Online Presents</h3>
 
           <p>
             Establishing a strong online presence is essential in the tech
@@ -4041,7 +4450,7 @@ const Button = styled.button`
               to the developer community.
             </li>
           </ul>
-          <h3>9.2 &mdash; Do Real Development Work</h3>
+          <h3>8.2 &mdash; Do Real Development Work</h3>
 
           <p>
             Gaining practical, real-world experience is crucial in the
@@ -4078,7 +4487,7 @@ const Button = styled.button`
               full-time employment opportunities.
             </li>
           </ul>
-          <h3>9.3 &mdash; Create a Resume</h3>
+          <h3>8.3 &mdash; Create a Resume</h3>
 
           <p>
             Create a resume that is online and downloadable as a PDF. Here are
@@ -4128,7 +4537,7 @@ const Button = styled.button`
             </li>
           </ul>
 
-          <h3>9.4 &mdash; Preparing for an Interview</h3>
+          <h3>8.4 &mdash; Preparing for an Interview</h3>
 
           <p>Interviews can be daunting, but preparation is key.</p>
           <ul>
@@ -4170,7 +4579,7 @@ const Button = styled.button`
             </li>
           </ul>
 
-          <h3>9.5 &mdash; Apply for Jobs</h3>
+          <h3>8.5 &mdash; Apply for Jobs</h3>
 
           <p>
             Navigating the interview process can be a blend of both luck and
@@ -4234,15 +4643,15 @@ const Button = styled.button`
           </ul>
         </div>
 
-        <div class="chapter" id="chapter10">
-          <h2>10. Communities, Podcasts, &amp; Email Newsletter</h2>
+        <div class="chapter" id="chapter9">
+          <h2>9. Communities, Podcasts, &amp; Email Newsletter</h2>
           <section class="sub">
             <p>
               The following resources are a great way to stay up to date with
               the latest happenings in front-end development.
             </p>
           </section>
-          <h3>10.1 &mdash; Online Communities</h3>
+          <h3>9.1 &mdash; Online Communities</h3>
           <ul>
             <li>
               <a href="https://discord.gg/6XJTwu3b9u">Frontend Masters</a> on
@@ -4254,14 +4663,14 @@ const Button = styled.button`
             </li>
           </ul>
 
-          <h3>10.2 &mdash; Local Communities</h3>
+          <h3>9.2 &mdash; Local Communities</h3>
 
           <p>
             Find local front-end development communities by searching
             <a href="https://www.meetup.com/">www.meetup.com</a> in your area.
           </p>
 
-          <h3>10.3 &mdash; Podcasts</h3>
+          <h3>9.3 &mdash; Podcasts</h3>
           <ul>
             <li>
               <a href="https://shoptalkshow.com/">https://shoptalkshow.com/</a>
@@ -4289,7 +4698,7 @@ const Button = styled.button`
               on Spotify
             </li>
           </ul>
-          <h3>10.4 &mdash; Email Newsletters</h3>
+          <h3>9.4 &mdash; Email Newsletters</h3>
           <ul>
             <li>
               <a href="https://ecmascript.news/">https://ecmascript.news/</a>
