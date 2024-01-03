@@ -3043,12 +3043,12 @@
           <h3>6.X &mdash; Adaptive Design</h3>
 
           <p>
-            Adaptive design in web development refers to a design strategy that
-            uses multiple fixed layout sizes. When the site detects the type of
-            device it's being viewed on, it selects the layout most appropriate
-            for that device. This approach differs significantly from responsive
-            design, which uses a single layout that fluidly changes based on the
-            screen size.
+            Adaptive design in web development refers to a strategy for creating
+            web pages that work well on multiple devices with different screen
+            sizes and resolutions. Unlike responsive design, which relies on
+            fluid grids and flexible images to adapt the layout to the viewing
+            environment dynamically, adaptive design typically involves
+            designing multiple fixed layout sizes.
           </p>
 
           <p>Here's a breakdown of key aspects of adaptive design:</p>
@@ -3595,15 +3595,72 @@ if (index !== -1) {
             </li>
           </ul>
 
+          <h3>6.X &mdash; CI/CD</h3>
+
+          <p>
+            CI/CD stands for Continuous Integration and Continuous Delivery or
+            Continuous Deployment, which are key concepts in modern software
+            development, particularly relevant to your work as a front-end
+            engineer.
+          </p>
+
+          <ul>
+            <li>
+              <strong>Continuous Integration (CI)</strong>: This is the practice
+              of automating the integration of code changes from multiple
+              contributors into a single software project. It's primarily aimed
+              at reducing integration issues which can help you and your team to
+              develop software more rapidly. In practice, CI means that whenever
+              a developer commits changes to a part of the code, it is
+              automatically tested against the current codebase to ensure that
+              these changes don't break anything. This encourages developers to
+              integrate more frequently, perhaps even daily, leading to better
+              collaboration and software quality.
+            </li>
+            <li>
+              <strong>Continuous Delivery (CD)</strong>: This extends CI by
+              automatically releasing the changes made to the codebase to a
+              staging or production environment after the build stage. This
+              ensures that you can release new changes to your customers quickly
+              in a sustainable way. It's about automating further stages of the
+              pipeline and ensuring that your code is always in a release-ready
+              state.
+            </li>
+            <li>
+              <strong>Continuous Deployment (another CD)</strong>: This is a
+              more advanced practice where every change that passes all stages
+              of your production pipeline is released to your customers. There's
+              no human intervention, and only a failed test will prevent a new
+              change to be deployed to production.
+            </li>
+          </ul>
+
+          <p>
+            CI/CD pipelines are typically realized through DevOps tools like
+            Jenkins, GitLab CI/CD, CircleCI, Travis CI, and others. These tools
+            automate the steps in your software delivery process, such as
+            initiating automatic builds, running tests, and deploying to a
+            production environment.
+          </p>
+
+          <p>
+            Implementing CI/CD can significantly improve the speed, efficiency,
+            and quality of software development, especially in teams where
+            multiple developers work on the same codebase. As a front-end
+            engineer, you might interact with these processes mostly in the
+            context of integrating and deploying your front-end code, ensuring
+            that your contributions work seamlessly with the rest of the
+            application and reach users rapidly and reliably.
+          </p>
+
           <h3>6.X &mdash; Content Management System (CMS)</h3>
 
           <p>
-            A Content Management System (CMS) is a software application that
-            enables users to create, manage, and modify content on a website
-            without needing specialized technical knowledge. It's particularly
-            useful for those who want to focus on the front-end aspects of a
-            website, like design and content, without delving deeply into the
-            back-end coding. Here's a breakdown of key aspects of CMS:
+            Content Management Systems (CMS) are software tools designed to help
+            users create, manage, and modify content on a website without the
+            need for specialized technical knowledge. Essentially, they provide
+            a user-friendly interface for handling the various elements of a
+            website. Here's a breakdown of key aspects of CMS:
           </p>
 
           <ul>
@@ -3655,12 +3712,6 @@ if (index !== -1) {
               significant overhaul of the site structure.
             </li>
           </ul>
-
-          <p>
-            For a front-end engineer like yourself, working with a CMS can
-            streamline the process of website development, especially when
-            dealing with content-heavy sites.
-          </p>
 
           <h3>6.X &mdash; Code Complexity</h3>
 
@@ -3796,65 +3847,6 @@ if (index !== -1) {
               especially conflicts arising due to different formatting styles.
             </li>
           </ul>
-
-          <p>
-            For a front-end engineer like yourself, using a tool like Prettier
-            can streamline your development process, ensure consistency across
-            your projects, and enhance team collaboration. It aligns well with
-            the languages and frameworks you use (HTML, CSS, JavaScript,
-            SolidJS) and supports the fast-paced, collaborative nature of modern
-            web development.
-          </p>
-
-          <h3>6.X &mdash; Code Quality</h3>
-
-          <p>
-            ESLint is a prominent static code analysis tool, primarily used for
-            identifying and fixing issues in JavaScript and JSX code. It plays a
-            crucial role in maintaining code quality by enforcing consistent
-            coding standards and best practices. As a highly customizable tool,
-            it allows teams to define their own coding rules or adopt popular
-            style guides, making it adaptable to various project needs.
-          </p>
-          <p>
-            ESLint's key strength lies in its ability to automatically detect a
-            wide range of issues, from simple syntax errors to more complex
-            patterns that could lead to bugs or security vulnerabilities. By
-            integrating ESLint into the development workflow, either within the
-            code editor or as part of the continuous integration process,
-            developers receive immediate feedback on their code. This not only
-            helps in maintaining a clean and efficient codebase but also
-            significantly reduces the time and effort required for code reviews.
-            The use of ESLint thus contributes substantially to the overall
-            quality, maintainability, and readability of JavaScript-based
-            projects.
-          </p>
-
-          <h3>6.X &mdash; Continuous Integration (CI)</h3>
-
-          <p>
-            Continuous Integration (CI) is a software development practice where
-            developers frequently merge their code changes into a central
-            repository, often multiple times a day. Each integration is then
-            automatically tested to detect and fix conflicts early, ensuring
-            that the codebase remains stable and reducing the complexity of
-            integrating changes. This approach leads to improved software
-            quality and reduced development time.
-          </p>
-
-          <h3>6.X &mdash; Continuous Deployment/Delivery (CD)</h3>
-
-          <p>
-            Continuous Deployment (CD) is a software development practice where
-            code changes are automatically built, tested, and deployed to
-            production environments. It expands on Continuous Integration (CI),
-            which focuses on merging code changes into a central repository.
-            Continuous Deployment extends this process one step further by
-            automatically deploying the changes to a production environment
-            after the build stage. This approach leads to faster and more
-            frequent releases, reducing the time between code changes and
-            production deployment.
-          </p>
 
           <h3>6.X &mdash; CSS in JS</h3>
 
@@ -5390,7 +5382,7 @@ console.log(activeUsersString); // Outputs: "Alice, Charlie, David"</code></pre>
             based on the specific needs and scale of your projects.
           </p>
 
-          <h3>6.X &mdash; Object Oriented Programming</h3>
+          <h3>6.X &mdash; Object Oriented Programming (OOP)</h3>
 
           <p>
             Object-Oriented Programming (OOP) is a programming paradigm centered
@@ -6254,6 +6246,91 @@ console.log(isValidEmail("example@.com")); // false
             clarity, predictability, and maintainability to the behavior of web
             applications.
           </p>
+
+          <h3>6.X &mdash; Static Analysis Tools</h3>
+
+          <p>
+            Static analysis tools (e.g., ESLint) are software applications that
+            analyze other software without executing it. They are widely used in
+            software development for various purposes. Here's an overview of
+            their key aspects:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Code Quality Assurance</strong>: Static analysis tools
+              scrutinize code to ensure it adheres to coding standards and best
+              practices. They can detect potential issues like code smells,
+              overly complex constructions, and deviations from the project's
+              coding standards.
+            </li>
+
+            <li>
+              <strong>Bug Detection</strong>: These tools can identify common
+              coding errors such as syntax mistakes, logic errors, and potential
+              bugs that might not be immediately apparent. This helps in
+              preventing bugs from making it into production.
+            </li>
+
+            <li>
+              <strong>Security Vulnerability Scanning</strong>: Static analysis
+              is crucial for identifying security vulnerabilities. Tools can
+              detect patterns in code that are known to lead to security
+              weaknesses, such as buffer overflows, SQL injection
+              vulnerabilities, and cross-site scripting (XSS) flaws.
+            </li>
+
+            <li>
+              <strong>Code Review and Maintenance</strong>: Static analysis
+              tools can assist in code reviews by automatically detecting
+              potential issues. This helps in maintaining a high code quality
+              standard and makes it easier for new developers to understand and
+              work with existing code.
+            </li>
+
+            <li>
+              <strong>Integration with Development Environments</strong>: Many
+              static analysis tools integrate seamlessly with integrated
+              development environments (IDEs) and version control systems. This
+              allows developers to find and fix issues as they write code,
+              rather than having to deal with them later in the development
+              cycle.
+            </li>
+
+            <li>
+              <strong>Language Specific</strong>: Different tools are designed
+              for different programming languages. For example, as a front-end
+              engineer working with HTML, CSS, and JavaScript, you might use
+              tools like ESLint for JavaScript, Stylelint for CSS, and HTMLLint
+              for HTML.
+            </li>
+
+            <li>
+              <strong>Automated Testing and Continuous Integration</strong>:
+              Static analysis can be part of automated testing and continuous
+              integration (CI) pipelines. This ensures that code is
+              automatically checked for issues every time changes are pushed to
+              a version control repository.
+            </li>
+
+            <li>
+              <strong>Documentation and Metrics</strong>: These tools can also
+              generate documentation and metrics about the codebase, which can
+              be useful for assessing the health of a project or for onboarding
+              new developers.
+            </li>
+          </ul>
+
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://eslint.org/">ESLint</a>
+            </li>
+            <li>
+              <a href="https://stylelint.io/">Stylelint</a>
+            </li>
+          </ul>
 
           <h3>6.X &mdash; Static Site Generators</h3>
 
