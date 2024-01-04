@@ -3382,6 +3382,110 @@ if (index !== -1) {
             </li>
           </ul>
 
+          <h3>6.X &mdash; Atomic CSS</h3>
+
+          <p>
+            Atomic CSS is a styling methodology in web development that involves
+            using single-purpose classes with limited scope and function. Each
+            class in Atomic CSS is designed to do one thing and do it well,
+            representing a single style attribute and value. This approach is
+            quite different from traditional CSS practices where a class might
+            contain multiple style rules.
+          </p>
+
+          <p>Key Characteristics of Atomic CSS:</p>
+          <ul>
+            <li>
+              <strong>Granular Classes</strong>: In Atomic CSS, classes are very
+              granular, meaning each class corresponds to a single CSS property
+              and value. For example, a class might be
+              <code>.margin-top-10</code> to apply a <code>margin-top</code> of
+              10 pixels, or <code>.text-center</code> to align text to the
+              center.
+            </li>
+            <li>
+              <strong>Verbose Naming</strong>: The class names in Atomic CSS
+              tend to be self-descriptive and verbose. They often directly
+              reflect the CSS property and value they are applying, making it
+              easy to understand what a class does just by reading its name.
+            </li>
+            <li>
+              <strong>High Reusability</strong>: Because classes are tied to
+              individual style properties, they are highly reusable across
+              different elements and components in a project.
+            </li>
+            <li>
+              <strong>Reduced CSS Bloat</strong>: Atomic CSS can help in
+              reducing CSS bloat and redundancy. Since classes are reusable,
+              there's less need for repeated style definitions.
+            </li>
+            <li>
+              <strong>HTML Centric</strong>: When using Atomic CSS, most of the
+              design decisions are visible directly in the HTML markup. This
+              results in HTML with many class attributes, each specifying part
+              of the overall styling.
+            </li>
+            <li>
+              <strong>Consistency in Design</strong>: Atomic CSS promotes
+              consistency across a project as the same classes are reused,
+              ensuring that elements that are supposed to look the same, do.
+            </li>
+          </ul>
+
+          <p>Advantages:</p>
+          <ul>
+            <li>
+              <strong>Maintainability</strong>: Easier to maintain as changes to
+              a single class affect all elements using that class.
+            </li>
+            <li>
+              <strong>Performance</strong>: Can lead to better performance,
+              especially if a CSS-in-JS approach is used, as only the classes
+              used in the markup are included in the final stylesheet.
+            </li>
+            <li>
+              <strong>Scalability</strong>: Scales well for large projects, as
+              the consistent and reusable nature of classes reduces complexity.
+            </li>
+          </ul>
+
+          <p>Disadvantages:</p>
+          <ul>
+            <li>
+              <strong>Verbose HTML</strong>: The HTML can become cluttered with
+              many class names, which can be hard to read and manage.
+            </li>
+            <li>
+              <strong>Learning Curve</strong>: There is a learning curve,
+              especially in understanding and remembering the names of all the
+              classes.
+            </li>
+            <li>
+              <strong>Design Limitations</strong>: Some designers find that
+              Atomic CSS can be limiting creatively, as the design needs to
+              adapt to the constraints of the available classes.
+            </li>
+          </ul>
+
+          <p>
+            Atomic CSS is particularly useful in large-scale projects, team
+            environments, and situations where maintaining a consistent style
+            guide is important. It's also beneficial in projects where
+            performance is a priority, as it can help to minimize the size of
+            stylesheets.
+          </p>
+
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://unocss.dev/">UnoCSS</a>
+            </li>
+            <li>
+              <a href="https://acss.io/">Atomizer</a>
+            </li>
+          </ul>
+
           <h3>6.X &mdash; Big'O Notation</h3>
 
           <p>
@@ -3927,30 +4031,6 @@ if (index !== -1) {
             </li>
           </ul>
 
-          <p>
-            <strong>Implementation:</strong> Libraries like Styled-Components,
-            Emotion, and JSS are commonly used for CSS in JS, allowing styles to
-            be written in tagged template literals or JavaScript objects.
-          </p>
-
-          <p><strong>Example:</strong></p>
-          <p>Using Styled-Components:</p>
-          <pre class="language-js"><code>import styled from 'styled-components';
-
-const Button = styled.button`
-  background-color: ${props => props.primary ? 'blue' : 'gray'};
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  margin: 10px;
-  cursor: pointer;
-`;
-
-// Usage
-&lt;Button primary&gt;Primary Button&lt;/Button&gt;
-&lt;Button&gt;Secondary Button&lt;/Button&gt;</code></pre>
-
           <p><strong>Considerations:</strong></p>
           <ul>
             <li>
@@ -3972,6 +4052,27 @@ const Button = styled.button`
             component-based frameworks, offering encapsulated and scalable
             styling solutions.
           </p>
+
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://styled-components.com/">Styled Components</a>
+            </li>
+            <li>
+              <a href="https://github.com/css-modules/css-modules"
+                >CSS Modules</a
+              >
+            </li>
+            <li>
+              <a href="https://panda-css.com/">Panda CSS</a>
+            </li>
+            <li>
+              <a href="https://stylex-docusaurus.vercel.app/docs/learn/"
+                >StyleX</a
+              >
+            </li>
+          </ul>
 
           <h3>6.X &mdash; CSS Animations</h3>
 
@@ -4033,6 +4134,88 @@ const Button = styled.button`
             </li>
           </ul>
 
+          <h3>6.X &mdash; CSS Frameworks</h3>
+
+          <p>
+            A general CSS framework is a pre-prepared library that is meant to
+            be used as a starting point for the design and layout of websites.
+            These frameworks offer a collection of CSS stylesheets that handle a
+            variety of common web design elements and challenges, such as grid
+            layouts, typography, buttons, forms, and responsive design. The idea
+            is to provide a standard way to build websites quickly without
+            having to write CSS from scratch.
+          </p>
+
+          <ul>
+            <li>
+              <p>
+                <strong>Predefined Classes</strong>: They come with a set of
+                predefined classes for styling elements. This means you can
+                apply a consistent look and feel across your website by simply
+                adding these classes to your HTML elements.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Responsive Design</strong>: Most modern CSS frameworks
+                are responsive, meaning they are designed to work on a variety
+                of devices and screen sizes. They often include a grid system
+                that adapts to different screen sizes, making it easier to
+                create a layout that looks good on both desktops and mobile
+                devices.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Cross-browser Compatibility</strong>: These frameworks
+                handle a lot of the cross-browser compatibility issues, ensuring
+                that your website looks consistent across different web
+                browsers.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Customization</strong>: Many CSS frameworks can be
+                customized to suit the specific needs of a project. This can
+                include changing the color scheme, fonts, or other design
+                elements.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Components and Utilities</strong>: They often include a
+                range of components (like modals, dropdowns, and tabs) and
+                utilities (like margin and padding helpers, visibility classes)
+                that can be used to enhance the functionality and appearance of
+                a site.
+              </p>
+            </li>
+          </ul>
+
+          <p>
+            Some popular general CSS frameworks include Bootstrap and Bulma.
+            These frameworks are widely used due to their ease of use, extensive
+            documentation, and large community support. They are particularly
+            useful for developers who need to prototype a design quickly or who
+            do not want to deal with the intricacies of pure CSS for common
+            layout and styling tasks.
+          </p>
+
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://getbootstrap.com/">Bootstrap</a>
+            </li>
+            <li>
+              <a href="https://bulma.io/">Bumla</a>
+            </li>
+          </ul>
+
           <h3>6.X &mdash; CSS Resets</h3>
 
           <p>
@@ -4076,6 +4259,21 @@ const Button = styled.button`
             <li>
               Modern frameworks may include their own reset or normalization
               styles.
+            </li>
+          </ul>
+
+          <p>
+            CSS resets are useful for ensuring consistency and control over
+            styling across different browsers. However, they can be overkill for
+            smaller projects and may not be necessary if you're using a modern
+            CSS framework.
+          </p>
+
+          <p>Tools:</p>
+
+          <ul>
+            <li>
+              <a href="https://www.ress.page/">ress</a>
             </li>
           </ul>
 
@@ -7539,6 +7737,84 @@ console.log(isValidEmail("example@.com")); // false
             </li>
           </ul>
 
+          <h3>6.X &mdash; Utility First CSS Frameworks</h3>
+
+          <p>
+            Utility-first CSS frameworks, such as Tailwind CSS, represent a
+            different approach to styling web pages compared to traditional CSS
+            frameworks like Bootstrap. Utility-first frameworks consist of many
+            small, single-purpose classes based on a specific style or layout
+            function. For example, a class might be used for setting margin,
+            changing text color, or adjusting padding. These classes can be
+            combined in the HTML markup to achieve a wide variety of designs.
+            Here's a breakdown of their key characteristics and advantages:
+          </p>
+
+          <ul>
+            <li>
+              <strong>High Customizability:</strong> Because of their atomic
+              nature, utility-first classes allow for a high degree of
+              customization. Developers can mix and match classes directly in
+              the HTML to create unique designs without writing custom CSS.
+            </li>
+            <li>
+              <strong>Faster Prototyping:</strong> Utility-first frameworks are
+              great for rapid prototyping. Developers can quickly build layouts
+              and adjust designs without leaving the HTML file. This can
+              significantly speed up the development process, especially during
+              the early stages of a project.
+            </li>
+            <li>
+              <strong>Reduced CSS Bloat:</strong> These frameworks can help in
+              reducing CSS bloat. Since styles are applied directly in the HTML,
+              there's less need for custom CSS files. This can lead to a
+              reduction in the overall size of CSS files, especially in large
+              projects.
+            </li>
+            <li>
+              <strong>Consistency in Design:</strong> Utility-first CSS
+              encourages consistency across a project. As developers use the
+              same utility classes throughout the application, it naturally
+              leads to a more consistent look and feel.
+            </li>
+            <li>
+              <strong>Learning Curve:</strong> While utility-first frameworks
+              can be incredibly powerful, they do have a steeper learning curve.
+              Developers need to familiarize themselves with the large number of
+              utility classes and understand how to combine them effectively.
+            </li>
+            <li>
+              <strong>Direct Manipulation in HTML:</strong> This approach
+              involves directly manipulating layout and styling within HTML.
+              Some developers prefer this as it keeps visual styling close to
+              the markup, while others may find it clutters the HTML.
+            </li>
+            <li>
+              <strong>Tailoring for Projects:</strong> Many utility-first
+              frameworks, like Tailwind CSS, offer tools to customize the
+              framework for your specific project. This means you can add or
+              remove classes based on what you need, potentially reducing the
+              framework's footprint.
+            </li>
+          </ul>
+
+          <p>
+            In summary, utility-first CSS frameworks offer a highly
+            customizable, efficient way to style web applications. They are
+            particularly beneficial for rapid prototyping and maintaining
+            consistency across large projects. However, they require a good
+            understanding of the available utility classes and can lead to
+            verbose HTML markup.
+          </p>
+
+          <p>Tools</p>
+
+          <ul>
+            <li>
+              <a href="https://tailwindcss.com/">Tailwind CSS</a>
+            </li>
+          </ul>
+
           <h3>6.X &mdash; Virtual DOM</h3>
 
           <p>
@@ -7887,7 +8163,7 @@ console.log(isValidEmail("example@.com")); // false
             approaches that prioritize these aspects.
           </p>
 
-          <h3>6.X &mdash; Web Animations</h3>
+          <h3>6.X &mdash; Web Animations (aka JavaScript Animations)</h3>
 
           <p>
             The Web Animations API is a powerful and flexible feature in modern
