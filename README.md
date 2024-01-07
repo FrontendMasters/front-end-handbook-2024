@@ -4,15 +4,19 @@
 
 _Sponsored by [Frontend Masters](https://frontendmasters.com/), advancing your skills with in-depth, modern front-end engineering courses_
 
-This handbook is an essential resource for both seasoned professionals and newcomers in the field of front-end web development. Covering a vast array of topics, the book offers an exploration of the profession, outlining the various roles and responsibilities that come with being a front-end developer. It delves into the diverse job titles and career paths within the industry, providing valuable insights into career levels, compensation structures, and the unique challenges faced in these roles.
+This handbook is a resource for both seasoned professionals and newcomers in the field of front-end web development to learn and explore the practice of front-end development.
 
-In addition to career insights, the handbook serves as an educational roadmap to the various professional course offerings, certification programs, and the role of traditional university education in this domain. It examines the foundation aspects required in the profession, including foundational knowledge of the World Wide Web, internet protocols, servers, and more.
+### TOC
 
-The handbook also identifies and briefly explains core competencies, along with other competencies and paradigms that shape professional practitioners.
-
-Moreover, it offers practical insights on professional career preparations, including building an online presence, resume crafting, job searching, and interview preparation.
-
-The inclusion of sections on community involvement, podcasts, and email newsletters further enriches this guide, making it an indispensable resource for anyone looking to thrive in the ever-evolving world of front-end web development.
+1. Overview of Field of Work
+2. Areas of Focus
+3. Learning / Education / Training
+4. Foundational Aspects
+5. Core Competencies
+6. Other Competencies & Paradigms
+7. Front-end Development Toolbox/Stack
+8. Professional Career Preparations
+9. Communities, Podcasts, & Email Newsletter
 
 ---
 
