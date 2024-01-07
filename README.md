@@ -16,7 +16,7 @@ This handbook is a resource for both seasoned professionals and newcomers in the
 6. Other Competencies & Paradigms
 7. Front-end Development Toolbox/Stack
 8. Professional Career Preparations
-9. Communities, Podcasts, & Email Newsletter
+9. Communities, Podcasts, & Email Newsletters
 
 ---
 
