@@ -21,21 +21,19 @@
     <div id="panel">
       <div id="menuButton">|||</div>
       <div id="bookPadding">
-        <h1>The (Frontend||UI||UX) Developer/Engineer Handbook 2024</h1>
+        <h1>The Frontend Developer/Engineer Handbook 2024</h1>
         <h3 style="margin-top: 0px">
           Written by
-          <a href="http://codylindley.com/">Cody Lindley</a> &amp; AI
+          <a href="http://codylindley.com/">Cody Lindley</a>
         </h3>
-        <section>
-          <p>
-            <em
-              >Sponsored by
-              <a href="https://frontendmasters.com/">Frontend Masters</a>,
-              advancing your skills with in-depth, modern front-end engineering
-              Courses</em
-            >
+        <div>
+          <p class="image">
+            <img loading="lazy" 
+              alt="The Frontend Developer/Engineer Handbook 2024 Cover"
+              src="images/FEM2024_1000w.jpeg"
+            />
           </p>
-        </section>
+        </div>
         <div class="chapter" id="chapter1">
           <h2>1. Overview of Field of Work</h2>
           <section class="sub">
@@ -304,7 +302,7 @@
             <a
               href="https://www.levels.fyi/?compare=Standard,Amazon,Facebook,Microsoft,Google&track=Software%20Engineer"
             >
-              <img
+              <img loading="lazy" 
                 alt="Internet Network"
                 src="images/1-4.png"
                 title="https://www.levels.fyi/?compare=Standard,Amazon,Facebook,Microsoft,Google&track=Software%20Engineer"
@@ -10548,12 +10546,7 @@ console.log(isValidEmail("example@.com")); // false
     </div>
     <script src="assets/slideout.min.js"></script>
     <script src="assets/jquery-3.3.1.slim.min.js"></script>
-    <script src="assets/lozad-1.14.0.min.js"></script>
     <script>
-      // Lazy load images that have [data-src]
-      var observer = lozad("[data-src]");
-      observer.observe();
-
       // Create slide out TOC
       var slideout = new Slideout({
         panel: document.getElementById("panel"),
