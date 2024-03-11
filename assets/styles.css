@@ -1,7 +1,14 @@
+html {
+    font-family:system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
 body {
     width: 100%;
     height: 100%;
     word-break: break-word;
+}
+
+h1, h2, h3 {
+    text-wrap: balance;
 }
 
 p cite {
@@ -16,41 +23,29 @@ p cite {
   }
 }
 
-#bookPadding a:link {
-    background-color: #fdefe8;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    color: #1a1a1a;
-}
-
 #bookPadding a:active {
     outline-width: 0;
-}
-
-#bookPadding a:hover {
-    background-color: #fcdcce;
-    border-bottom-color: #1a1a1a;
 }
 
 section {
     line-height: 1.7;
     font-size: 24px;
     font-weight: 300;
-    color: #6d6d6d;
     margin-top: 40px;
 }
 
 section.sub,
 section.sub p {
     line-height: 1.7;
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: 100px;
+    padding-bottom: 10px;
     font-weight: 300;
-    color: #6d6d6d;
     margin-top: 40px;
 }
 
 h1 {
-    color: #282c34;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-top: 80px;
     font-size: 50px;
     line-height: 65px;
@@ -89,37 +84,7 @@ h4 {
 
 p {
     margin-top: 30px;
-    font-size: 17px;
-    line-height: 1.7;
-}
-
-code {
-    background: rgba(255, 229, 100, 0.2);
-    color: #1a1a1a;
-}
-
-.notes {
-    background-color: #f6e1d7;
-    border-left-color: #e66225;
-    border-left-width: 9px;
-    border-left-style: solid;
-    padding: 20px 45px 20px 26px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-.notes p {
-    margin-top: 0px;
-    font-size: 14px;
-}
-
-.notes ol {
-    margin: 20px 0 0 20px;
-}
-
-.notes ol li {
-    margin: 20px 0 0 0;
-    font-size: 14px;
+    font-size: var(--font-size-base);
     line-height: 1.7;
 }
 
@@ -134,18 +99,14 @@ ol {
 
 ol li,
 ul li {
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     line-height: 1.7;
 }
 
-.notes dl dd {
-    margin-bottom: 20px;
-}
 
 hr {
     border: none;
     height: 20px;
-    background-color: #ececec;
     margin: 75px 0 75px 0;
 }
 
@@ -159,7 +120,7 @@ hr {
     -webkit-overflow-scrolling: touch;
     z-index: 0;
     display: none;
-    background-color: #272727;
+    background: linear-gradient(90deg, #1f1f1f 0.04%, #101010 100%);
 }
 
 .slideout-menu-left {
@@ -174,7 +135,6 @@ hr {
     position: relative;
     z-index: 1;
     will-change: transform;
-    background-color: #fff;
     /* A background-color is required */
     min-height: 100vh;
 }
@@ -196,7 +156,7 @@ hr {
 }
 
 #menuButton {
-    background: radial-gradient(closest-side, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background: radial-gradient(closest-side, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     cursor: pointer;
     position: sticky;
     top: 0;
@@ -213,18 +173,7 @@ hr {
     font-size: 18px;
 }
 
-#toc a:focus,
-#toc a:hover {
-    background-color: #000000;
-    border-bottom-color: #fff;
-    text-decoration: underline;
-}
 
-#toc a:link,
-#toc a:active,
-#toc a:visited {
-    color: #e7e7e7;
-}
 
 #toc h6 {
     margin-left: 10px;
@@ -253,9 +202,6 @@ p+div.code-toolbar {
 
 #panel .codesandboxlink a:link,
 #panel .codesandboxlinkNotDynamic a:link {
-    background-color: rgba(0, 0, 0, 0);
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-    color: #1a1a1a;
     padding: 0 4px;
 }
 
@@ -263,49 +209,6 @@ p+div.code-toolbar {
 #panel .codesandboxlinkNotDynamic a:active {
     outline-width: 0;
 }
-
-#panel .codesandboxlink a:hover,
-#panel .codesandboxlinkNotDynamic a:hover {
-    background-color: #bbeffd;
-    border-bottom-color: rgba(0, 0, 0, 0);
-}
-
-blockquote {
-    font-size: 1.4em;
-    margin: 50px auto;
-    font-family: Open Sans;
-    font-style: italic;
-    color: #555555;
-    padding: 1.2em 30px 1.2em 75px;
-    border-left: 8px solid #c02d28;
-    line-height: 1.6;
-    position: relative;
-    background: #ededed;
-    border-radius: 0px 5px 0px 5px;
-}
-
-blockquote::before {
-    font-family: Arial;
-    content: "\201C";
-    color: #c02d28;
-    font-size: 4em;
-    position: absolute;
-    left: 10px;
-    top: -10px;
-}
-
-blockquote::after {
-    content: "";
-}
-
-blockquote span {
-    display: block;
-    color: #333333;
-    font-style: normal;
-    font-weight: bold;
-    margin-top: 1em;
-}
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -318,11 +221,6 @@ td {
     line-height: 130%;
     padding: 0.5rem;
     text-align: left;
-    border: 1px solid #ccc;
-}
-
-tbody tr:nth-child(odd) {
-    background: #eee;
 }
 
 /* Print styles */
@@ -365,8 +263,6 @@ tbody tr:nth-child(odd) {
 
 .FmCta {
     align-items: flex-start;
-    background: #000;
-    color: #fff;
     display: flex;
     gap: 15px;
     line-height: 2;
@@ -376,13 +272,8 @@ tbody tr:nth-child(odd) {
 }
 
 .FmCtaLogo svg {
-    fill: #c02d28;
     vertical-align: middle;
     width: 25px;
-}
-
-.FmCtaLogo:hover svg {
-    fill: #dd625e;
 }
 
 .FmCtaText {
@@ -392,18 +283,12 @@ tbody tr:nth-child(odd) {
 }
 
 .FmCtaText a {
-    color: #ccc;
     font-weight: bold;
-}
-
-.FmCtaText a:hover {
-    color: #fff;
 }
 
 .FmCtaClose {
     background: none;
     border: none;
-    color: #888;
     font-size: 25px;
     height: 30px;
     line-height: 1;
@@ -412,6 +297,223 @@ tbody tr:nth-child(odd) {
     width: 30px;
 }
 
+/*** light theme ***/
+
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+#bookPadding a:link {
+    background-color: #fdefe8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: #1a1a1a;
+}
+
+#bookPadding a:hover {
+    background-color: #fcdcce;
+    border-bottom-color: #1a1a1a;
+}
+
+section {
+    color: #6d6d6d;
+}
+
+h1 {
+    color: #282c34;
+}
+
+code {
+    background: rgba(255, 229, 100, 0.2);
+    color: #1a1a1a;
+}
+
+
+hr {
+    background-color: #ececec;
+}
+
+.slideout-panel {
+    background-color: #fff;
+}
+
+#toc a:focus,
+#toc a:hover {
+    background-color: #000000;
+    border-bottom-color: #fff;
+    text-decoration: underline;
+}
+
+#toc a:link,
+#toc a:active,
+#toc a:visited {
+    color: #e7e7e7;
+}
+
+#panel .codesandboxlink a:link,
+#panel .codesandboxlinkNotDynamic a:link {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #1a1a1a;
+}
+
+#panel .codesandboxlink a:hover,
+#panel .codesandboxlinkNotDynamic a:hover {
+    background-color: #bbeffd;
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.FmCtaText a {
+    color: #ccc;
+}
+
+.FmCtaText a:hover {
+    color: #fff;
+}
+
+.FmCta {
+    background: #000;
+    color: #fff;
+}
+
+.FmCtaLogo svg {
+    fill: #c02d28;
+}
+
+.FmCtaLogo:hover svg {
+    fill: #dd625e;
+}
+
+.FmCtaClose {
+    color: #888;
+}
+
 .FmCtaClose:hover {
     color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+/*** DARK theme ***/
+
+:root {
+    --font-size-base: clamp(1rem, .2vw + 1rem, 1.2rem);
+    --gray-lightest: #e6e6e6;
+    --link: #fc706b;
+    --link-hover: #e58480;
+    --link-visited: #fc706b;
+    --background: #151515;
+    --background-light: #545454;
+    --body-text: var(--gray-lightest);
+}
+
+.dark th,
+.dark td {
+    border: 1px solid var(--background-light);
+}
+
+.dark body {
+    background-color: var(--background);
+    color: var(--gray-lightest);
+    font-size: var(--font-size-base);
+    line-height: 1.7;
+}
+
+.dark #bookPadding a:link {
+    background-color: var(--background);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--link);
+}
+
+.dark #bookPadding a:hover {
+    color: var(--link-hover);
+    background-color: black;
+    background-color: black;
+}
+
+.dark #bookPadding a:visited {
+    color: var(--link-visited);
+}
+
+.dark section {
+    color: var(--body-text);
+}
+
+.dark h1 {
+    color: var(--gray-lightest);
+}
+
+.dark code {
+    background: black;
+    color: white;
+    padding: 3px 5px;
+}
+
+.dark hr {
+    background-color: #ececec;
+}
+
+.dark .slideout-panel {
+    background-color: var(--background);
+}
+
+.dark #toc a:focus,
+.dark #toc a:hover {
+    background-color: var(--background);
+    border-bottom-color: #fff;
+    text-decoration: underline;
+}
+
+.dark #toc a:link,
+.dark #toc a:active,
+.dark #toc a:visited {
+    color: var(--gray-lightest);
+}
+
+.dark #panel .codesandboxlink a:link,
+.dark #panel .codesandboxlinkNotDynamic a:link {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #1a1a1a;
+}
+
+.dark #panel .codesandboxlink a:hover,
+.dark #panel .codesandboxlinkNotDynamic a:hover {
+    background-color: #bbeffd;
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.dark .FmCtaText a {
+    color: #ccc;
+}
+
+.dark .FmCtaText a:hover {
+    color: #fff;
+}
+
+.dark .FmCta {
+    background: #000;
+    color: #fff;
+}
+
+.dark .FmCtaLogo svg {
+    fill: #c02d28;
+}
+
+.dark .FmCtaLogo:hover svg {
+    fill: #dd625e;
+}
+
+.dark .FmCtaClose {
+    color: #888;
+}
+
+.dark .FmCtaClose:hover {
+    color: #fff;
+}
+
+.dark tbody tr:nth-child(odd) {
+    background: black;
 }
