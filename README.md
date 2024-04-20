@@ -1,8 +1,6 @@
 # The (Frontend||UI||UX) Developer/Engineer Handbook 2024
 
-### Written by [Cody Lindley](http://codylindley.com/)
-
-_Sponsored by [Frontend Masters](https://frontendmasters.com/), advancing your skills with in-depth, modern front-end engineering courses_
+### Written by [Cody Lindley](http://codylindley.com/) for [Frontend Masters](https://frontendmasters.com/?utm_source=guides&utm_medium=github&utm_campaign=feh2024), advancing your skills with in-depth, modern front-end engineering courses
 
 This handbook is a resource for both seasoned professionals and newcomers in the field of front-end web development to learn and explore the practice of front-end development.
 
@@ -17,6 +15,8 @@ This handbook is a resource for both seasoned professionals and newcomers in the
 7. Front-end Development Toolbox/Stack
 8. Professional Career Preparations
 9. Communities, Podcasts, & Email Newsletters
+
+**Read online**: https://frontendmasters.com/guides/front-end-handbook/2024/
 
 ---
 
