@@ -16,7 +16,7 @@ This handbook is a resource for both seasoned professionals and newcomers in the
 8. Professional Career Preparations
 9. Communities, Podcasts, & Email Newsletters
 
-*Read online*: https://frontendmasters.com/guides/front-end-handbook/2024/
+**Read online**: https://frontendmasters.com/guides/front-end-handbook/2024/
 
 ---
 
