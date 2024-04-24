@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/styles.css" />
     <link rel="stylesheet" href="assets/prism.css" />
     <script src="assets/prism.js"></script>
+    <script src="assets/theme-toggler.js"></script>
   </head>
   <body>
     <div id="menu">
@@ -28,7 +29,19 @@
         </div>
         <button data-cta-close class="FmCtaClose">&times;</button>
       </div>
-      <div id="menuButton">|||</div>
+      <div class="sticky-bar">
+        <div id="menuButton">|||</div>
+        <div id="toggler">
+          <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+            <svg class="light-theme" aria-hidden="true" height="24" viewBox="0 -960 960 960" width="24">
+              <path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/>
+            </svg>
+            <svg class="dark-theme" aria-hidden="true" height="24" viewBox="0 -960 960 960" width="24">
+              <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
       <div id="bookPadding">
         <h1>The Front End Developer/Engineer Handbook 2024</h1>
         <h3 style="margin-top: 0px">
@@ -37,7 +50,7 @@
         </h3>
         <div>
           <p class="image">
-            <img loading="lazy" 
+            <img loading="lazy"
               alt="The Frontend Developer/Engineer Handbook 2024 Cover"
               src="images/FEM2024_1000w.jpeg"
             />
@@ -310,7 +323,7 @@
             <a
               href="https://www.levels.fyi/?compare=Standard,Amazon,Facebook,Microsoft,Google&track=Software%20Engineer"
             >
-              <img loading="lazy" 
+              <img loading="lazy"
                 alt="Internet Network"
                 src="images/1-4.png"
                 title="https://www.levels.fyi/?compare=Standard,Amazon,Facebook,Microsoft,Google&track=Software%20Engineer"
@@ -1171,7 +1184,7 @@
           <h3>3.3 &mdash; Certifications & Learning Paths</h3>
           <p>
             Certifications and learning paths are ideal for those who prefer a more structured
-            curriculum or are looking to gain a more formal qualification. Note that certifications 
+            curriculum or are looking to gain a more formal qualification. Note that certifications
             in front-end development aren't taken as seriously as they are in other industries and professions,
             but they can still be valuable for demonstrating knowledge and skills.
           </p>
@@ -6655,7 +6668,7 @@ console.log(activeUsersString); // Outputs: "Alice, Charlie, David"</code></pre>
             considerations for performance optimization and user experience.
           </p>
 
-          <p>Note: The new <a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API">View Transitions API</a> can make MPAs behave more like an SPA (without a full page refresh). 
+          <p>Note: The new <a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API">View Transitions API</a> can make MPAs behave more like an SPA (without a full page refresh).
             The API allows for smooth transitions between pages without full page reloads.</p>
 
           <h3>
@@ -10420,7 +10433,7 @@ console.log(isValidEmail("example@.com")); // false
               <a href="https://alpinejs.dev/">Alpine.js</a>
             </li>
           </ul>
-          
+
           <p>The <a href="https://create.t3.gg/">T3 Stack</a>:</p>
 
           <ul>
@@ -10429,7 +10442,7 @@ console.log(isValidEmail("example@.com")); // false
             <li><a href="https://vercel.com/">Vercel</a></li>
           </ul>
 
-          
+
         </div>
 
         <div class="chapter" id="chapter8">
@@ -10903,7 +10916,7 @@ console.log(isValidEmail("example@.com")); // false
     </script>
     <script>
     (function(t,e,n,r){function a(){return e&&e.now?e.now():null}if(!n.version){n._events=[];n._errors=[];n._metadata={};n._urlGroup=null;window.RM=n;n.install=function(e){n._options=e;var a=t.createElement("script");a.async=true;a.crossOrigin="anonymous";a.src=r;var o=t.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o)};n.identify=function(t,e){n._userId=t;n._identifyOptions=e};n.sendEvent=function(t,e){n._events.push({eventName:t,metadata:e,time:a()})};n.setUrlGroup=function(t){n._urlGroup=t};n.track=function(t,e){n._errors.push({error:t,metadata:e,time:a()})};n.addMetadata=function(t){n._metadata=Object.assign(n._metadata,t)}}})(document,window.performance,window.RM||{},"https://pathway.frontendmasters.com/agent/current/rm.js");
-    RM.install({ 
+    RM.install({
         token: "b4dw8ec:b9ht8wy",
         ingestUrl: "https://pathway.frontendmasters.com/v1"
     });

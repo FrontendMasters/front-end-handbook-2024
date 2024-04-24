@@ -155,25 +155,36 @@ hr {
     display: block;
 }
 
-#menuButton {
-    background: radial-gradient(closest-side, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    cursor: pointer;
+.sticky-bar {
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     left: 0;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+}
+
+#menuButton {
+    background: radial-gradient(closest-side, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
     text-align: center;
     z-index: 2;
+}
+
+#toggler {
+    align-items: center;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    width: 48px;
 }
 
 #toc {
     padding: 20px 20px;
     font-size: 18px;
 }
-
-
 
 #toc h6 {
     margin-left: 10px;
@@ -223,6 +234,344 @@ td {
     text-align: left;
 }
 
+/* Horizontal bar / call to action */
+.FmCta {
+    align-items: flex-start;
+    background: #000;
+    color: #fff;
+    display: flex;
+    gap: 15px;
+    line-height: 2;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 10;
+}
+
+.FmCtaLogo svg {
+    fill: #c02d28;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.FmCtaLogo:hover svg {
+    fill: #dd625e;
+}
+
+.FmCtaText {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+.FmCtaText a {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.FmCtaText a:hover {
+    color: #fff;
+}
+
+.FmCtaClose {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 25px;
+    height: 30px;
+    line-height: 1;
+    outline: none;
+    padding-bottom: 5px;
+    width: 30px;
+}
+
+.FmCtaClose:hover {
+    color: #fff;
+}
+
+.theme-toggle {
+    --size: 2rem;
+    background: none;
+    border: none;
+    padding: 0;
+    inline-size: var(--size);
+    block-size: var(--size);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    outline-offset: 5px;
+}
+
+/*** DARK theme ***/
+
+:root {
+    --font-size-base: clamp(1rem, .2vw + 1rem, 1.2rem);
+    --gray-lightest: #e6e6e6;
+    --link: #fc706b;
+    --link-hover: #e58480;
+    --link-visited: #fc706b;
+    --background: #151515;
+    --background-light: #545454;
+    --body-text: var(--gray-lightest);
+}
+
+[data-theme="dark"] .dark-theme {
+    display: none;
+}
+
+[data-theme="dark"] .light-theme {
+    --icon-fill: white;
+    fill: var(--icon-fill);
+}
+
+html[data-theme="dark"] th,
+html[data-theme="dark"] td {
+    border: 1px solid var(--background-light);
+}
+
+html[data-theme="dark"] body {
+    background-color: var(--background);
+    color: var(--gray-lightest);
+    font-size: var(--font-size-base);
+    line-height: 1.7;
+}
+
+html[data-theme="dark"] #bookPadding a:link {
+    background-color: var(--background);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--link);
+}
+
+html[data-theme="dark"] #bookPadding a:hover {
+    color: var(--link-hover);
+    background-color: black;
+}
+
+html[data-theme="dark"] #bookPadding a:visited {
+    color: var(--link-visited);
+}
+
+html[data-theme="dark"] section {
+    color: var(--body-text);
+}
+
+html[data-theme="dark"] h1 {
+    color: var(--gray-lightest);
+}
+
+html[data-theme="dark"] code {
+    background: black;
+    color: white;
+    padding: 3px 5px;
+}
+
+html[data-theme="dark"] hr {
+    background-color: #ececec;
+}
+
+html[data-theme="dark"] .slideout-panel {
+    background-color: var(--background);
+}
+
+html[data-theme="dark"] #toc a:focus,
+html[data-theme="dark"] #toc a:hover {
+    background-color: var(--background);
+    border-bottom-color: #fff;
+    text-decoration: underline;
+}
+
+html[data-theme="dark"] #toc a:link,
+html[data-theme="dark"] #toc a:active,
+html[data-theme="dark"] #toc a:visited {
+    color: var(--gray-lightest);
+}
+
+html[data-theme="dark"] #panel .codesandboxlink a:link,
+html[data-theme="dark"] #panel .codesandboxlinkNotDynamic a:link {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #1a1a1a;
+}
+
+html[data-theme="dark"] #panel .codesandboxlink a:hover,
+html[data-theme="dark"] #panel .codesandboxlinkNotDynamic a:hover {
+    background-color: #bbeffd;
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+html[data-theme="dark"] .FmCtaText a {
+    color: #ccc;
+}
+
+html[data-theme="dark"] .FmCtaText a:hover {
+    color: #fff;
+}
+
+html[data-theme="dark"] .FmCta {
+    background: #000;
+    color: #fff;
+}
+
+html[data-theme="dark"] .FmCtaLogo svg {
+    fill: #c02d28;
+}
+
+html[data-theme="dark"] .FmCtaLogo:hover svg {
+    fill: #dd625e;
+}
+
+html[data-theme="dark"] .FmCtaClose {
+    color: #888;
+}
+
+html[data-theme="dark"] .FmCtaClose:hover {
+    color: #fff;
+}
+
+html[data-theme="dark"] tbody tr:nth-child(odd) {
+    background: black;
+}
+
+/*** LIGHT theme ***/
+
+html[data-theme="light"] {
+    --gray-lightest: #d0d0d0;
+    --link: black;
+    --link-hover: #d4312b;
+    --link-visited: #A82723;
+    --link-background: black;
+    --background-color: white;
+    --body-text: black;
+}
+
+[data-theme="light"] .light-theme {
+    display: none;
+}
+
+[data-theme="light"] .dark-theme {
+    --icon-fill: var(--link);
+    fill: var(--icon-fill);
+}
+
+html[data-theme="light"] #menuButton {
+    background: none;
+}
+
+html[data-theme="light"] th,
+html[data-theme="light"] td {
+    border: 1px solid var(--background-light);
+}
+
+html[data-theme="light"] body {
+    background-color: var(--background-color);
+    color: var(--body-text);
+    font-size: var(--font-size-base);
+    line-height: 1.7;
+}
+
+html[data-theme="light"] #bookPadding a:link {
+    background-color: var(--background-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: var(--link);
+}
+
+html[data-theme="light"] #bookPadding a:hover {
+    color: var(--link-hover);
+    background-color: var(--link-background);
+}
+
+html[data-theme="light"] #bookPadding a:visited {
+    color: var(--link-visited);
+}
+
+html[data-theme="light"] section {
+    color: var(--body-text);
+}
+
+html[data-theme="light"] h1 {
+    color: var(--body-text);
+}
+
+html[data-theme="light"] code {
+    background: black;
+    color: white;
+    padding: 3px 5px;
+}
+
+html[data-theme="light"] hr {
+    background-color: #ececec;
+}
+
+html[data-theme="light"] .slideout-menu {
+    background: var(--background-color);
+}
+
+html[data-theme="light"] .slideout-panel {
+    background-color: var(--background-color);
+}
+
+
+html[data-theme="light"] #toc a:focus,
+html[data-theme="light"] #toc a:hover {
+    background-color: var(--background-color);
+    border-bottom-color: #fff;
+    text-decoration: underline;
+}
+
+html[data-theme="light"] #toc a:link,
+html[data-theme="light"] #toc a:active,
+html[data-theme="light"] #toc a:visited {
+    color: var(--body-text);
+}
+
+html[data-theme="light"] #panel .codesandboxlink a:link,
+html[data-theme="light"] #panel .codesandboxlinkNotDynamic a:link {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    color: #1a1a1a;
+}
+
+html[data-theme="light"] #panel .codesandboxlink a:hover,
+html[data-theme="light"] #panel .codesandboxlinkNotDynamic a:hover {
+    background-color: #bbeffd;
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+html[data-theme="light"] .FmCtaText a {
+    color: #ccc;
+}
+
+html[data-theme="light"] .FmCtaText a:hover {
+    color: #fff;
+}
+
+html[data-theme="light"] .FmCta {
+    background: #000;
+    color: #fff;
+}
+
+html[data-theme="light"] .FmCtaLogo svg {
+    fill: #c02d28;
+}
+
+html[data-theme="light"] .FmCtaLogo:hover svg {
+    fill: #dd625e;
+}
+
+html[data-theme="light"] .FmCtaClose {
+    color: #888;
+}
+
+html[data-theme="light"] .FmCtaClose:hover {
+    color: #fff;
+}
+
+html[data-theme="light"] tbody tr:nth-child(odd) {
+    background: var(--gray-lightest);
+}
+
+
 /* Print styles */
 @media print {
     body {
@@ -259,314 +608,4 @@ td {
         display: block;
         margin: 0 auto;
     }
-}
-
-.FmCta {
-    align-items: flex-start;
-    display: flex;
-    gap: 15px;
-    line-height: 2;
-    padding: 10px 15px;
-    position: relative;
-    z-index: 10;
-}
-
-.FmCtaLogo svg {
-    vertical-align: middle;
-    width: 25px;
-}
-
-.FmCtaText {
-    display: flex;
-    flex: 1;
-    gap: 15px;
-}
-
-.FmCtaText a {
-    font-weight: bold;
-}
-
-.FmCtaClose {
-    background: none;
-    border: none;
-    font-size: 25px;
-    height: 30px;
-    line-height: 1;
-    outline: none;
-    padding-bottom: 5px;
-    width: 30px;
-}
-
-/*** light theme ***/
-
-th,
-td {
-    border: 1px solid #ccc;
-}
-
-#bookPadding a:link {
-    background-color: #fdefe8;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    color: #1a1a1a;
-}
-
-#bookPadding a:hover {
-    background-color: #fcdcce;
-    border-bottom-color: #1a1a1a;
-}
-
-section {
-    color: #6d6d6d;
-}
-
-h1 {
-    color: #282c34;
-}
-
-code {
-    background: rgba(255, 229, 100, 0.2);
-    color: #1a1a1a;
-}
-
-
-hr {
-    background-color: #ececec;
-}
-
-.slideout-panel {
-    background-color: #fff;
-}
-
-#toc a:focus,
-#toc a:hover {
-    background-color: #000000;
-    border-bottom-color: #fff;
-    text-decoration: underline;
-}
-
-#toc a:link,
-#toc a:active,
-#toc a:visited {
-    color: #e7e7e7;
-}
-
-#panel .codesandboxlink a:link,
-#panel .codesandboxlinkNotDynamic a:link {
-    background-color: rgba(0, 0, 0, 0);
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-    color: #1a1a1a;
-}
-
-#panel .codesandboxlink a:hover,
-#panel .codesandboxlinkNotDynamic a:hover {
-    background-color: #bbeffd;
-    border-bottom-color: rgba(0, 0, 0, 0);
-}
-
-.FmCtaText a {
-    color: #ccc;
-}
-
-.FmCtaText a:hover {
-    color: #fff;
-}
-
-.FmCta {
-    background: #000;
-    color: #fff;
-}
-
-.FmCtaLogo svg {
-    fill: #c02d28;
-}
-
-.FmCtaLogo:hover svg {
-    fill: #dd625e;
-}
-
-.FmCtaClose {
-    color: #888;
-}
-
-.FmCtaClose:hover {
-    color: #fff;
-}
-
-tbody tr:nth-child(odd) {
-    background: #eee;
-}
-
-/*** DARK theme ***/
-
-:root {
-    --font-size-base: clamp(1rem, .2vw + 1rem, 1.2rem);
-    --gray-lightest: #e6e6e6;
-    --link: #fc706b;
-    --link-hover: #e58480;
-    --link-visited: #fc706b;
-    --background: #151515;
-    --background-light: #545454;
-    --body-text: var(--gray-lightest);
-}
-
-.dark th,
-.dark td {
-    border: 1px solid var(--background-light);
-}
-
-.dark body {
-    background-color: var(--background);
-    color: var(--gray-lightest);
-    font-size: var(--font-size-base);
-    line-height: 1.7;
-}
-
-.dark #bookPadding a:link {
-    background-color: var(--background);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    color: var(--link);
-}
-
-.dark #bookPadding a:hover {
-    color: var(--link-hover);
-    background-color: black;
-    background-color: black;
-}
-
-.dark #bookPadding a:visited {
-    color: var(--link-visited);
-}
-
-.dark section {
-    color: var(--body-text);
-}
-
-.dark h1 {
-    color: var(--gray-lightest);
-}
-
-.dark code {
-    background: black;
-    color: white;
-    padding: 3px 5px;
-}
-
-.dark hr {
-    background-color: #ececec;
-}
-
-.dark .slideout-panel {
-    background-color: var(--background);
-}
-
-.dark #toc a:focus,
-.dark #toc a:hover {
-    background-color: var(--background);
-    border-bottom-color: #fff;
-    text-decoration: underline;
-}
-
-.dark #toc a:link,
-.dark #toc a:active,
-.dark #toc a:visited {
-    color: var(--gray-lightest);
-}
-
-.dark #panel .codesandboxlink a:link,
-.dark #panel .codesandboxlinkNotDynamic a:link {
-    background-color: rgba(0, 0, 0, 0);
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
-    color: #1a1a1a;
-}
-
-.dark #panel .codesandboxlink a:hover,
-.dark #panel .codesandboxlinkNotDynamic a:hover {
-    background-color: #bbeffd;
-    border-bottom-color: rgba(0, 0, 0, 0);
-}
-
-.dark .FmCtaText a {
-    color: #ccc;
-}
-
-.dark .FmCtaText a:hover {
-    color: #fff;
-}
-
-.dark .FmCta {
-    background: #000;
-    color: #fff;
-}
-
-.dark .FmCtaLogo svg {
-    fill: #c02d28;
-}
-
-.dark .FmCtaLogo:hover svg {
-    fill: #dd625e;
-}
-
-.dark .FmCtaClose {
-    color: #888;
-}
-
-.dark .FmCtaClose:hover {
-    color: #fff;
-}
-
-.dark tbody tr:nth-child(odd) {
-    background: black;
-}
-
-.FmCta {
-    align-items: flex-start;
-    background: #000;
-    color: #fff;
-    display: flex;
-    gap: 15px;
-    line-height: 2;
-    padding: 10px 15px;
-    position: relative;
-    z-index: 10;
-}
-
-.FmCtaLogo svg {
-    fill: #c02d28;
-    vertical-align: middle;
-    width: 25px;
-}
-
-.FmCtaLogo:hover svg {
-    fill: #dd625e;
-}
-
-.FmCtaText {
-    display: flex;
-    flex: 1;
-    gap: 15px;
-}
-
-.FmCtaText a {
-    color: #ccc;
-    font-weight: bold;
-}
-
-.FmCtaText a:hover {
-    color: #fff;
-}
-
-.FmCtaClose {
-    background: none;
-    border: none;
-    color: #888;
-    font-size: 25px;
-    height: 30px;
-    line-height: 1;
-    outline: none;
-    padding-bottom: 5px;
-    width: 30px;
-}
-
-.FmCtaClose:hover {
-    color: #fff;
 }
