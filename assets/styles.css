@@ -272,21 +272,6 @@ td {
     color: #fff;
 }
 
-.FmCtaClose {
-    background: none;
-    border: none;
-    color: #888;
-    font-size: 25px;
-    height: 30px;
-    line-height: 1;
-    outline: none;
-    padding-bottom: 5px;
-    width: 30px;
-}
-
-.FmCtaClose:hover {
-    color: #fff;
-}
 
 .theme-toggle {
     --size: 2rem;
@@ -421,14 +406,6 @@ html[data-theme="dark"] .FmCtaLogo:hover svg {
     fill: #dd625e;
 }
 
-html[data-theme="dark"] .FmCtaClose {
-    color: #888;
-}
-
-html[data-theme="dark"] .FmCtaClose:hover {
-    color: #fff;
-}
-
 html[data-theme="dark"] tbody tr:nth-child(odd) {
     background: black;
 }
@@ -557,14 +534,6 @@ html[data-theme="light"] .FmCtaLogo svg {
 
 html[data-theme="light"] .FmCtaLogo:hover svg {
     fill: #dd625e;
-}
-
-html[data-theme="light"] .FmCtaClose {
-    color: #888;
-}
-
-html[data-theme="light"] .FmCtaClose:hover {
-    color: #fff;
 }
 
 html[data-theme="light"] tbody tr:nth-child(odd) {
