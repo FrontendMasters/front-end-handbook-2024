@@ -310,6 +310,10 @@ td {
     fill: var(--icon-fill);
 }
 
+html[data-theme="dark"] {
+    color-scheme: dark;
+}
+
 html[data-theme="dark"] th,
 html[data-theme="dark"] td {
     border: 1px solid var(--background-light);
