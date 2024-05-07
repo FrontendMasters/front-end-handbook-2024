@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-chapter-05" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.3.2">
+<title data-rh="true">5. Core Competencies | The Front End Developer/Engineer Handbook 2024</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://your-docusaurus-site.example.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://your-docusaurus-site.example.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://your-docusaurus-site.example.com/docs/chapter-05"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="5. Core Competencies | The Front End Developer/Engineer Handbook 2024"><meta data-rh="true" name="description" content="---"><meta data-rh="true" property="og:description" content="---"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://your-docusaurus-site.example.com/docs/chapter-05"><link data-rh="true" rel="alternate" href="https://your-docusaurus-site.example.com/docs/chapter-05" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-site.example.com/docs/chapter-05" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="The Front End Developer/Engineer Handbook 2024 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="The Front End Developer/Engineer Handbook 2024 Atom Feed"><link rel="stylesheet" href="/assets/css/styles.4572b7ed.css">
+<script src="/assets/js/runtime~main.ee609606.js" defer="defer"></script>
+<script src="/assets/js/main.d764ffd4.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">My Site</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/chapter-01">Tutorial</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-01">1. Overview of Field of Work</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-02">2. Areas of Focus</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-03">3. Learning / Education / Training</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-04">4. Foundational Aspects</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/docs/chapter-05">5. Core Competencies</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-06">6. Other Competencies &amp; Paradigms</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-07">7. Front-end Development Toolbox/Stack</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-08">8. Professional Career Preparations</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/chapter-09">9. Communities, Podcasts, &amp; Email Newsletters</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">5. Core Competencies</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>5. Core Competencies</h1>
+<hr>
+<p>This section identifies and defines the core competencies associated with being a front-end developer.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="51--code-editors">5.1 — Code Editors<a href="#51--code-editors" class="hash-link" aria-label="Direct link to 5.1 — Code Editors" title="Direct link to 5.1 — Code Editors">​</a></h3>
+<p>Code editors are software tools used by developers to write and edit code. They are an essential part of a programmer&#x27;s toolkit, designed to facilitate the process of coding by providing a convenient and efficient environment. Code editors can range from simple, lightweight programs to complex Integrated Development Environments (IDEs) with a wide array of features.</p>
+<p><strong>Key Characteristics of Code Editors:</strong></p>
+<ul>
+<li>Syntax Highlighting: They highlight different parts of source code in various colors and fonts, improving readability and distinguishing code elements.</li>
+<li>Code Completion: Also known as IntelliSense or auto-completion, this feature suggests completions for partially typed strings.</li>
+<li>Error Detection: Many editors detect syntax errors in real-time, aiding in quick debugging.</li>
+<li>File and Project Management: Features for managing files and projects are often included, easing navigation in complex projects.</li>
+<li>Customization and Extensions: Most editors offer customization and support for extensions to add additional functionalities.</li>
+<li>Integrated Development Environment (IDE): Combines the features of a code editor with additional tools like debuggers and version control.</li>
+</ul>
+<p>The choice of a code editor depends on factors such as programming language, project complexity, user interface preference, and required functionalities. Some developers prefer simple editors for quick edits, while others opt for robust IDEs for full-scale development. Code editors are indispensable in the software development process.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/Available_text_editors" target="_blank" rel="noopener noreferrer">Code/Text editors</a> on MDN</li>
+</ul>
+<p>Tools:</p>
+<ul>
+<li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visual Studio Code (aka VScode)</a></li>
+<li><a href="https://zed.dev/" target="_blank" rel="noopener noreferrer">Zed</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="52--hypertext-markup-language-html">5.2 — HyperText Markup Language (HTML)<a href="#52--hypertext-markup-language-html" class="hash-link" aria-label="Direct link to 5.2 — HyperText Markup Language (HTML)" title="Direct link to 5.2 — HyperText Markup Language (HTML)">​</a></h3>
+<p>HTML, which stands for HyperText Markup Language, is the standard language used to create and design web pages. It&#x27;s not a programming language like JavaScript; instead, it&#x27;s a markup language that defines the structure and layout of a web page.</p>
+<p>Here&#x27;s a basic breakdown of how HTML works:</p>
+<ul>
+<li><strong>Elements and Tags:</strong> HTML uses &#x27;elements&#x27; to define different parts of a web page. Each element is enclosed in &#x27;tags&#x27;, which are written in angle brackets. For example, &lt;p&gt; is the opening tag for a paragraph and &lt;/p&gt; is the closing tag. The content goes between these tags.</li>
+<li><strong>Structure of a Document:</strong> An HTML document has a defined structure with a head (&lt;head&gt;) and a body (&lt;body&gt;). The head contains meta-information like the title of the page, while the body contains the actual content that&#x27;s visible to users.</li>
+<li><strong>Hierarchy and Nesting:</strong> Elements can be nested within each other to create a hierarchy. This nesting helps in organizing the content and defines parent-child relationships between elements.</li>
+<li><strong>Attributes:</strong> Elements can have attributes that provide additional information about them. For example, the href attribute in an anchor (link) element (&lt;a&gt;) specifies the URL the link goes to.</li>
+<li><strong>Common Elements:</strong> Some common HTML elements include:<!-- -->
+<ul>
+<li>&lt;h1&gt; to &lt;h6&gt;: Heading elements, with &lt;h1&gt; being the highest level.</li>
+<li>&lt;p&gt;: Paragraph element.</li>
+<li>&lt;a&gt;: Anchor element for links.</li>
+<li>&lt;img&gt;: Image element.</li>
+<li>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;: Unordered (bullets) and ordered (numbers) list elements.</li>
+</ul>
+</li>
+</ul>
+<p>Imagine HTML as the skeleton of a web page. It outlines the structure, but it doesn&#x27;t deal with the visual styling (that&#x27;s what CSS is for) or interactive functionality (JavaScript&#x27;s domain). As a front-end engineer, you would use HTML in combination with CSS and JavaScript to build and style dynamic, interactive web pages.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank" rel="noopener noreferrer">Guide to HTML</a> on MDN</li>
+<li><a href="https://frontendmasters.com/bootcamp/introduction-html/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Introduction to HTML</a> (Part of the Free Bootcamp) from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/courses/web-development-v3/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Complete Intro to Web Development</a> (HTML Section) from Frontend Masters</li>
+<li><a href="https://web.dev/learn/html" target="_blank" rel="noopener noreferrer">Learn HTML</a> on web.dev</li>
+</ul>
+<p>Specifications:</p>
+<ul>
+<li><a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer">HTML Living Standard</a></li>
+</ul>
+<p>References:</p>
+<ul>
+<li><a href="https://htmlreference.io" target="_blank" rel="noopener noreferrer">htmlreference.io</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank" rel="noopener noreferrer">HTML elements reference</a></li>
+</ul>
+<p>Tools:</p>
+<ul>
+<li><a href="https://html5boilerplate.com/" target="_blank" rel="noopener noreferrer">HTML5 Boilerplate</a></li>
+<li><a href="https://htmlhint.com/" target="_blank" rel="noopener noreferrer">HTMLLint</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="53--cascading-style-sheets-css">5.3 — Cascading Style Sheets (CSS)<a href="#53--cascading-style-sheets-css" class="hash-link" aria-label="Direct link to 5.3 — Cascading Style Sheets (CSS)" title="Direct link to 5.3 — Cascading Style Sheets (CSS)">​</a></h3>
+<p>CSS, or Cascading Style Sheets, is a cornerstone style sheet language used in web development to describe the presentation of documents written in HTML. It empowers developers and designers to control the visual aesthetics of web pages, including layout, colors, fonts, and responsiveness to different screen sizes. Unlike HTML, which structures content, CSS focuses on how that content is displayed, enabling the separation of content and design for more efficient and flexible styling. The &quot;cascading&quot; aspect of CSS allows multiple style sheets to influence a single web page, with specific rules taking precedence over others, leading to a cohesive and visually engaging user experience across the web.</p>
+<p>Imagine HTML as the skeleton of a web page—it defines where the headers, paragraphs, images, and other elements go. CSS is like the clothing and makeup—it determines how these elements look. Here&#x27;s a breakdown:</p>
+<ul>
+<li><strong>Selectors and Properties</strong>: In CSS, you write &quot;rules&quot; that target HTML elements. These rules specify how the elements should be styled. A CSS rule consists of a &quot;selector&quot; (which targets the HTML element) and a &quot;property&quot; (which styles it). For example, you can have a rule that targets all &lt;p&gt; (paragraph) elements and sets their text color to red.</li>
+<li><strong>Cascading and Specificity:</strong> Styles are applied in order of specificity, with inline styles being the most specific, followed by ID, class, and tag selectors.</li>
+<li><strong>Box Model</strong>: Everything in CSS is considered as a box, with properties like padding, borders, and margins. These properties define the space around and within each element, affecting layout and spacing.</li>
+<li><strong>External, Internal, and Inline:</strong> CSS can be included externally in a .css file, internally in the HTML head, or inline within HTML elements.</li>
+<li><strong>Responsive Design</strong>: CSS allows you to make web pages look good on different devices and screen sizes. This is often done using &quot;media queries,&quot; which apply different styles based on the device&#x27;s characteristics, like its width.</li>
+<li><strong>Animation and Interaction</strong>: CSS isn&#x27;t just about static styles. You can create animations, transitions, and hover effects, enhancing the interactivity and visual appeal of your web page.</li>
+</ul>
+<p>Understanding CSS involves getting familiar with its syntax and rules, and then applying them to create visually appealing and functional web pages. As a front-end engineer, you&#x27;d often work closely with CSS, alongside HTML and JavaScript, to create the user-facing part of websites and applications.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS" target="_blank" rel="noopener noreferrer">Guide to CSS</a> on MDN</li>
+<li><a href="https://frontendmasters.com/bootcamp/introduction-css/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Frontend Masters Introduction to CSS</a> (Part of the Free Bootcamp) from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/courses/web-development-v3/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Complete Intro to Web Development</a> (CSS Section) from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/courses/getting-started-css/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Getting Started with CSS</a> from Frontend Masters</li>
+<li><a href="https://web.dev/learn/css" target="_blank" rel="noopener noreferrer">Learn CSS</a> on web.dev</li>
+</ul>
+<p>Specifications:</p>
+<ul>
+<li><a href="https://www.w3.org/Style/CSS/current-work" target="_blank" rel="noopener noreferrer">CSS specifications</a></li>
+</ul>
+<p>References:</p>
+<ul>
+<li><a href="http://cssreference.io/" target="_blank" rel="noopener noreferrer">cssreference.io</a></li>
+<li><a href="http://css4-selectors.com/" target="_blank" rel="noopener noreferrer">css4-selectors.com</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank" rel="noopener noreferrer">CSS Reference</a> on MDN</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank" rel="noopener noreferrer">CSS Selectors Reference</a> on MDN</li>
+<li><a href="https://cssdb.org/" target="_blank" rel="noopener noreferrer">What&#x27;s next for CSS?</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="54--javascript-programming-language-ecmascript-262">5.4 — JavaScript Programming Language (ECMAScript 262)<a href="#54--javascript-programming-language-ecmascript-262" class="hash-link" aria-label="Direct link to 5.4 — JavaScript Programming Language (ECMAScript 262)" title="Direct link to 5.4 — JavaScript Programming Language (ECMAScript 262)">​</a></h3>
+<p><strong>JavaScript</strong>, also known as ECMAScript, is a dynamic programming language crucial for web development. It works alongside HTML and CSS to create interactive web pages and is integral to most web applications.</p>
+<p><strong>Role in Web Development:</strong></p>
+<ul>
+<li>JavaScript, along with HTML and CSS, is a foundational technology of the World Wide Web. It adds interactivity to web pages.</li>
+<li>It&#x27;s primarily used for client-side scripting, running in the user&#x27;s web browser to add interactive features.</li>
+</ul>
+<p><strong>Beyond Web Pages:</strong></p>
+<ul>
+<li>With Node.js, JavaScript can also be used on the server-side, enabling full-scale web application development.</li>
+<li>Node.js also empowers developers to create command-line interface (CLI) tools using JavaScript. This expands the utility of JavaScript to include server management, automation tasks, and development tooling, all in a familiar language for web developers.</li>
+</ul>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>JavaScript is event-driven, responding to user actions to make websites more dynamic.</li>
+<li>It supports asynchronous programming for tasks such as loading new data without reloading the entire page.</li>
+<li>It uses prototype-based object orientation, offering flexible inheritance patterns.</li>
+</ul>
+<p><strong>Learning Curve and Community:</strong></p>
+<ul>
+<li>It&#x27;s often recommended as a first programming language due to its beginner-friendly nature and immediate visual feedback in web browsers.</li>
+<li>JavaScript has a large developer community, providing abundant resources, tutorials, and documentation for learners.</li>
+</ul>
+<p>JavaScript is a powerful programming language that&#x27;s essential for web development. It&#x27;s a versatile language that can be used for both front-end and back-end development, making it a must-learn for aspiring web developers.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">Guide to JavaScript</a> on MDN</li>
+<li><a href="https://frontendmasters.com/bootcamp/introduction-javascript/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Introduction to JavaScript</a> (Part of the Free Bootcamp) from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/courses/javascript-first-steps/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">JavaScript: From First Steps to Professional</a> from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/learn/javascript/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">JavaScript Learning Path</a> from Frontend Masters</li>
+<li><a href="https://roadmap.sh/javascript" target="_blank" rel="noopener noreferrer">JavaScript Roadmap</a></li>
+</ul>
+<p>Specification:</p>
+<ul>
+<li><a href="https://tc39.es/ecma262/" target="_blank" rel="noopener noreferrer">ECMAScript 262</a></li>
+</ul>
+<p>Reference:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank" rel="noopener noreferrer">MDN JavaScript Reference</a> on MDN</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="55--document-object-model-dom">5.5 — Document Object Model (DOM)<a href="#55--document-object-model-dom" class="hash-link" aria-label="Direct link to 5.5 — Document Object Model (DOM)" title="Direct link to 5.5 — Document Object Model (DOM)">​</a></h3>
+<p>The Document Object Model (DOM) is a fundamental programming interface for web documents that conceptualizes a webpage as a hierarchical tree of nodes, enabling dynamic interaction and manipulation. This model transforms each HTML element, attribute, and text snippet into an accessible object, allowing programming languages, particularly JavaScript, to effectively alter the page&#x27;s structure, style, and content. The DOM&#x27;s tree-like structure not only simplifies navigating and editing web documents but also facilitates real-time updates, event handling, and interaction, making it indispensable for creating responsive and interactive web applications.</p>
+<p>Key Features:</p>
+<ul>
+<li><strong>Tree Structure:</strong> The DOM represents a web page as a tree, with elements, attributes, and text as nodes. An HTML document, for example, is a tree that includes nodes like <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, and <code>&lt;body&gt;</code>.</li>
+<li><strong>Manipulation:</strong> Programming languages, especially JavaScript, can manipulate the DOM. This allows for changes in HTML elements, attributes, and text, as well as adding or removing elements.</li>
+<li><strong>Event Handling:</strong> The DOM handles events caused by user interactions or browser activities. It allows scripts to respond to these events through event handlers.</li>
+<li><strong>Dynamic Changes:</strong> With the DOM, web pages can dynamically change content and structure without needing to reload, enabling interactive and dynamic web applications.</li>
+</ul>
+<p>The DOM is a crucial part of web development, allowing for dynamic and interactive web pages. It&#x27;s a powerful interface that&#x27;s fundamental to the web and is supported by all modern web browsers.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank" rel="noopener noreferrer">Introduction to the DOM</a> on MDN</li>
+<li><a href="https://domenlightenment.com/" target="_blank" rel="noopener noreferrer">DOM Enlightenment</a></li>
+<li><a href="https://frontendmasters.com/courses/vanilla-js-apps/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Vanilla JS: You Might Not Need a Framework</a> on Frontend Masters</li>
+</ul>
+<p>Specification:</p>
+<ul>
+<li><a href="https://dom.spec.whatwg.org/" target="_blank" rel="noopener noreferrer">DOM Living Standard</a></li>
+</ul>
+<p>Reference:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" target="_blank" rel="noopener noreferrer">MDN DOM interfaces</a> on MDN</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="56--typescript">5.6 — TypeScript<a href="#56--typescript" class="hash-link" aria-label="Direct link to 5.6 — TypeScript" title="Direct link to 5.6 — TypeScript">​</a></h3>
+<p>TypeScript is an open-source programming language developed and maintained by Microsoft. It is a superset of JavaScript, which means that any valid JavaScript code is also valid TypeScript code. TypeScript adds optional static typing to JavaScript, among other features, enhancing the development experience, especially in larger or more complex codebases.</p>
+<p><strong>Key Features of TypeScript:</strong></p>
+<ul>
+<li>Static Type Checking: TypeScript provides static type checking, allowing developers to define types for variables, function parameters, and return values. This helps catch errors and bugs during development, rather than at runtime.</li>
+<li>Type Inference: While TypeScript encourages explicit type annotations, it also has powerful type inference capabilities. This means that it can deduce types from the context, reducing the amount of type-related boilerplate code.</li>
+<li>Advanced Type System: TypeScript&#x27;s type system includes features like generics, enums, tuples, and union/intersection types. These advanced features provide a robust framework for writing complex and well-structured code.</li>
+<li>Integration with JavaScript Libraries: TypeScript can be used with existing JavaScript libraries and frameworks. Type definitions for many popular libraries are available, allowing them to be used in a TypeScript project with the benefits of type checking.</li>
+<li>Tooling Support: TypeScript has excellent tooling support with integrated development environments (IDEs) and editors like Visual Studio Code. This includes features like autocompletion, navigation, and refactoring.</li>
+</ul>
+<p><strong>Advantages of Using TypeScript:</strong></p>
+<ul>
+<li>Improved Code Quality and Maintainability: Static typing helps detect errors early in the development process, improving overall code quality.</li>
+<li>Easier Refactoring and Debugging: Types make it easier to refactor and debug code, as they provide more information about what the code is supposed to do.</li>
+<li>Better Developer Experience: Tooling support with autocompletion, code navigation, and documentation improves the developer experience.</li>
+<li>Scalability: TypeScript is well-suited for large codebases and teams, where its features can help manage complexity and ensure code consistency.</li>
+</ul>
+<p><strong>Considerations:</strong></p>
+<ul>
+<li>Learning Curve: For developers not familiar with static typing, there is a learning curve to using TypeScript effectively.</li>
+<li>Compilation Step: The need to transpile TypeScript into JavaScript adds an extra step to the build process.</li>
+</ul>
+<p>In summary, TypeScript enhances JavaScript by adding static typing and other useful features, making it a powerful choice for developing large-scale applications or projects where code maintainability is a priority. It&#x27;s widely adopted in the front-end community, especially in projects where developers benefit from its robust type system and tooling support.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://www.typescriptlang.org/docs/handbook/2/basic-types.html" target="_blank" rel="noopener noreferrer">TypeScript Handbook</a></li>
+<li><a href="https://frontendmasters.com/courses/typescript-v4/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">TypeScript 5+ Fundamentals, v4</a> from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/learn/typescript/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">TypeScript Learning Path</a> from Frontend Masters</li>
+<li><a href="https://www.totaltypescript.com/tutorials/beginners-typescript" target="_blank" rel="noopener noreferrer">Beginner&#x27;s TypeScript</a></li>
+<li><a href="https://github.com/gibbok/typescript-book" target="_blank" rel="noopener noreferrer">The Concise TypeScript Book</a></li>
+<li><a href="https://roadmap.sh/typescript" target="_blank" rel="noopener noreferrer">TypeScript Road Map</a></li>
+</ul>
+<p>Tools</p>
+<ul>
+<li><a href="https://www.typescriptlang.org/play" target="_blank" rel="noopener noreferrer">TypeScript Playground</a></li>
+<li><a href="https://tsdocs.dev/" target="_blank" rel="noopener noreferrer">tsdocs.dev</a></li>
+<li><a href="https://www.totaltypescript.com/ts-reset" target="_blank" rel="noopener noreferrer">ts-reset</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="57--javascript-web-apis-aka-web-browser-apis">5.7 — JavaScript Web APIs (aka Web Browser APIs)<a href="#57--javascript-web-apis-aka-web-browser-apis" class="hash-link" aria-label="Direct link to 5.7 — JavaScript Web APIs (aka Web Browser APIs)" title="Direct link to 5.7 — JavaScript Web APIs (aka Web Browser APIs)">​</a></h3>
+<p>JavaScript Web Platform APIs are a collection of application programming interfaces (APIs) that are built into web browsers. They provide the building blocks for modern web applications, allowing developers to interact with the browser and the underlying operating system. These APIs enable web applications to perform various tasks that were traditionally only possible in native applications.</p>
+<p><strong>Key Categories and Examples:</strong></p>
+<ul>
+<li><strong>Graphics and Media APIs:</strong> Graphics APIs like Canvas and WebGL allow for rendering 2D and 3D graphics. Media APIs enable playing and manipulating audio and video content, such as the <code>HTMLMediaElement</code> interface and Web Audio API.</li>
+<li><strong>Communication APIs:</strong> Facilitate communication between different parts of a web application or between applications. Examples include WebSockets and the Fetch API.</li>
+<li><strong>Device APIs:</strong> Provide access to the capabilities of the user&#x27;s device, like the camera, microphone, GPS. Examples include the Geolocation API, Media Capture and Streams API, and the Battery Status API.</li>
+<li><strong>Storage APIs:</strong> Allow web applications to store data locally on the user&#x27;s device. Examples include the Local Storage API and IndexedDB.</li>
+<li><strong>Service Workers and Offline APIs:</strong> Enable applications to work offline and improve performance by caching resources. Service Workers can intercept network requests and deliver push messages.</li>
+<li><strong>Performance APIs:</strong> Help in measuring and optimizing the performance of web applications. Examples include the Navigation Timing API and the Performance Observer API.</li>
+</ul>
+<p>Web Platform APIs have significantly expanded the capabilities of web applications, allowing them to be more interactive, responsive, and feature-rich. They enable developers to create applications that work across different platforms and devices without the need for native code, reducing development time and costs. The use of these APIs is fundamental in building modern web applications that provide user experiences comparable to native applications.</p>
+<p>These APIs are standardized by bodies such as the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG). Browser support for various APIs can vary.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction" target="_blank" rel="noopener noreferrer">Introduction to web APIs</a> on MDN</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank" rel="noopener noreferrer">List of JavaScript Web APIs (Specifications and Interfaces)</a> on MDN</li>
+<li><a href="https://html-now.github.io" target="_blank" rel="noopener noreferrer">The Web Platform: Browser technologies</a></li>
+<li><a href="https://frontendmasters.com/learn/browser-apis/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Browser APIs Learning Path</a> from Frontend Masters</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="58--javascript-object-notation-json">5.8 — JavaScript Object Notation (JSON)<a href="#58--javascript-object-notation-json" class="hash-link" aria-label="Direct link to 5.8 — JavaScript Object Notation (JSON)" title="Direct link to 5.8 — JavaScript Object Notation (JSON)">​</a></h3>
+<p>JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate. It&#x27;s a text-based format, consisting of name-value pairs and ordered lists of values, which is used extensively in web development and various other programming contexts. Here&#x27;s a breakdown of its key characteristics:</p>
+<ul>
+<li><strong>Lightweight Data Format:</strong> JSON is text-based, making it lightweight and suitable for data interchange.</li>
+<li><strong>Human and Machine Readable:</strong> Its structure is simple and clear, making it readable by humans and easily parsed by machines.</li>
+<li><strong>Language Independent:</strong> Despite its name, JSON is independent of JavaScript and can be used with many programming languages.</li>
+</ul>
+<p>JSON&#x27;s simplicity, efficiency, and wide support across programming languages have made it a fundamental tool in modern software development, particularly for web APIs, configuration management, and data interchange in distributed systems.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://www.json.org/json-en.html" target="_blank" rel="noopener noreferrer">JSON&#x27;s official site</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON" target="_blank" rel="noopener noreferrer">Working with JSON</a> on MDN</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="59--es-modules">5.9 — ES Modules<a href="#59--es-modules" class="hash-link" aria-label="Direct link to 5.9 — ES Modules" title="Direct link to 5.9 — ES Modules">​</a></h3>
+<p>ES Modules (ECMAScript Modules) are the official standard for modular JavaScript code. They provide a way to structure and organize JavaScript code efficiently for reuse.</p>
+<p>Key Features of ES Modules:</p>
+<ul>
+<li><strong>Export and Import Syntax:</strong>
+<ul>
+<li>ES Modules allow developers to export functions, objects, or primitives from a module so that they can be reused in other JavaScript files. This is done using the <code>export</code> keyword.</li>
+<li>Conversely, the <code>import</code> keyword is used to bring in these exports from other modules, creating a network of dependencies that are easy to trace and manage.</li>
+</ul>
+</li>
+<li><strong>Modular Code Structure:</strong>
+<ul>
+<li>By breaking down JavaScript code into smaller, modular files, ES Modules encourage a more organized coding structure. This modularization leads to improved code readability and maintainability, especially in large-scale applications.</li>
+</ul>
+</li>
+<li><strong>Static Module Structure:</strong>
+<ul>
+<li>ES Modules have a static structure, meaning imports and exports are defined at the top level of a module and cannot be dynamically changed at runtime. This static nature allows for efficient optimizations by JavaScript engines at compile-time, such as tree shaking (eliminating unused code).</li>
+</ul>
+</li>
+<li><strong>Broad Compatibility:</strong>
+<ul>
+<li>ES Modules are natively supported in modern web browsers and Node.js since version 12.17.0. They can also be used in older browsers and Node.js versions with the help of transpilers like Babel or bundlers like Rollup.js.</li>
+</ul>
+</li>
+</ul>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules" target="_blank" rel="noopener noreferrer">Guide to ES Modules</a> on MDN</li>
+<li><a href="https://frontendmasters.com/guides/javascript-enlightenment/#9" target="_blank" rel="noopener noreferrer">Using ES2015 Modules Today</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="510--command-line">5.10 — Command Line<a href="#510--command-line" class="hash-link" aria-label="Direct link to 5.10 — Command Line" title="Direct link to 5.10 — Command Line">​</a></h3>
+<p>The command line is a vital tool for front-end developers, offering a text-based interface to efficiently interact with a computer&#x27;s operating system. It is instrumental in modern web development workflows, particularly when working with Node.js and various front-end development tools. Known also as the terminal, shell, or command prompt, the command line allows developers to execute a range of commands for tasks such as running Node.js scripts, managing project dependencies, or initiating build processes.</p>
+<p>Mastery of the command line enables front-end developers to leverage Node.js tools like npm (Node Package Manager) to install, update, and manage packages required in web projects. It also facilitates the use of build tools and task runners like Vite, which are essential for automating repetitive tasks like minification, compilation, and testing. Additionally, the command line provides direct access to version control systems like Git, enhancing workflow efficiency and collaboration in team environments.</p>
+<p>While the command line may initially seem intimidating due to its lack of graphical interface, its potential for automating tasks and streamlining development processes makes it an invaluable skill for front-end developers.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line" target="_blank" rel="noopener noreferrer">Command line crash course</a> on MDN</li>
+<li><a href="https://frontendmasters.com/courses/linux-command-line/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Complete Intro to Linux and the Command-Line</a> from Frontend Masters</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="511--nodejs">5.11 — Node.js<a href="#511--nodejs" class="hash-link" aria-label="Direct link to 5.11 — Node.js" title="Direct link to 5.11 — Node.js">​</a></h3>
+<p>Node.js is an open-source, cross-platform JavaScript runtime environment that enables JavaScript to run on the server side, extending its capabilities beyond web browsers. It operates on an event-driven, non-blocking I/O model, making it efficient for data-intensive real-time applications that run across distributed devices.</p>
+<p>Beyond its use in server-side development, Node.js also serves as a powerful tool in command line environments for various development tasks, such as running build processes, automating tasks, and managing project dependencies. Its integration with NPM (Node Package Manager) provides access to a vast repository of libraries and tools, enhancing its utility in the development ecosystem. This dual functionality as both a server framework and a command-line tool makes Node.js a versatile platform in the realm of web development.</p>
+<ul>
+<li><strong>Runtime Environment:</strong> It provides a platform to execute JavaScript on servers and various back-end applications.</li>
+<li><strong>Non-blocking I/O:</strong> Node.js operates on an event-driven, non-blocking I/O model, enabling efficient handling of multiple operations simultaneously.</li>
+<li><strong>Use of JavaScript:</strong> It leverages JavaScript, allowing for consistent language use across both client-side and server-side scripts.</li>
+<li><strong>NPM (Node Package Manager):</strong> Comes with a vast library ecosystem through NPM, facilitating the development of complex applications.</li>
+</ul>
+<p>Node.js is a powerful tool in the web development ecosystem. It allows for the use of JavaScript on the server-side, enabling full-stack development in a single language. It also provides a robust command-line interface for various development tasks, making it a versatile platform for web developers.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" target="_blank" rel="noopener noreferrer">Introduction to Node.js</a></li>
+<li><a href="https://frontendmasters.com/courses/node-js-v3/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Introduction to Node.js, v3</a> from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/learn/node-js/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Node.js Learning Path</a> from Frontend Masters</li>
+<li><a href="https://roadmap.sh/nodejs" target="_blank" rel="noopener noreferrer">Node.js Developer Road Map</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="512--javascript-package-managers">5.12 — JavaScript Package Managers<a href="#512--javascript-package-managers" class="hash-link" aria-label="Direct link to 5.12 — JavaScript Package Managers" title="Direct link to 5.12 — JavaScript Package Managers">​</a></h3>
+<p>JavaScript package managers are essential tools in modern web development, designed to streamline the management of project dependencies. These tools simplify the tasks of installing, updating, configuring, and removing JavaScript libraries and frameworks. By handling dependencies efficiently, package managers facilitate the seamless integration of third-party libraries and tools into development projects, ensuring that developers can focus on writing code rather than managing packages.</p>
+<p>Among the most prominent JavaScript package managers are npm (Node Package Manager), Yarn, and pnpm. These package managers allow developers to access and install packages from the public npm registry, which hosts an extensive collection of open-source JavaScript packages, as well as from private registries, catering to both public and private project requirements.</p>
+<p>Tools:</p>
+<ul>
+<li><a href="https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager" target="_blank" rel="noopener noreferrer">npm</a></li>
+<li><a href="https://yarnpkg.com/" target="_blank" rel="noopener noreferrer">yarn</a></li>
+<li><a href="https://pnpm.io/" target="_blank" rel="noopener noreferrer">pnpm</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="513--npm-registry">5.13 — NPM Registry<a href="#513--npm-registry" class="hash-link" aria-label="Direct link to 5.13 — NPM Registry" title="Direct link to 5.13 — NPM Registry">​</a></h3>
+<p>The npm registry is a pivotal resource in the JavaScript development community, functioning as an extensive public repository of open-source JavaScript packages. This vast database is integral for developers seeking to publish their own packages or to incorporate existing packages into their projects. The registry&#x27;s diverse collection ranges from small utility functions to large frameworks, catering to a broad spectrum of development needs.</p>
+<p>Serving as more than just a storage space for code, the npm registry is a hub of collaboration and innovation, fostering the sharing and evolution of JavaScript code worldwide. Its comprehensive nature simplifies the discovery and integration of packages, streamlining the development process. Developers can access and manage these packages using JavaScript package managers such as npm, which is bundled with Node.js, as well as other popular managers like Yarn and pnpm. These tools provide seamless interaction with the npm registry, enabling efficient package installation, version management, and dependency resolution.</p>
+<p>The npm registry not only facilitates the reuse of code but also plays a crucial role in maintaining the consistency and compatibility of JavaScript projects across diverse environments. Its widespread adoption and the trust placed in it by the developer community underscore its significance as a cornerstone of JavaScript development.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://docs.npmjs.com/about-npm" target="_blank" rel="noopener noreferrer">About npm</a></li>
+<li><a href="https://docs.npmjs.com/cli/v10/using-npm/registry" target="_blank" rel="noopener noreferrer">npm public registry</a></li>
+</ul>
+<p>Tools:</p>
+<ul>
+<li><a href="https://pkg-size.dev/" target="_blank" rel="noopener noreferrer">pkg-size</a></li>
+<li><a href="https://npmfs.com/" target="_blank" rel="noopener noreferrer">npmfs</a></li>
+<li><a href="https://npmtrends.com/" target="_blank" rel="noopener noreferrer">NPM Trends</a></li>
+<li><a href="https://bundlephobia.com/" target="_blank" rel="noopener noreferrer">Bundlephobia</a></li>
+<li><a href="https://npmgraph.js.org/" target="_blank" rel="noopener noreferrer">npmgraph</a></li>
+<li><a href="https://unpkg.com/" target="_blank" rel="noopener noreferrer">unpkg</a></li>
+<li><a href="https://npm.runkit.com/" target="_blank" rel="noopener noreferrer">npm runkit</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="514--git">5.14 — Git<a href="#514--git" class="hash-link" aria-label="Direct link to 5.14 — Git" title="Direct link to 5.14 — Git">​</a></h3>
+<p>Git is a distributed version control system, widely used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 for the development of the Linux kernel. Git is designed to handle everything from small to very large projects with speed and efficiency.</p>
+<p>Git is an essential tool in modern software development, enabling teams to collaborate effectively while maintaining a complete history of their work and changes. It is integral in handling code revisions and contributes significantly to the overall efficiency of the development process. Git can be integrated with various development tools and platforms. Overall, Git&#x27;s powerful features make it a popular choice for both individual developers and large teams, streamlining the process of version control and code collaboration.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">Git&#x27;s official site</a></li>
+<li><a href="https://frontendmasters.com/courses/git-in-depth/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Git In-Depth</a> from Frontend Masters</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub" target="_blank" rel="noopener noreferrer">Git and GitHub</a> on MDN</li>
+</ul>
+<p>Tools:</p>
+<ul>
+<li><a href="https://www.syntevo.com/smartgit/" target="_blank" rel="noopener noreferrer">SmartGit</a></li>
+<li><a href="https://desktop.github.com/" target="_blank" rel="noopener noreferrer">GitHub Desktop</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="515--web-accessibility---wcag--aria">5.15 — Web Accessibility - WCAG &amp; ARIA<a href="#515--web-accessibility---wcag--aria" class="hash-link" aria-label="Direct link to 5.15 — Web Accessibility - WCAG &amp; ARIA" title="Direct link to 5.15 — Web Accessibility - WCAG &amp; ARIA">​</a></h3>
+<p>The WCAG are a set of international standards developed to make the web more accessible to people with disabilities. They provide a framework for creating web content that is accessible to a wider range of people, including those with auditory, cognitive, neurological, physical, speech, and visual disabilities.</p>
+<p>Key Elements of WCAG:</p>
+<ul>
+<li><strong>Four Principles:</strong> WCAG is built on four foundational principles, stating that web content must be Perceivable (available through the senses), Operable (usable with a variety of devices and input methods), Understandable (easy to comprehend), and Robust (compatible with current and future technologies).</li>
+<li><strong>Levels of Conformance:</strong> WCAG defines three levels of accessibility conformance - Level A (minimum level), Level AA (addresses the major and most common barriers), and Level AAA (the highest level of accessibility).</li>
+<li><strong>Guidelines and Success Criteria:</strong> Each principle is broken down into guidelines, providing testable success criteria to help measure and achieve accessibility. These criteria are used as benchmarks to ensure websites and applications are accessible to as many users as possible.</li>
+</ul>
+<p>ARIA is a set of attributes that define ways to make web content and web applications more accessible to people with disabilities. ARIA supplements HTML, helping to convey information about dynamic content and complex user interface elements developed with JavaScript, Ajax, HTML, and related technologies.</p>
+<p>Role of ARIA in Accessibility:</p>
+<ul>
+<li><strong>Enhancing Semantic HTML:</strong> ARIA attributes provide additional context to standard HTML elements, enhancing their meaning for assistive technologies like screen readers.</li>
+<li><strong>Dynamic Content Accessibility:</strong> ARIA plays a crucial role in making dynamic content and advanced user interface controls developed with JavaScript accessible.</li>
+<li><strong>Support for Custom Widgets:</strong> ARIA enables developers to create fully accessible custom widgets that are not available in standard HTML, ensuring that these custom elements are usable by people with disabilities.</li>
+</ul>
+<p>WCAG and ARIA are essential tools in making the web accessible to people with disabilities. They provide a framework for developers to create accessible web content and applications, ensuring that everyone can use the web regardless of their abilities.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" target="_blank" rel="noopener noreferrer">Web Accessibility</a> on MDN</li>
+<li><a href="https://web.dev/learn/accessibility" target="_blank" rel="noopener noreferrer">Learn Accessibility</a> on web.dev</li>
+<li><a href="https://frontendmasters.com/courses/accessibility-v2/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Website Accessibility</a> from Frontend Masters</li>
+<li><a href="https://frontendmasters.com/courses/react-accessibility/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Web App Accessibility (feat. React)</a> from Frontend Masters</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="516--web-images-files-types--data-urls">5.16 — Web Images, Files Types, &amp; Data URLS<a href="#516--web-images-files-types--data-urls" class="hash-link" aria-label="Direct link to 5.16 — Web Images, Files Types, &amp; Data URLS" title="Direct link to 5.16 — Web Images, Files Types, &amp; Data URLS">​</a></h3>
+<p>In the realm of web development, images play a pivotal role in defining the aesthetics and enhancing user engagement on websites. They serve multiple functions, ranging from conveying key information and breaking up text to adding artistic elements that elevate the overall design. A deep understanding of the various image file types and their specific applications is crucial for optimizing performance and visual impact.</p>
+<p>Common web image formats include JPEG, for high-quality photographs; PNG, which supports transparency and is ideal for graphics and logos; SVG for scalable vector graphics that maintain quality at any size; and GIF for simple animations. Each format comes with its own set of strengths and use cases, influencing factors such as load time and image clarity.</p>
+<p>Additionally, Data URLs provide a unique way to embed images directly into HTML or CSS, converting them into a base64 encoded string. This technique can reduce HTTP requests and speed up page loads, particularly useful for small images and icons. However, it&#x27;s important to use this method judiciously, as it can increase the size of HTML or CSS files.</p>
+<p>The strategic use of images and understanding their formats and embedding techniques is essential in web development. It not only enhances the visual storytelling of a website but also contributes to its performance and user experience.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" target="_blank" rel="noopener noreferrer">Guide to Images in HTML</a> on MDN</li>
+<li><a href="https://web.dev/learn/images" target="_blank" rel="noopener noreferrer">Learn Images</a> on web.dev</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="517--browser-developer-tools-devtools">5.17 — Browser Developer Tools (DevTools)<a href="#517--browser-developer-tools-devtools" class="hash-link" aria-label="Direct link to 5.17 — Browser Developer Tools (DevTools)" title="Direct link to 5.17 — Browser Developer Tools (DevTools)">​</a></h3>
+<p>Browser Developer Tools, commonly known as DevTools, are an indispensable suite integrated within major web browsers such as Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. These tools are tailored for developers, offering comprehensive insights and powerful functionalities to understand, test, and optimize web pages and web applications. DevTools bridge the gap between coding and user experience, allowing developers to peek under the hood of the browser&#x27;s rendering and processing of their web pages. From debugging JavaScript to analyzing performance bottlenecks and network issues, DevTools are essential for modern web development.</p>
+<p>Learn more:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools" target="_blank" rel="noopener noreferrer">What are browser developer tools?</a> on MDN</li>
+<li><a href="https://frontendmasters.com/courses/dev-tools/?utm_source=guides&amp;utm_medium=website&amp;utm_campaign=feh2024" target="_blank" rel="noopener noreferrer">Introduction to Dev Tools, v3</a> from Frontend Masters</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/chapter-05.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/chapter-04"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">4. Foundational Aspects</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/chapter-06"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">6. Other Competencies &amp; Paradigms</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#51--code-editors" class="table-of-contents__link toc-highlight">5.1 — Code Editors</a></li><li><a href="#52--hypertext-markup-language-html" class="table-of-contents__link toc-highlight">5.2 — HyperText Markup Language (HTML)</a></li><li><a href="#53--cascading-style-sheets-css" class="table-of-contents__link toc-highlight">5.3 — Cascading Style Sheets (CSS)</a></li><li><a href="#54--javascript-programming-language-ecmascript-262" class="table-of-contents__link toc-highlight">5.4 — JavaScript Programming Language (ECMAScript 262)</a></li><li><a href="#55--document-object-model-dom" class="table-of-contents__link toc-highlight">5.5 — Document Object Model (DOM)</a></li><li><a href="#56--typescript" class="table-of-contents__link toc-highlight">5.6 — TypeScript</a></li><li><a href="#57--javascript-web-apis-aka-web-browser-apis" class="table-of-contents__link toc-highlight">5.7 — JavaScript Web APIs (aka Web Browser APIs)</a></li><li><a href="#58--javascript-object-notation-json" class="table-of-contents__link toc-highlight">5.8 — JavaScript Object Notation (JSON)</a></li><li><a href="#59--es-modules" class="table-of-contents__link toc-highlight">5.9 — ES Modules</a></li><li><a href="#510--command-line" class="table-of-contents__link toc-highlight">5.10 — Command Line</a></li><li><a href="#511--nodejs" class="table-of-contents__link toc-highlight">5.11 — Node.js</a></li><li><a href="#512--javascript-package-managers" class="table-of-contents__link toc-highlight">5.12 — JavaScript Package Managers</a></li><li><a href="#513--npm-registry" class="table-of-contents__link toc-highlight">5.13 — NPM Registry</a></li><li><a href="#514--git" class="table-of-contents__link toc-highlight">5.14 — Git</a></li><li><a href="#515--web-accessibility---wcag--aria" class="table-of-contents__link toc-highlight">5.15 — Web Accessibility - WCAG &amp; ARIA</a></li><li><a href="#516--web-images-files-types--data-urls" class="table-of-contents__link toc-highlight">5.16 — Web Images, Files Types, &amp; Data URLS</a></li><li><a href="#517--browser-developer-tools-devtools" class="table-of-contents__link toc-highlight">5.17 — Browser Developer Tools (DevTools)</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/chapter-01">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
