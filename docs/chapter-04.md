@@ -12,8 +12,8 @@ The World Wide Web, commonly known as the Web, is a system of interlinked hypert
 
 Learn more:
 
-- [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) on MDN
-- [The web](https://thevalleyofcode.com/the-web)
+-   [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) on MDN
+-   [The web](https://thevalleyofcode.com/the-web)
 
 ### 4.2 — The Internet
 
@@ -21,9 +21,9 @@ The Internet is a vast network of interconnected computers that spans the globe.
 
 Learn more:
 
-- [Internet Fundamentals](http://internetfundamentals.com/) from Frontend Masters
-- [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) on MDN
-- [The Internet](https://thevalleyofcode.com/the-internet)
+-   [Internet Fundamentals](http://internetfundamentals.com/) from Frontend Masters
+-   [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work) on MDN
+-   [The Internet](https://thevalleyofcode.com/the-internet)
 
 ### 4.3 — IP (Internet Protocol) Addresses
 
@@ -31,8 +31,8 @@ IP Addresses serve as unique identifiers for devices on the internet, similar to
 
 There are two main types of IP address standards:
 
-- **IPv4 (Internet Protocol version 4)**: This is the older and most widely used standard. IPv4 addresses are 32 bits in length, allowing for a theoretical maximum of about 4.3 billion unique addresses. They are typically represented in decimal format, divided into four octets (e.g., 192.0.2.1).
-- **IPv6 (Internet Protocol version 6)**: With the rapid growth of the internet and the exhaustion of IPv4 addresses, IPv6 was introduced. IPv6 addresses are 128 bits long, greatly expanding the number of available addresses. They are expressed in hexadecimal format, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). This standard not only addresses the limitation of available addresses but also improves upon various aspects of IP addressing, including simplified processing by routers and enhanced security features.
+-   **IPv4 (Internet Protocol version 4)**: This is the older and most widely used standard. IPv4 addresses are 32 bits in length, allowing for a theoretical maximum of about 4.3 billion unique addresses. They are typically represented in decimal format, divided into four octets (e.g., 192.0.2.1).
+-   **IPv6 (Internet Protocol version 6)**: With the rapid growth of the internet and the exhaustion of IPv4 addresses, IPv6 was introduced. IPv6 addresses are 128 bits long, greatly expanding the number of available addresses. They are expressed in hexadecimal format, separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334). This standard not only addresses the limitation of available addresses but also improves upon various aspects of IP addressing, including simplified processing by routers and enhanced security features.
 
 Both IP address standards are essential in the current landscape of the internet. While IPv4 is still predominant, the transition to IPv6 is gradually taking place as the need for more internet addresses continues to grow, driven by the proliferation of internet-connected devices.
 
@@ -48,7 +48,7 @@ Domain names not only facilitate ease of access to websites but also play a cruc
 
 Learn more:
 
-- [What is a domain name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name) on MDN
+-   [What is a domain name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name) on MDN
 
 ### 4.5 — DNS (Domain Name System)
 
@@ -56,7 +56,7 @@ The Domain Name System (DNS) is the internet's equivalent of a phone book. It tr
 
 Learn more:
 
-- [How DNS works - a fun and informative animation](https://howdns.works/)
+-   [How DNS works - a fun and informative animation](https://howdns.works/)
 
 ### 4.6 — URLs (Uniform Resource Locators)
 
@@ -64,7 +64,7 @@ Uniform Resource Locators (URLs) are the addresses used to access resources on t
 
 Learn more:
 
-- [Guide to URLs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) on MDN
+-   [Guide to URLs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) on MDN
 
 ### 4.7 — Servers and Web Hosting
 
@@ -72,18 +72,18 @@ Servers, the powerhouses of the digital world, are specialized computers designe
 
 Web hosting, a crucial service in the online sphere, entails the management and provision of server infrastructure alongside reliable internet connectivity. Essential for the uninterrupted operation of websites and online applications, web hosting offers a wide range of solutions tailored to meet diverse operational needs and scales. Whether for a personal blog or a large enterprise website, the array of web hosting options ensures a perfect fit for every unique requirement and goal.
 
-- **Shared Hosting:** An economical choice where resources on a single server are shared among multiple clients. Best suited for small websites and blogs, it's budget-friendly but offers limited resources and control.
-- **VPS (Virtual Private Server) Hosting:** Strikes a balance between affordability and functionality. Clients share a server but have individual virtual environments, providing enhanced resources and customization possibilities.
-- **Dedicated Server Hosting:** Offers exclusive servers to clients, ensuring maximum resource availability, top-notch performance, and heightened security. Ideal for large businesses and websites with heavy traffic.
-- **Cloud Hosting:** A versatile and scalable solution that utilizes a network of virtual servers in the cloud. It allows for resource scaling to match varying traffic needs, making it perfect for businesses with dynamic traffic patterns.
+-   **Shared Hosting:** An economical choice where resources on a single server are shared among multiple clients. Best suited for small websites and blogs, it's budget-friendly but offers limited resources and control.
+-   **VPS (Virtual Private Server) Hosting:** Strikes a balance between affordability and functionality. Clients share a server but have individual virtual environments, providing enhanced resources and customization possibilities.
+-   **Dedicated Server Hosting:** Offers exclusive servers to clients, ensuring maximum resource availability, top-notch performance, and heightened security. Ideal for large businesses and websites with heavy traffic.
+-   **Cloud Hosting:** A versatile and scalable solution that utilizes a network of virtual servers in the cloud. It allows for resource scaling to match varying traffic needs, making it perfect for businesses with dynamic traffic patterns.
 
 Selecting the appropriate web hosting solution is influenced by several factors, including business size, budget constraints, traffic levels, and specific technological needs. The continual advancements and diversification in server hosting technology empower businesses of all sizes to effectively establish and enhance their online footprint.
 
 Learn more:
 
-- [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) on MDN
-- [Everything You Need To Know About Web Hosting](https://www.codecademy.com/resources/blog/what-is-web-hosting/)
-- [Full Stack for Front-End Engineers, v3](https://frontendmasters.com/courses/fullstack-v3/?utm_source=guides&utm_medium=website&utm_campaign=feh2024) from Frontend Masters
+-   [What is a web server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) on MDN
+-   [Everything You Need To Know About Web Hosting](https://www.codecademy.com/resources/blog/what-is-web-hosting/)
+-   [Full Stack for Front-End Engineers, v3](https://frontendmasters.com/courses/fullstack-v3/?utm_source=guides&utm_medium=website&utm_campaign=feh2024) from Frontend Masters
 
 ### 4.8 — CDN (Content Delivery Network)
 
@@ -97,8 +97,8 @@ In today's digital landscape, where speed and reliability are paramount, the use
 
 Learn more:
 
-- [What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
-- [Introduction to CDNs](https://www.codecademy.com/article/intro-to-cdns)
+-   [What is a CDN?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+-   [Introduction to CDNs](https://www.codecademy.com/article/intro-to-cdns)
 
 ### 4.9 — HTTP/HTTPS (Hypertext Transfer Protocol/Secure)
 
@@ -106,33 +106,33 @@ HTTP (HyperText Transfer Protocol) and HTTPS (HTTP Secure) are foundational prot
 
 Key Aspects of HTTP and HTTPS:
 
-- **Basic Function:** HTTP is designed to enable communication between web browsers and servers. It follows a request-response structure where the browser requests data, and the server responds with the requested information.
-- **Security with HTTPS:** HTTPS is essentially HTTP with encryption. It uses SSL/TLS protocols to encrypt the data transferred between the browser and the server, enhancing security and protecting sensitive information from interception or tampering.
-- **Port Numbers:** By default, HTTP uses port 80 and HTTPS uses port 443. These ports are used by web servers to listen for incoming connections from web clients.
-- **URL Structure:** In URLs, HTTP is indicated by 'http://' while HTTPS is indicated by 'https://'. This small difference in the URL signifies whether the connection to the website is secured with encryption or not.
+-   **Basic Function:** HTTP is designed to enable communication between web browsers and servers. It follows a request-response structure where the browser requests data, and the server responds with the requested information.
+-   **Security with HTTPS:** HTTPS is essentially HTTP with encryption. It uses SSL/TLS protocols to encrypt the data transferred between the browser and the server, enhancing security and protecting sensitive information from interception or tampering.
+-   **Port Numbers:** By default, HTTP uses port 80 and HTTPS uses port 443. These ports are used by web servers to listen for incoming connections from web clients.
+-   **URL Structure:** In URLs, HTTP is indicated by 'http://' while HTTPS is indicated by 'https://'. This small difference in the URL signifies whether the connection to the website is secured with encryption or not.
 
 Differences and Usage:
 
-- **Data Security:** The most significant difference is security. HTTPS provides a secure channel, especially important for websites handling sensitive data like banking, shopping, or personal information.
-- **SEO and Trust:** Search engines like Google give preference to HTTPS websites, considering them more secure. Also, web browsers often display security warnings for HTTP sites, affecting user trust.
-- **Certificate Requirements:** To implement HTTPS, a website must obtain an SSL/TLS certificate from a recognized Certificate Authority (CA). This certificate is crucial for establishing a trusted and encrypted connection.
-- **Performance:** While HTTPS used to be slower than HTTP due to the encryption process, advancements in technology have significantly reduced this performance gap.
+-   **Data Security:** The most significant difference is security. HTTPS provides a secure channel, especially important for websites handling sensitive data like banking, shopping, or personal information.
+-   **SEO and Trust:** Search engines like Google give preference to HTTPS websites, considering them more secure. Also, web browsers often display security warnings for HTTP sites, affecting user trust.
+-   **Certificate Requirements:** To implement HTTPS, a website must obtain an SSL/TLS certificate from a recognized Certificate Authority (CA). This certificate is crucial for establishing a trusted and encrypted connection.
+-   **Performance:** While HTTPS used to be slower than HTTP due to the encryption process, advancements in technology have significantly reduced this performance gap.
 
 Understanding the differences between HTTP and HTTPS is crucial for web developers and users alike. The choice between them can significantly impact website security, user trust, and search engine ranking.
 
 Learn more:
 
-- [Guide to HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) on MDN
-- [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for?ck_subscriber_id=478659505)
+-   [Guide to HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) on MDN
+-   [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for?ck_subscriber_id=478659505)
 
 Specifications:
 
-- [Hypertext Transfer Protocol (HTTP/1.1)](https://httpwg.org/specs/rfc7230.html)
-- [HTTP/2](https://http2.github.io/)
+-   [Hypertext Transfer Protocol (HTTP/1.1)](https://httpwg.org/specs/rfc7230.html)
+-   [HTTP/2](https://http2.github.io/)
 
 References:
 
-- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) on MDN
+-   [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) on MDN
 
 ### 4.10 — Web Browsers
 
@@ -140,31 +140,31 @@ Web browsers are sophisticated software applications that play a crucial role in
 
 Core Functions of Web Browsers:
 
-- **Rendering Web Content:** Browsers interpret and display content written in HTML, CSS, and JavaScript. They process HTML for structure, CSS for presentation, and JavaScript for interactivity, converting them into the visual and interactive web pages.
-- **Request and Response Cycle:** When a user requests a webpage, the browser sends this request to the server where the page is hosted. The server responds with the necessary files (HTML, CSS, JavaScript, images, etc.), which the browser then processes to render the page.
-- **Executing JavaScript:** Modern browsers come with JavaScript engines that execute JavaScript code, enabling dynamic interactions on web pages, such as form validations, animations, and asynchronous data fetching.
+-   **Rendering Web Content:** Browsers interpret and display content written in HTML, CSS, and JavaScript. They process HTML for structure, CSS for presentation, and JavaScript for interactivity, converting them into the visual and interactive web pages.
+-   **Request and Response Cycle:** When a user requests a webpage, the browser sends this request to the server where the page is hosted. The server responds with the necessary files (HTML, CSS, JavaScript, images, etc.), which the browser then processes to render the page.
+-   **Executing JavaScript:** Modern browsers come with JavaScript engines that execute JavaScript code, enabling dynamic interactions on web pages, such as form validations, animations, and asynchronous data fetching.
 
 How Browsers Work Behind the Scenes:
 
-- **Parsing:** Browsers parse HTML, CSS, and JavaScript files to understand the structure, style, and behavior of the webpage.
-- **Rendering Engine:** Each browser has a rendering engine that translates web content into what users see on their screen. This includes layout calculations, style computations, and painting the final visual output.
-- **Optimization:** Modern browsers optimize performance through techniques like caching (storing copies of frequently accessed resources) and lazy loading (loading non-critical resources only when needed).
+-   **Parsing:** Browsers parse HTML, CSS, and JavaScript files to understand the structure, style, and behavior of the webpage.
+-   **Rendering Engine:** Each browser has a rendering engine that translates web content into what users see on their screen. This includes layout calculations, style computations, and painting the final visual output.
+-   **Optimization:** Modern browsers optimize performance through techniques like caching (storing copies of frequently accessed resources) and lazy loading (loading non-critical resources only when needed).
 
 The Role of Browsers in Web Development:
 
-- **Cross-browser Compatibility:** Developers must ensure that websites function correctly across different browsers, each with its quirks and rendering behaviors.
-- **Accessibility:** They provide features that assist in making web content accessible to all users, including those with disabilities.
+-   **Cross-browser Compatibility:** Developers must ensure that websites function correctly across different browsers, each with its quirks and rendering behaviors.
+-   **Accessibility:** They provide features that assist in making web content accessible to all users, including those with disabilities.
 
 Learn more:
 
-- [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work) on MDN
-- [How browsers work](https://web.dev/articles/howbrowserswork) on web.dev
+-   [Populating the page: how browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work) on MDN
+-   [How browsers work](https://web.dev/articles/howbrowserswork) on web.dev
 
 Tools:
 
-- [Edge](https://www.microsoft.com/en-us/edge?ep=250&form=MA13LM&es=40)
-- [Chrome](https://www.google.com/chrome/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+-   [Edge](https://www.microsoft.com/en-us/edge?ep=250&form=MA13LM&es=40)
+-   [Chrome](https://www.google.com/chrome/)
+-   [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ### 4.11 — JavaScript Engines
 
@@ -172,20 +172,20 @@ JavaScript engines, sometimes referred to as "JavaScript Virtual Machines" are s
 
 Key Functions of JavaScript Engines:
 
-- **Parsing**: The engine reads the raw JavaScript code, breaking it down into elements it can understand (tokens) and constructing a structure (Abstract Syntax Tree - AST) that represents the program's syntactic structure.
-- **Compilation**: Modern JavaScript engines use a technique called Just-In-Time (JIT) compilation. This process involves two stages in many engines:
-  - Baseline Compilation: Converts JavaScript into a simpler intermediate code quickly.
-  - Optimizing Compilation: Further compiles the code to a more optimized machine code, improving performance. The engine might de-optimize the code if certain assumptions are no longer valid.
-- **Execution**: The compiled code is executed by the computer's processor.
-- **Optimization**: During execution, the engine collects data to optimize the code's performance in real-time, often recompiling it for greater efficiency.
+-   **Parsing**: The engine reads the raw JavaScript code, breaking it down into elements it can understand (tokens) and constructing a structure (Abstract Syntax Tree - AST) that represents the program's syntactic structure.
+-   **Compilation**: Modern JavaScript engines use a technique called Just-In-Time (JIT) compilation. This process involves two stages in many engines:
+    -   Baseline Compilation: Converts JavaScript into a simpler intermediate code quickly.
+    -   Optimizing Compilation: Further compiles the code to a more optimized machine code, improving performance. The engine might de-optimize the code if certain assumptions are no longer valid.
+-   **Execution**: The compiled code is executed by the computer's processor.
+-   **Optimization**: During execution, the engine collects data to optimize the code's performance in real-time, often recompiling it for greater efficiency.
 
 Major JavaScript Engines:
 
-- **V8 (Google Chrome, Node.js, Microsoft Edge)**: Known for its speed and efficiency, V8 compiles JavaScript directly to native machine code before executing it.
-- **SpiderMonkey (Mozilla Firefox)**: The first-ever JavaScript engine, it has evolved significantly, focusing on performance and scalability.
-- **JavaScriptCore (Safari)**: Also known as Nitro, it emphasizes efficient execution.
+-   **V8 (Google Chrome, Node.js, Microsoft Edge)**: Known for its speed and efficiency, V8 compiles JavaScript directly to native machine code before executing it.
+-   **SpiderMonkey (Mozilla Firefox)**: The first-ever JavaScript engine, it has evolved significantly, focusing on performance and scalability.
+-   **JavaScriptCore (Safari)**: Also known as Nitro, it emphasizes efficient execution.
 
 Learn more:
 
-- [JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine)
-- [Bare Metal JavaScript: The JavaScript Virtual Machine](https://frontendmasters.com/courses/javascript-cpu-vm/) from Frontend Masters
+-   [JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine)
+-   [Bare Metal JavaScript: The JavaScript Virtual Machine](https://frontendmasters.com/courses/javascript-cpu-vm/) from Frontend Masters
