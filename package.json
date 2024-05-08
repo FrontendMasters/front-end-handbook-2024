@@ -12,7 +12,8 @@
         "serve": "docusaurus serve",
         "write-translations": "docusaurus write-translations",
         "write-heading-ids": "docusaurus write-heading-ids",
-        "prepare": "husky"
+        "prepare": "husky",
+        "commitlint": "commitlint --edit"
     },
     "lint-staged": {
         "**/*": "prettier --write --ignore-unknown"
@@ -27,6 +28,8 @@
         "react-dom": "^18.0.0"
     },
     "devDependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
         "@docusaurus/module-type-aliases": "3.3.2",
         "@docusaurus/types": "3.3.2",
         "husky": "^9.0.11",
