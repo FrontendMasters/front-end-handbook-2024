@@ -13,6 +13,7 @@
   --ifm-color-primary-light: #d3322c;
   --ifm-color-primary-lighter: #d53b36;
   --ifm-color-primary-lightest: #db5753;
+  --custom-link: #fff;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -24,4 +25,14 @@
   --ifm-color-primary-light: #d3322c;
   --ifm-color-primary-lighter: #d53b36;
   --ifm-color-primary-lightest: #db5753;
+  --custom-link: #000;
+}
+
+.white-link {
+  color: var(--custom-link)
+}
+
+.white-link:hover {
+  color: var(--custom-link);
+  text-decoration: underline;
 }

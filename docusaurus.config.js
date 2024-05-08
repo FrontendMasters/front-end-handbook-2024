@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "The Front End Developer/Engineer Handbook 2024",
-  tagline: "Lorem ipsum",
+  tagline: "Written by Cody Lindley for Frontend Masters",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        // title: "frontendmasters.com",
         logo: {
-          alt: "My Site Logo",
+          alt: "frontendmasters.com Logo",
           src: "img/logo.png",
         },
         items: [
@@ -76,11 +76,11 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/FrontendMasters/front-end-handbook-2024",
             label: "GitHub",
             position: "right",
           },
@@ -93,7 +93,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Docs",
                 to: "/docs/chapter-01",
               },
             ],
@@ -133,7 +133,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} frontendmasters.com.`,
+        copyright: `©${new Date().getFullYear()} Frontend Masters Terms of Service`,
       },
       prism: {
         theme: prismThemes.github,
